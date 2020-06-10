@@ -31,7 +31,7 @@ class MongoStorage:
     # product_amount – int
 
     def new_product(self, name, associated_meal_id, weight_grams):
-        _id = MongoStorage.products_amount(self) + 1
+        _id = self.products_amount() + 1
         self.db.products.insert(
             {
                 '_id': _id,
@@ -132,7 +132,7 @@ class MongoStorage:
     # timestamp
 
     def new_meal(self, name, picture, status=content.meal_statuses.not_available, amount=0, associated_product_ids=[]):
-        _id = MongoStorage.meals_amount(self) + 1
+        _id = self.meals_amount() + 1
         self.db.meals.insert(
             {
                 '_id': _id,
@@ -160,10 +160,10 @@ class MongoStorage:
 
     def meals_sent(self, meals_id):
         for meal_id in meals_id:
-            MongoStorage.meal_sent(self, meal_id=meal_id)
+            self.meal_sent(meal_id=meal_id)
 
     def meal_sent(self, meal_id):
-        amount = MongoStorage.get_meal_amount(self, meal_id=meal_id).amount
+        amount = self.get_meal_amount(meal_id=meal_id).amount
         if amount > 0:
             self.set_meal_amount(meal_id=meal_id, amount=amount-1)
             return True
@@ -185,7 +185,7 @@ class MongoStorage:
 
     def check_meals_availability(self, meals_id):
         for meal_id in meals_id:
-            meal_amount = MongoStorage.get_meal_amount(self, meal_id=meal_id).amount
+            meal_amount = self.get_meal_amount(meal_id=meal_id).amount
             if meal_amount == 0:
                 return False
         return True
@@ -258,7 +258,7 @@ class MongoStorage:
     # timestamp
 
     def new_feedback(self, author_id, order_id, restaurant_id, text, rating):
-        _id = MongoStorage.feedback_amount(self) + 1
+        _id = self.feedback_amount() + 1
         self.db.feedback.insert(
             {
                 '_id': _id,
@@ -309,7 +309,7 @@ class MongoStorage:
     # customer_phone_number
 
     def new_customer(self, name, phone_number, order_ids=[], feedback_ids=[], payment_method_ids=[], position_id=None):
-        _id = MongoStorage.customers_amount(self) + 1
+        _id = self.customers_amount() + 1
         self.db.customers.insert(
             {
                 '_id': _id,
@@ -382,7 +382,7 @@ class MongoStorage:
     # last_edit_timestamp
 
     def new_position(self, lat, lon):
-        _id = MongoStorage.positions_amount(self) + 1
+        _id = self.positions_amount() + 1
         self.db.positions.insert(
             {
                 '_id': _id,
@@ -444,7 +444,7 @@ class MongoStorage:
     # currency
 
     def new_payment(self, method, amount, currency=content.currencies.RUB, status=content.payment_statuses.pending):
-        _id = MongoStorage.payments_amount(self) + 1
+        _id = self.payments_amount() + 1
         self.db.payments.insert(
             {
                 '_id': _id,
@@ -521,7 +521,7 @@ class MongoStorage:
     # timestamp
 
     def new_courier(self, name, phone_number, age, position_id=None, orders_ids=[], status=content.courier_statuses.offline, feedback_ids=[]):
-        _id = MongoStorage.couriers_amount(self) + 1
+        _id = self.couriers_amount() + 1
         self.db.couriers.insert(
             {
                 '_id': _id,
@@ -634,8 +634,8 @@ class MongoStorage:
     def get_nearest_free_courier(self, customer_position_info):
         nearest_courier_id = -1
         nearest_courier_distance = -1
-        for courier in MongoStorage.get_waiting_courier(self):
-            courier_position_info = MongoStorage.get_position_info(self, position_id=courier['position_id'])
+        for courier in self.get_waiting_courier():
+            courier_position_info = self.get_position_info(position_id=courier['position_id'])
             distance_between = distance_between_two_dots(
                 customer_position_info=customer_position_info,
                 courier_position_info=courier_position_info
@@ -663,8 +663,8 @@ class MongoStorage:
     # timestamp
 
     def new_order(self, customer_id, courier_id, restaurant_id, payment_id, meals_id, feedback_id=None, status=content.order_statuses.preparing):
-        if MongoStorage.check_meals_availability(self, meals_id=meals_id):
-            _id = MongoStorage.orders_amount(self) + 1
+        if self.check_meals_availability(meals_id=meals_id):
+            _id = self.orders_amount() + 1
             self.db.orders.insert(
                 {
                     '_id': _id,
@@ -678,11 +678,11 @@ class MongoStorage:
                     'timestamp': datetime.datetime.utcnow()
                 }
             )
-            MongoStorage.add_order_id_to_restaurant(self, restaurant_id=restaurant_id, order_id=_id)
-            MongoStorage.set_courier_status(self, courier_id=courier_id, status=content.courier_statuses.delivering)
-            MongoStorage.add_courier_order(self, courier_id=courier_id, order_id=_id)
-            MongoStorage.add_order_id_to_customer(self, customer_id=customer_id, order_id=_id)
-            MongoStorage.meals_sent(self, meals_id=meals_id)
+            self.add_order_id_to_restaurant(restaurant_id=restaurant_id, order_id=_id)
+            self.set_courier_status(courier_id=courier_id, status=content.courier_statuses.delivering)
+            self.add_courier_order(courier_id=courier_id, order_id=_id)
+            self.add_order_id_to_customer(customer_id=customer_id, order_id=_id)
+            self.meals_sent(meals_id=meals_id)
             return _id
         else:
             return None
@@ -740,7 +740,7 @@ class MongoStorage:
     # TODO add meals_id functionality
 
     def new_restaurant(self, phone_number, position_id, meals_id=[], orders_id=[], status=content.restaurant_statuses.closed):
-        _id = MongoStorage.restaurants_amount(self) + 1
+        _id = self.restaurants_amount() + 1
         self.db.restaurants.insert(
             {
                 '_id': _id,
