@@ -1,6 +1,8 @@
 import math
 import time
 import random
+from datetime import timedelta, datetime
+
 import names
 
 import content
@@ -116,7 +118,7 @@ def generate_meals_and_products(db, n):
         for i in range(random.randint(1, 5)):
             product_id = db.new_product(
                 name=random.choice(content.products_sample),
-                associated_meal_id=meal_id,
+                meal_id=meal_id,
                 weight_grams=random.randint(1, 30)*10
             )
             db.add_product_to_meal(meal_id=meal_id, product_id=product_id)
@@ -171,6 +173,13 @@ def get_variant_by_chance(chance=35):
         return True
     else:
         return False
+
+
+def get_start_and_end(timestamp):
+    today = datetime.fromtimestamp(timestamp)
+    start = today.replace(hour=0, minute=0, second=0, microsecond=0)
+    end = start + timedelta(1)-timedelta(microseconds=1)
+    return start, end
 
 
 def set_indexes(db):

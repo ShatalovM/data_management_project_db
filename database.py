@@ -8,9 +8,9 @@ from pymongo import MongoClient
 from pymongo.database import Database
 from functions import distance_between_two_dots
 from pymongo import IndexModel, ASCENDING, DESCENDING
+import pandas as pd
+from functions import get_start_and_end
 
-
-# TODO in get response in addict.Dict
 
 class MongoStorage:
     def __init__(self, client: MongoClient, database: Database, collections: List[str]) -> None:
@@ -30,14 +30,14 @@ class MongoStorage:
     # product_status – text
     # product_amount – int
 
-    def new_product(self, name, associated_meal_id, weight_grams):
+    def new_product(self, name, meal_id, weight_grams):
         _id = self.products_amount() + 1
         self.db.products.insert(
             {
                 '_id': _id,
                 'name': name,
                 'weight_grams': weight_grams,
-                'associated_meal_id': associated_meal_id,
+                'meal_id': meal_id,
                 'timestamp': datetime.datetime.utcnow()
             }
         )
@@ -47,80 +47,15 @@ class MongoStorage:
         self.db.products.create_indexes(
             [
                 IndexModel([("weight_grams", ASCENDING)], name='weight_grams_'),
-                IndexModel([("associated_meal_id", ASCENDING)], name='associated_meal_id_')
+                IndexModel([("meal_id", ASCENDING)], name='meal_id_')
             ]
         )
 
+    def get_product_info(self, product_id):
+        return addict.Dict(self.db.products.find_one({'_id': product_id}))
+
     def products_amount(self):
         return self.db.products.find({}).count()
-
-    # def new_product(self, name, status, associated_meals_id=[]):
-    #     _id = MongoStorage.products_amount(self) + 1
-    #     self.db.products.insert(
-    #         {
-    #             '_id': _id,
-    #             'associated_meals_id': associated_meals_id,
-    #             'name': name,
-    #             'status': status,
-    #             'amount': amount,
-    #             'timestamp': datetime.datetime.utcnow()
-    #         }
-    #     )
-    #     return _id
-    #
-    # def get_product_info(self, product_id):
-    #     return self.db.products.find_one({'_id': product_id})
-    #
-    # def get_product_status(self, product_id):
-    #     return self.db.products.find_one({'_id': product_id}, {'status': True})
-    #
-    # def set_product_status(self, product_id, status):
-    #     self.db.products.update_one(
-    #         {'_id': product_id},
-    #         {
-    #             '$set': {
-    #                 'status': status
-    #             }
-    #         }
-    #     )
-    #
-    # def get_product_name(self, product_id):
-    #     return self.db.products.find_one({'_id': product_id}, {'name': True})
-    #
-    # def set_product_name(self, product_id, name):
-    #     self.db.products.update_one(
-    #         {'_id': product_id},
-    #         {
-    #             '$set': {
-    #                 'status': name
-    #             }
-    #         }
-    #     )
-    #
-    # def product_sent(self, product_id):
-    #     amount = MongoStorage.get_product_amount(self, product_id=product_id)
-    #     if amount > 0:
-    #         self.set_product_amount(product_id=product_id, amount=amount-1)
-    #         return True
-    #     else:
-    #         return False
-    #
-    # def get_product_amount(self, product_id):
-    #     return self.db.products.find_one({'_id': product_id}, {'amount': True})
-    #
-    # def set_product_amount(self, product_id, amount):
-    #     self.db.products.update_one(
-    #         {'_id': product_id},
-    #         {
-    #             '$set': {
-    #                 'amount': amount
-    #             }
-    #         }
-    #     )
-    #
-    # def get_product_meals(self, product_id):
-    #     return self.db.products.find_one({'_id': product_id}, {'associated_meals_id': True})
-    #
 
     ############################
 
@@ -131,12 +66,12 @@ class MongoStorage:
     # associated_product - id
     # timestamp
 
-    def new_meal(self, name, picture, status=content.meal_statuses.not_available, amount=0, associated_product_ids=[]):
+    def new_meal(self, name, picture, status=content.meal_statuses.not_available, amount=0, product_ids=[]):
         _id = self.meals_amount() + 1
         self.db.meals.insert(
             {
                 '_id': _id,
-                'associated_product_ids': associated_product_ids,
+                'product_ids': product_ids,
                 'name': name,
                 'picture': picture,
                 'status': status,
@@ -149,23 +84,25 @@ class MongoStorage:
     def set_meal_indexes(self):
         self.db.meals.create_indexes(
             [
-                IndexModel([("associated_product_ids", ASCENDING)], name='associated_product_ids_', unique=True),
+                IndexModel([("product_ids", ASCENDING)], name='product_ids_', unique=True),
                 IndexModel([("status", ASCENDING)], name='status_'),
                 IndexModel([("amount", ASCENDING)], name='amount_')
             ]
         )
 
     def get_meal_products(self, meal_id):
-        return addict.Dict(self.db.meals.find_one({'_id': meal_id}, {'associated_product_ids': True}))
+        return addict.Dict(self.db.meals.find_one({'_id': meal_id}, {'product_ids': True}))
 
     def meals_sent(self, meals_id):
         for meal_id in meals_id:
             self.meal_sent(meal_id=meal_id)
 
+    # TODO $inc
     def meal_sent(self, meal_id):
         amount = self.get_meal_amount(meal_id=meal_id).amount
         if amount > 0:
-            self.set_meal_amount(meal_id=meal_id, amount=amount-1)
+            self.db.meals.update_one({'meal_id': meal_id}, {'$inc': {'amount': -1}})
+            # self.set_meal_amount(meal_id=meal_id, amount=amount-1)
             return True
         else:
             return False
@@ -173,12 +110,19 @@ class MongoStorage:
     def get_meal_amount(self, meal_id):
         return addict.Dict(self.db.meals.find_one({'_id': meal_id}, {'amount': True}))
 
+    # TODO Correlated subquery in WHERE
+    def get_meals_with_pictures_with_status(self, status):
+        return addict.Dict(self.db.meals.find({
+            'picture': {'$exists': True},
+            'status': status
+        }))
+
     def add_product_to_meal(self, meal_id, product_id):
         self.db.meals.update_one(
             {'_id': meal_id},
             {
                 '$push': {
-                    'associated_product_ids': product_id
+                    'product_ids': product_id
                 }
             }
         )
@@ -190,6 +134,32 @@ class MongoStorage:
                 return False
         return True
 
+    # TODO Query with aggregation and a JOIN expression that includes at least 2 tables №2
+    # TODO Union (concat)
+    def get_meal_info_with_products(self, meal_id):
+        meal_info = self.db.meals.find_one({'_id': meal_id})
+        meal_info['meal_id'] = meal_info.pop('_id')
+        if len(meal_info['product_ids']) > 0:
+            products_list = []
+            for product_id in meal_info['product_ids']:
+                product_info_piece = self.get_product_info(product_id=product_id)
+                product_info_piece['product_id'] = product_info_piece.pop('_id')
+                products_list.append(pd.DataFrame.from_records([product_info_piece], index='product_id'))
+                print('product_info_piece {}:'.format(product_id), product_info_piece)
+
+            # product_ids
+            products_info = pd.concat(products_list, join='outer', ignore_index=False, keys=None, levels=None, names=None, verify_integrity=False, copy=True)
+            print('meal_info:', meal_info)
+            emp = pd.merge(
+                pd.DataFrame.from_records([meal_info], index='meal_id'),
+                products_info,
+                on=['meal_id'],
+                how='inner'
+            )
+            return emp
+        else:
+            return None
+
     def set_meal_amount(self, meal_id, amount):
         self.db.meals.update_one(
             {'_id': meal_id},
@@ -200,50 +170,11 @@ class MongoStorage:
             }
         )
 
+    def get_meal_info(self, meal_id):
+        return addict.Dict(self.db.meals.find_one({'_id': meal_id}))
+
     def meals_amount(self):
         return self.db.meals.find({}).count()
-
-    # def new_meal(self, name, picture, associated_product):
-    #     _id = MongoStorage.products_amount(self) + 1
-    #     self.db.meals.insert(
-    #         {
-    #             '_id': _id,
-    #             'name': name,
-    #             'picture': picture,
-    #             'associated_product': associated_product,
-    #             'timestamp': datetime.datetime.utcnow()
-    #         }
-    #     )
-    #     return _id
-    #
-    # def get_meal_name(self, meal_id):
-    #     return self.db.meals.find_one({'_id': meal_id}, {'name': True})
-    #
-    # def set_meal_name(self, meal_id, name):
-    #     self.db.meals.update_one(
-    #         {'_id': meal_id},
-    #         {
-    #             '$set': {
-    #                 'name': name
-    #             }
-    #         }
-    #     )
-    #
-    # def get_meal_picture(self, meal_id):
-    #     return self.db.meals.find_one({'_id': meal_id}, {'picture': True})
-    #
-    # def set_meal_picture(self, meal_id, picture):
-    #     self.db.meals.update_one(
-    #         {'_id': meal_id},
-    #         {
-    #             '$set': {
-    #                 'picture': picture
-    #             }
-    #         }
-    #     )
-    #
-    # def get_meal_product(self, meal_id):
-    #     return self.db.meals.find_one({'_id': meal_id}, {'associated_product': True})
 
     ############################
 
@@ -257,12 +188,13 @@ class MongoStorage:
     # rating
     # timestamp
 
-    def new_feedback(self, author_id, order_id, restaurant_id, text, rating):
+    def new_feedback(self, customer_id, order_id, courier_id, restaurant_id, text, rating):
         _id = self.feedback_amount() + 1
         self.db.feedback.insert(
             {
                 '_id': _id,
-                'author_id': author_id,
+                'customer_id': customer_id,
+                'courier_id': courier_id,
                 'order_id': order_id,
                 'restaurant_id': restaurant_id,
                 'text': text,
@@ -270,6 +202,7 @@ class MongoStorage:
                 'timestamp': datetime.datetime.utcnow()
             }
         )
+        self.set_order_feedback(order_id=order_id, feedback_id=_id)
         return _id
 
     def set_feedback_indexes(self):
@@ -280,6 +213,37 @@ class MongoStorage:
                 IndexModel([("restaurant_id", ASCENDING)], name='restaurant_id_')
             ]
         )
+
+    # TODO SELECT INTO query for data set preparation
+    def aggregate_feedback(self):
+        return self.db.feedback.aggregate([
+            {
+                '$project': {
+                    'order_id': True,
+                    'text': True,
+                    'rating': True,
+                    'order_id_type': {'$type': '$order_id'},
+                    'text_type': {'$type': '$text'},
+                    'rating_id_type': {'$type': '$rating'}
+                }
+            },
+            {'$out': 'aggregated_feedback'}
+        ])
+
+    # TODO Query with correlated subquery in WHERE
+    def get_feedback_by_rating(self, rating=2.5, lower_than_avg=True):
+        if lower_than_avg:
+            return list(self.db.feedback.aggregate([
+                {
+                    '$match': {'rating': {'$gte': rating}}
+                }
+            ]))
+        else:
+            return list(self.db.feedback.aggregate([
+                {
+                    '$match': {'rating': {'$lte': rating}}
+                }
+            ]))
 
     def set_feedback_text(self, feedback_id, text):
         self.db.feedback.update_one(
@@ -308,14 +272,12 @@ class MongoStorage:
     # customer_name
     # customer_phone_number
 
-    def new_customer(self, name, phone_number, order_ids=[], feedback_ids=[], payment_method_ids=[], position_id=None):
+    def new_customer(self, name, phone_number, order_ids=[], position_id=None):
         _id = self.customers_amount() + 1
         self.db.customers.insert(
             {
                 '_id': _id,
                 'order_id': order_ids,
-                'feedback_id': feedback_ids,  # TODO remove
-                'payment_method_id': payment_method_ids,  # TODO remove
                 'name': name,
                 'phone_number': phone_number,
                 'position_id': position_id,
@@ -388,7 +350,7 @@ class MongoStorage:
                 '_id': _id,
                 'lat': lat,
                 'lon': lon,
-                'last_editing_timestamp': datetime.datetime.utcnow(),
+                'updated_timestamp': datetime.datetime.utcnow(),
                 'timestamp': datetime.datetime.utcnow()
             }
         )
@@ -409,7 +371,7 @@ class MongoStorage:
                 {
                     '$set': {
                         'lat': lat,
-                        'last_editing_timestamp': datetime.datetime.utcnow()
+                        'updated_timestamp': datetime.datetime.utcnow()
                     }
                 }
             )
@@ -419,7 +381,7 @@ class MongoStorage:
                 {
                     '$set': {
                         'lon': lon,
-                        'last_editing_timestamp': datetime.datetime.utcnow()
+                        'updated_timestamp': datetime.datetime.utcnow()
                     }
                 }
             )
@@ -494,6 +456,7 @@ class MongoStorage:
     def get_payment_method(self, payment_id):
         return addict.Dict(self.db.payments.find_one({'_id': payment_id}, {'method': True}))
 
+    # TODO Aggregation
     def set_payment_method(self, payment_id, method):
         self.db.payments.update_one(
             {'_id': payment_id},
@@ -520,18 +483,17 @@ class MongoStorage:
     # courier_status
     # timestamp
 
-    def new_courier(self, name, phone_number, age, position_id=None, orders_ids=[], status=content.courier_statuses.offline, feedback_ids=[]):
+    def new_courier(self, name, phone_number, age, position_id=None, order_ids=[], status=content.courier_statuses.offline, feedback_ids=[]):
         _id = self.couriers_amount() + 1
         self.db.couriers.insert(
             {
                 '_id': _id,
                 'position_id': position_id,
-                'orders_id': orders_ids,
+                'order_ids': order_ids,
                 'age': age,
                 'name': name,
                 'phone_number': phone_number,
                 'status': status,
-                'feedback_ids': feedback_ids,  # TODO remove
                 'timestamp': datetime.datetime.utcnow()
             }
         )
@@ -591,7 +553,7 @@ class MongoStorage:
             {'_id': courier_id},
             {
                 '$push': {
-                    'orders_id': order_id
+                    'order_ids': order_id
                 }
             }
         )
@@ -619,22 +581,47 @@ class MongoStorage:
             }
         )
 
+    # TODO A query that uses window functions together with usual aggregate functions or with non-standard frame settings
+    def couriers_rank_by_age_and_orders(self):
+        couriers_info = self.get_couriers_info()
+        orders_info = []
+        for courier in range(couriers_info.count()):
+            courier_orders = self.db.couriers.find_one({'_id': couriers_info[courier]['_id']}, {'order_ids': True})['order_ids']
+            orders_info.append({'_id': couriers_info[courier]['_id'], 'orders_amount': len(courier_orders)})
+
+        df = pd.merge(
+            pd.DataFrame.from_records(orders_info, index='_id'),
+            pd.DataFrame.from_records(couriers_info, index='_id'),
+            on=['_id'],
+            how='inner'
+        )
+        df['age_rank'] = df['age'].rank(ascending=True)
+        df['orders_amount_rank'] = df['orders_amount'].rank(ascending=True)
+        return df
+
     def get_courier_name(self, courier_id):
         return addict.Dict(self.db.couriers.find_one({'_id': courier_id}, {'name': True}))
 
     def get_courier_feedback(self, courier_id):
         return addict.Dict(self.db.couriers.find_one({'_id': courier_id}, {'feedback_ids': True}))
 
-    def get_courier_orders(self, courier_id):
-        return addict.Dict(self.db.couriers.find_one({'_id': courier_id}, {'orders_id': True}))
+    def get_courier_position(self, courier_id):
+        return addict.Dict(self.db.couriers.find_one({'_id': courier_id}, {'position_id': True}))
 
-    def get_waiting_courier(self):
+    def get_courier_orders(self, courier_id):
+        return addict.Dict(self.db.couriers.find_one({'_id': courier_id}, {'order_ids': True}))
+
+    def get_waiting_couriers(self):
         return addict.Dict(self.db.couriers.find({'status': content.courier_statuses.waiting}, {'_id': True, 'position_id': True}))
 
+    def get_couriers_info(self):
+        return self.db.couriers.find({'order_ids': {'$ne': []}}, {'_id': True, 'name': True, 'age': True})
+
+    # TODO Useful function
     def get_nearest_free_courier(self, customer_position_info):
         nearest_courier_id = -1
         nearest_courier_distance = -1
-        for courier in self.get_waiting_courier():
+        for courier in self.get_waiting_couriers():
             courier_position_info = self.get_position_info(position_id=courier['position_id'])
             distance_between = distance_between_two_dots(
                 customer_position_info=customer_position_info,
@@ -644,6 +631,10 @@ class MongoStorage:
                 nearest_courier_distance = distance_between
                 nearest_courier_id = courier['_id']
         return nearest_courier_id
+
+    # TODO Query with HAVING and Aggregation
+    def couriers_count_different_ages_more_than_n(self, n=18):
+        return list(self.db.couriers.aggregate([{'$match': {'age': {'$gte': n}}}, {'$group': {'_id': '$age'}}, {'$count': 'age'}]))[0]['age']
 
     def couriers_amount(self):
         return self.db.couriers.find({}).count()
@@ -710,21 +701,117 @@ class MongoStorage:
             }
         )
 
-    def get_order_status(self, courier_id):
-        return addict.Dict(self.db.orders.find_one({'_id': courier_id}, {'status': True}))
+    # TODO Window functions to compare data in different periods
+    def compare_amount_orders_between_two_dates(self, first_date_timestamp, second_date_timestamp):
+        first = get_start_and_end(timestamp=first_date_timestamp)
+        second = get_start_and_end(timestamp=second_date_timestamp)
+        first_date_orders_amount = self.db.orders.find({
+            'timestamp': {
+                '$gte': datetime.datetime.fromtimestamp(first[0]),
+                '$lte': datetime.datetime.fromtimestamp(first[1])
+            }
+        }).count()
+        second_date_orders_amount = self.db.orders.find({
+            'timestamp': {
+                '$gte': datetime.datetime.fromtimestamp(second[0]),
+                '$lte': datetime.datetime.fromtimestamp(second[1])
+            }
+        }).count()
+        if first_date_orders_amount > second_date_orders_amount:
+            print('higher:', first_date_orders_amount)
+        else:
+            print('higher:', second_date_orders_amount)
+        return first_date_orders_amount, second_date_orders_amount
 
-    def get_order_feedback(self, courier_id):
-        return addict.Dict(self.db.orders.find_one({'_id': courier_id}, {'feedback': True}))
+    def get_order_status(self, order_id):
+        return addict.Dict(self.db.orders.find_one({'_id': order_id}, {'status': True}))
 
-    def set_order_feedback(self, courier_id, feedback_id):
+    def get_order_feedback(self, order_id):
+        return addict.Dict(self.db.orders.find_one({'_id': order_id}, {'feedback': True}))
+
+    # TODO Query with aggregation and a JOIN expression that includes at least 2 tables №1
+    # TODO Query with correlated subquery in SELECT
+    def get_order_info_with_feedback(self, order_id):
+        order_info = self.db.orders.find_one({'_id': order_id})
+        order_info['order_id'] = order_info.pop('_id')
+        if order_info.feedback_id is not None:
+            feedback_info = self.db.feedback.find_one({'_id': self.db.orders.find_one({'_id': order_id}).feedback_id})
+            # feedback_info = self.db.feedback.find_one({'_id': order_info.feedback_id})
+            print('order_info:', order_info)
+            print('feedback_info:', feedback_info)
+            emp = pd.merge(
+                pd.DataFrame.from_records([order_info], index='order_id'),
+                pd.DataFrame.from_records([feedback_info], index='order_id'),
+                on=['order_id'],
+                how='inner'
+            )
+            return emp
+        else:
+            return None
+
+    # TODO Subquery query in FROM (derived table)
+    def get_orders_with_payment_info_by_status(self, status=content.order_statuses.delivered):
+        order_payment_info = self.db.orders.aggregate([
+            {
+                '$match': {'status': status}
+            },
+            {
+                '$lookup': {
+                    'from': 'payments',
+                    'localField': 'payment_id',
+                    'foreignField': '_id',
+                    'as': 'payment'
+                }
+            }
+        ])
+        return list(order_payment_info)
+
+    # TODO Subquery query in FROM (derived table)
+    def get_orders_with_feedback(self):
+        order_feedback_info = self.db.orders.aggregate([
+            {
+                '$match': {'status': content.order_statuses.delivered}
+            },
+            {
+                '$lookup': {
+                    'from': 'feedback',
+                    'localField': 'feedback_id',
+                    'foreignField': '_id',
+                    'as': 'feedback'
+                }
+            }
+        ])
+        return list(order_feedback_info)
+
+    def set_order_feedback(self, order_id, feedback_id):
         self.db.orders.update_one(
-            {'_id': courier_id},
+            {'_id': order_id},
             {
                 '$set': {
                     'feedback_id': feedback_id
                 }
             }
         )
+
+    # TODO Query with aggregation and a JOIN expression that includes at least 2 tables №3
+    # TODO Query with correlated subquery in SELECT
+    def get_order_info_with_courier_position(self, order_id):
+        order_info = self.db.orders.find_one({'_id': order_id})
+        order_info['order_id'] = order_info.pop('_id')
+        if order_info['courier_id'] is not None:
+            position_info = self.db.positions.find_one({'_id': self.get_courier_position(courier_id=order_info['courier_id']).position_id})
+            position_info['courier_id'] = order_info['courier_id']
+            print('order_info:', order_info)
+            print('position_info:', position_info)
+            emp = pd.merge(
+                pd.DataFrame.from_records([order_info], index='courier_id'),
+                pd.DataFrame.from_records([position_info], index='courier_id'),
+                on=['courier_id'],
+                how='inner'
+            )
+            return emp
+        else:
+            return None
 
     def orders_amount(self):
         return self.db.orders.find({}).count()
@@ -739,7 +826,7 @@ class MongoStorage:
 
     # TODO add meals_id functionality
 
-    def new_restaurant(self, phone_number, position_id, meals_id=[], orders_id=[], status=content.restaurant_statuses.closed):
+    def new_restaurant(self, phone_number, position_id, meals_id=[], order_ids=[], status=content.restaurant_statuses.closed):
         _id = self.restaurants_amount() + 1
         self.db.restaurants.insert(
             {
@@ -747,7 +834,7 @@ class MongoStorage:
                 'position_id': position_id,
                 'phone_number': phone_number,
                 'meals_id': meals_id,
-                'orders_id': orders_id,
+                'order_ids': order_ids,
                 'status': status,
                 'timestamp': datetime.datetime.utcnow()
             }
@@ -759,17 +846,17 @@ class MongoStorage:
             [
                 IndexModel([("position_id", ASCENDING)], name='position_id_', unique=True),
                 IndexModel([("meals_id", ASCENDING)], name='meals_id_'),
-                IndexModel([("orders_id", ASCENDING)], name='orders_id_'),
+                IndexModel([("order_ids", ASCENDING)], name='order_ids_'),
                 IndexModel([("status", ASCENDING)], name='status_')
             ]
         )
 
-    def set_restaurants_orders_id(self, restaurant_id, orders_id=[]):
+    def set_restaurants_order_ids(self, restaurant_id, order_ids=[]):
         self.db.restaurants.update_one(
             {'_id': restaurant_id},
             {
                 '$set': {
-                    'orders_id': orders_id
+                    'order_ids': order_ids
                 }
             }
         )
@@ -779,7 +866,7 @@ class MongoStorage:
             {'_id': restaurant_id},
             {
                 '$push': {
-                    'orders_id': order_id
+                    'order_ids': order_id
                 }
             }
         )
@@ -825,6 +912,34 @@ class MongoStorage:
 
     def get_restaurant_phone_number(self, restaurant_id):
         return addict.Dict(self.db.restaurants.find_one({'_id': restaurant_id}, {'phone_number': True}))
+
+    # TODO Query with an outer join and checking for NULL
+    def get_restaurant_meals_table(self, restaurant_id):
+        restaurant_info = self.db.restaurants.find_one({'_id': restaurant_id})
+        restaurant_info['restaurant_id'] = restaurant_info.pop('_id')
+        if len(restaurant_info['meals_id']) > 0:
+            meals_list = []
+            for meal_id in restaurant_info['meals_id']:
+                meal_info_peace = self.get_meal_info(meal_id=meal_id)
+                meal_info_peace['meal_id'] = meal_info_peace.pop('_id')
+                meal_info_peace['restaurant_id'] = restaurant_info['restaurant_id']
+                meals_list.append(pd.DataFrame.from_records([meal_info_peace], index='meal_id'))
+                print('product_info_piece {}:'.format(meal_id), meal_info_peace)
+
+            print('restaurant_info:', restaurant_info)
+            emp = pd.merge(
+                pd.DataFrame.from_records([restaurant_info], index='restaurant_id'),
+                pd.concat(meals_list, join='outer', ignore_index=False, keys=None, levels=None, names=None, verify_integrity=False, copy=True),
+                on=['restaurant_id'],
+                how='outer'
+            )
+            emp.fillna('Unknown', inplace=True)
+            if emp is not None:
+                return emp
+            else:
+                return None
+        else:
+            return None
 
     def restaurants_amount(self):
         return self.db.restaurants.find({}).count()
