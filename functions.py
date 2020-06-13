@@ -87,7 +87,6 @@ def generate_restaurants(db, n):
     for _ in range(n):
         try:
             print('Restaurant: ', _)
-            # TODO add orders_id
             db.new_restaurant(
                 phone_number=generate_phone_number(),
                 position_id=db.new_position(
@@ -162,9 +161,8 @@ def set_random_statuses_for_couriers(db, n):
 
 
 def get_random_meals_by_restaurant(db, restaurant_id):
-    restaurant_meals = db.get_restaurant_meals(restaurant_id=restaurant_id).meals_id
+    restaurant_meals = db.get_restaurant_meals(restaurant_id=restaurant_id).meal_ids
     return list(set(random.choices(list(restaurant_meals), k=random.randint(1, 4))))
-    # Unhashable type Dict
 
 
 def get_variant_by_chance(chance=35):
