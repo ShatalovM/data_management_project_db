@@ -1,0 +1,15 @@
+/Users/abc/PycharmProjects/data_management_project/venv/bin/python /Users/abc/PycharmProjects/data_management_project/main.py
+Started
+
+Customer id: 5
+Name: {'_id': 5, 'name': 'Leah'}
+Phone number: {'_id': 5, 'phone_number': '12334402702'}
+Position id: {'_id': 5, 'position_id': 5}
+
+>> Before adding indexes
+Query execution time: 15.242429971694946 s
+>> After adding indexes
+Query execution time: 13.683321237564087 s
+Done
+
+Process finished with exit code 0

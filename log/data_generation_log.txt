@@ -1,0 +1,5340 @@
+/Users/abc/PycharmProjects/data_management_project/venv/bin/python /Users/abc/PycharmProjects/data_management_project/main.py
+Started
+Customer:  0
+Customer:  1
+Customer:  2
+Customer:  3
+Customer:  4
+Customer:  5
+Customer:  6
+Customer:  7
+Customer:  8
+Customer:  9
+Customer:  10
+Customer:  11
+Customer:  12
+Customer:  13
+Customer:  14
+Customer:  15
+Customer:  16
+Customer:  17
+Customer:  18
+Customer:  19
+Customer:  20
+Customer:  21
+Customer:  22
+Customer:  23
+Customer:  24
+Customer:  25
+Customer:  26
+Customer:  27
+Customer:  28
+Customer:  29
+Customer:  30
+Customer:  31
+Customer:  32
+Customer:  33
+Customer:  34
+Customer:  35
+Customer:  36
+Customer:  37
+Customer:  38
+Customer:  39
+Customer:  40
+Customer:  41
+Customer:  42
+Customer:  43
+Customer:  44
+Customer:  45
+Customer:  46
+Customer:  47
+Customer:  48
+Customer:  49
+Customer:  50
+Customer:  51
+Customer:  52
+Customer:  53
+Customer:  54
+Customer:  55
+Customer:  56
+Customer:  57
+Customer:  58
+Customer:  59
+Customer:  60
+Customer:  61
+Customer:  62
+Customer:  63
+Customer:  64
+Customer:  65
+Customer:  66
+Customer:  67
+Customer:  68
+Customer:  69
+Customer:  70
+Customer:  71
+Customer:  72
+Customer:  73
+Customer:  74
+Customer:  75
+Customer:  76
+Customer:  77
+Customer:  78
+Customer:  79
+Customer:  80
+Customer:  81
+Customer:  82
+Customer:  83
+Customer:  84
+Customer:  85
+Customer:  86
+Customer:  87
+Customer:  88
+Customer:  89
+Customer:  90
+Customer:  91
+Customer:  92
+Customer:  93
+Customer:  94
+Customer:  95
+Customer:  96
+Customer:  97
+Customer:  98
+Customer:  99
+Customer:  100
+Customer:  101
+Customer:  102
+Customer:  103
+Customer:  104
+Customer:  105
+Customer:  106
+Customer:  107
+Customer:  108
+Customer:  109
+Customer:  110
+Customer:  111
+Customer:  112
+Customer:  113
+Customer:  114
+Customer:  115
+Customer:  116
+Customer:  117
+Customer:  118
+Customer:  119
+Customer:  120
+Customer:  121
+Customer:  122
+Customer:  123
+Customer:  124
+Customer:  125
+Customer:  126
+Customer:  127
+Customer:  128
+Customer:  129
+Customer:  130
+Customer:  131
+Customer:  132
+Customer:  133
+Customer:  134
+Customer:  135
+Customer:  136
+Customer:  137
+Customer:  138
+Customer:  139
+Customer:  140
+Customer:  141
+Customer:  142
+Customer:  143
+Customer:  144
+Customer:  145
+Customer:  146
+Customer:  147
+Customer:  148
+Customer:  149
+Customer:  150
+Customer:  151
+Customer:  152
+Customer:  153
+Customer:  154
+Customer:  155
+Customer:  156
+Customer:  157
+Customer:  158
+Customer:  159
+Customer:  160
+Customer:  161
+Customer:  162
+Customer:  163
+Customer:  164
+Customer:  165
+Customer:  166
+Customer:  167
+Customer:  168
+Customer:  169
+Customer:  170
+Customer:  171
+Customer:  172
+Customer:  173
+Customer:  174
+Customer:  175
+Customer:  176
+Customer:  177
+Customer:  178
+Customer:  179
+Customer:  180
+Customer:  181
+Customer:  182
+Customer:  183
+Customer:  184
+Customer:  185
+Customer:  186
+Customer:  187
+Customer:  188
+Customer:  189
+Customer:  190
+Customer:  191
+Customer:  192
+Customer:  193
+Customer:  194
+Customer:  195
+Customer:  196
+Customer:  197
+Customer:  198
+Customer:  199
+Customer:  200
+Customer:  201
+Customer:  202
+Customer:  203
+Customer:  204
+Customer:  205
+Customer:  206
+Customer:  207
+Customer:  208
+Customer:  209
+Customer:  210
+Customer:  211
+Customer:  212
+Customer:  213
+Customer:  214
+Customer:  215
+Customer:  216
+Customer:  217
+Customer:  218
+Customer:  219
+Customer:  220
+Customer:  221
+Customer:  222
+Customer:  223
+Customer:  224
+Customer:  225
+Customer:  226
+Customer:  227
+Customer:  228
+Customer:  229
+Customer:  230
+Customer:  231
+Customer:  232
+Customer:  233
+Customer:  234
+Customer:  235
+Customer:  236
+Customer:  237
+Customer:  238
+Customer:  239
+Customer:  240
+Customer:  241
+Customer:  242
+Customer:  243
+Customer:  244
+Customer:  245
+Customer:  246
+Customer:  247
+Customer:  248
+Customer:  249
+Customer:  250
+Customer:  251
+Customer:  252
+Customer:  253
+Customer:  254
+Customer:  255
+Customer:  256
+Customer:  257
+Customer:  258
+Customer:  259
+Customer:  260
+Customer:  261
+Customer:  262
+Customer:  263
+Customer:  264
+Customer:  265
+Customer:  266
+Customer:  267
+Customer:  268
+Customer:  269
+Customer:  270
+Customer:  271
+Customer:  272
+Customer:  273
+Customer:  274
+Customer:  275
+Customer:  276
+Customer:  277
+Customer:  278
+Customer:  279
+Customer:  280
+Customer:  281
+Customer:  282
+Customer:  283
+Customer:  284
+Customer:  285
+Customer:  286
+Customer:  287
+Customer:  288
+Customer:  289
+Customer:  290
+Customer:  291
+Customer:  292
+Customer:  293
+Customer:  294
+Customer:  295
+Customer:  296
+Customer:  297
+Customer:  298
+Customer:  299
+Customer:  300
+Customer:  301
+Customer:  302
+Customer:  303
+Customer:  304
+Customer:  305
+Customer:  306
+Customer:  307
+Customer:  308
+Customer:  309
+Customer:  310
+Customer:  311
+Customer:  312
+Customer:  313
+Customer:  314
+Customer:  315
+Customer:  316
+Customer:  317
+Customer:  318
+Customer:  319
+Customer:  320
+Customer:  321
+Customer:  322
+Customer:  323
+Customer:  324
+Customer:  325
+Customer:  326
+Customer:  327
+Customer:  328
+Customer:  329
+Customer:  330
+Customer:  331
+Customer:  332
+Customer:  333
+Customer:  334
+Customer:  335
+Customer:  336
+Customer:  337
+Customer:  338
+Customer:  339
+Customer:  340
+Customer:  341
+Customer:  342
+Customer:  343
+Customer:  344
+Customer:  345
+Customer:  346
+Customer:  347
+Customer:  348
+Customer:  349
+Customer:  350
+Customer:  351
+Customer:  352
+Customer:  353
+Customer:  354
+Customer:  355
+Customer:  356
+Customer:  357
+Customer:  358
+Customer:  359
+Customer:  360
+Customer:  361
+Customer:  362
+Customer:  363
+Customer:  364
+Customer:  365
+Customer:  366
+Customer:  367
+Customer:  368
+Customer:  369
+Customer:  370
+Customer:  371
+Customer:  372
+Customer:  373
+Customer:  374
+Customer:  375
+Customer:  376
+Customer:  377
+Customer:  378
+Customer:  379
+Customer:  380
+Customer:  381
+Customer:  382
+Customer:  383
+Customer:  384
+Customer:  385
+Customer:  386
+Customer:  387
+Customer:  388
+Customer:  389
+Customer:  390
+Customer:  391
+Customer:  392
+Customer:  393
+Customer:  394
+Customer:  395
+Customer:  396
+Customer:  397
+Customer:  398
+Customer:  399
+Customer:  400
+Customer:  401
+Customer:  402
+Customer:  403
+Customer:  404
+Customer:  405
+Customer:  406
+Customer:  407
+Customer:  408
+Customer:  409
+Customer:  410
+Customer:  411
+Customer:  412
+Customer:  413
+Customer:  414
+Customer:  415
+Customer:  416
+Customer:  417
+Customer:  418
+Customer:  419
+Customer:  420
+Customer:  421
+Customer:  422
+Customer:  423
+Customer:  424
+Customer:  425
+Customer:  426
+Customer:  427
+Customer:  428
+Customer:  429
+Customer:  430
+Customer:  431
+Customer:  432
+Customer:  433
+Customer:  434
+Customer:  435
+Customer:  436
+Customer:  437
+Customer:  438
+Customer:  439
+Customer:  440
+Customer:  441
+Customer:  442
+Customer:  443
+Customer:  444
+Customer:  445
+Customer:  446
+Customer:  447
+Customer:  448
+Customer:  449
+>> 450 Customers successfully generated
+Courier:  0
+Courier:  1
+Courier:  2
+Courier:  3
+Courier:  4
+Courier:  5
+Courier:  6
+Courier:  7
+Courier:  8
+Courier:  9
+Courier:  10
+Courier:  11
+Courier:  12
+Courier:  13
+Courier:  14
+Courier:  15
+Courier:  16
+Courier:  17
+Courier:  18
+Courier:  19
+Courier:  20
+Courier:  21
+Courier:  22
+Courier:  23
+Courier:  24
+Courier:  25
+Courier:  26
+Courier:  27
+Courier:  28
+Courier:  29
+Courier:  30
+Courier:  31
+Courier:  32
+Courier:  33
+Courier:  34
+Courier:  35
+Courier:  36
+Courier:  37
+Courier:  38
+Courier:  39
+Courier:  40
+Courier:  41
+Courier:  42
+Courier:  43
+Courier:  44
+Courier:  45
+Courier:  46
+Courier:  47
+Courier:  48
+Courier:  49
+Courier:  50
+Courier:  51
+Courier:  52
+Courier:  53
+Courier:  54
+Courier:  55
+Courier:  56
+Courier:  57
+Courier:  58
+Courier:  59
+Courier:  60
+Courier:  61
+Courier:  62
+Courier:  63
+Courier:  64
+Courier:  65
+Courier:  66
+Courier:  67
+Courier:  68
+Courier:  69
+Courier:  70
+Courier:  71
+Courier:  72
+Courier:  73
+Courier:  74
+Courier:  75
+Courier:  76
+Courier:  77
+Courier:  78
+Courier:  79
+Courier:  80
+Courier:  81
+Courier:  82
+Courier:  83
+Courier:  84
+Courier:  85
+Courier:  86
+Courier:  87
+Courier:  88
+Courier:  89
+Courier:  90
+Courier:  91
+Courier:  92
+Courier:  93
+Courier:  94
+Courier:  95
+Courier:  96
+Courier:  97
+Courier:  98
+Courier:  99
+Courier:  100
+Courier:  101
+Courier:  102
+Courier:  103
+Courier:  104
+Courier:  105
+Courier:  106
+Courier:  107
+Courier:  108
+Courier:  109
+Courier:  110
+Courier:  111
+Courier:  112
+Courier:  113
+Courier:  114
+Courier:  115
+Courier:  116
+Courier:  117
+Courier:  118
+Courier:  119
+Courier:  120
+Courier:  121
+Courier:  122
+Courier:  123
+Courier:  124
+Courier:  125
+Courier:  126
+Courier:  127
+Courier:  128
+Courier:  129
+Courier:  130
+Courier:  131
+Courier:  132
+Courier:  133
+Courier:  134
+Courier:  135
+Courier:  136
+Courier:  137
+Courier:  138
+Courier:  139
+Courier:  140
+Courier:  141
+Courier:  142
+Courier:  143
+Courier:  144
+Courier:  145
+Courier:  146
+Courier:  147
+Courier:  148
+Courier:  149
+Courier:  150
+Courier:  151
+Courier:  152
+Courier:  153
+Courier:  154
+Courier:  155
+Courier:  156
+Courier:  157
+Courier:  158
+Courier:  159
+Courier:  160
+Courier:  161
+Courier:  162
+Courier:  163
+Courier:  164
+Courier:  165
+Courier:  166
+Courier:  167
+Courier:  168
+Courier:  169
+Courier:  170
+Courier:  171
+Courier:  172
+Courier:  173
+Courier:  174
+Courier:  175
+Courier:  176
+Courier:  177
+Courier:  178
+Courier:  179
+Courier:  180
+Courier:  181
+Courier:  182
+Courier:  183
+Courier:  184
+Courier:  185
+Courier:  186
+Courier:  187
+Courier:  188
+Courier:  189
+Courier:  190
+Courier:  191
+Courier:  192
+Courier:  193
+Courier:  194
+Courier:  195
+Courier:  196
+Courier:  197
+Courier:  198
+Courier:  199
+Courier:  200
+Courier:  201
+Courier:  202
+Courier:  203
+Courier:  204
+Courier:  205
+Courier:  206
+Courier:  207
+Courier:  208
+Courier:  209
+Courier:  210
+Courier:  211
+Courier:  212
+Courier:  213
+Courier:  214
+Courier:  215
+Courier:  216
+Courier:  217
+Courier:  218
+Courier:  219
+Courier:  220
+Courier:  221
+Courier:  222
+Courier:  223
+Courier:  224
+Courier:  225
+Courier:  226
+Courier:  227
+Courier:  228
+Courier:  229
+Courier:  230
+Courier:  231
+Courier:  232
+Courier:  233
+Courier:  234
+Courier:  235
+Courier:  236
+Courier:  237
+Courier:  238
+Courier:  239
+Courier:  240
+Courier:  241
+Courier:  242
+Courier:  243
+Courier:  244
+Courier:  245
+Courier:  246
+Courier:  247
+Courier:  248
+Courier:  249
+Courier:  250
+Courier:  251
+Courier:  252
+Courier:  253
+Courier:  254
+Courier:  255
+Courier:  256
+Courier:  257
+Courier:  258
+Courier:  259
+Courier:  260
+Courier:  261
+Courier:  262
+Courier:  263
+Courier:  264
+Courier:  265
+Courier:  266
+Courier:  267
+Courier:  268
+Courier:  269
+Courier:  270
+Courier:  271
+Courier:  272
+Courier:  273
+Courier:  274
+Courier:  275
+Courier:  276
+Courier:  277
+Courier:  278
+Courier:  279
+Courier:  280
+Courier:  281
+Courier:  282
+Courier:  283
+Courier:  284
+Courier:  285
+Courier:  286
+Courier:  287
+Courier:  288
+Courier:  289
+Courier:  290
+Courier:  291
+Courier:  292
+Courier:  293
+Courier:  294
+Courier:  295
+Courier:  296
+Courier:  297
+Courier:  298
+Courier:  299
+Courier:  300
+Courier:  301
+Courier:  302
+Courier:  303
+Courier:  304
+Courier:  305
+Courier:  306
+Courier:  307
+Courier:  308
+Courier:  309
+Courier:  310
+Courier:  311
+Courier:  312
+Courier:  313
+Courier:  314
+Courier:  315
+Courier:  316
+Courier:  317
+Courier:  318
+Courier:  319
+Courier:  320
+Courier:  321
+Courier:  322
+Courier:  323
+Courier:  324
+Courier:  325
+Courier:  326
+Courier:  327
+Courier:  328
+Courier:  329
+Courier:  330
+Courier:  331
+Courier:  332
+Courier:  333
+Courier:  334
+Courier:  335
+Courier:  336
+Courier:  337
+Courier:  338
+Courier:  339
+Courier:  340
+Courier:  341
+Courier:  342
+Courier:  343
+Courier:  344
+Courier:  345
+Courier:  346
+Courier:  347
+Courier:  348
+Courier:  349
+Courier:  350
+Courier:  351
+Courier:  352
+Courier:  353
+Courier:  354
+Courier:  355
+Courier:  356
+Courier:  357
+Courier:  358
+Courier:  359
+Courier:  360
+Courier:  361
+Courier:  362
+Courier:  363
+Courier:  364
+Courier:  365
+Courier:  366
+Courier:  367
+Courier:  368
+Courier:  369
+Courier:  370
+Courier:  371
+Courier:  372
+Courier:  373
+Courier:  374
+Courier:  375
+Courier:  376
+Courier:  377
+Courier:  378
+Courier:  379
+Courier:  380
+Courier:  381
+Courier:  382
+Courier:  383
+Courier:  384
+Courier:  385
+Courier:  386
+Courier:  387
+Courier:  388
+Courier:  389
+Courier:  390
+Courier:  391
+Courier:  392
+Courier:  393
+Courier:  394
+Courier:  395
+Courier:  396
+Courier:  397
+Courier:  398
+Courier:  399
+Courier:  400
+Courier:  401
+Courier:  402
+Courier:  403
+Courier:  404
+Courier:  405
+Courier:  406
+Courier:  407
+Courier:  408
+Courier:  409
+Courier:  410
+Courier:  411
+Courier:  412
+Courier:  413
+Courier:  414
+Courier:  415
+Courier:  416
+Courier:  417
+Courier:  418
+Courier:  419
+Courier:  420
+Courier:  421
+Courier:  422
+Courier:  423
+Courier:  424
+Courier:  425
+Courier:  426
+Courier:  427
+Courier:  428
+Courier:  429
+Courier:  430
+Courier:  431
+Courier:  432
+Courier:  433
+Courier:  434
+Courier:  435
+Courier:  436
+Courier:  437
+Courier:  438
+Courier:  439
+Courier:  440
+Courier:  441
+Courier:  442
+Courier:  443
+Courier:  444
+Courier:  445
+Courier:  446
+Courier:  447
+Courier:  448
+Courier:  449
+Courier:  450
+Courier:  451
+Courier:  452
+Courier:  453
+Courier:  454
+Courier:  455
+Courier:  456
+Courier:  457
+Courier:  458
+Courier:  459
+Courier:  460
+Courier:  461
+Courier:  462
+Courier:  463
+Courier:  464
+Courier:  465
+Courier:  466
+Courier:  467
+Courier:  468
+Courier:  469
+Courier:  470
+Courier:  471
+Courier:  472
+Courier:  473
+Courier:  474
+Courier:  475
+Courier:  476
+Courier:  477
+Courier:  478
+Courier:  479
+Courier:  480
+Courier:  481
+Courier:  482
+Courier:  483
+Courier:  484
+Courier:  485
+Courier:  486
+Courier:  487
+Courier:  488
+Courier:  489
+Courier:  490
+Courier:  491
+Courier:  492
+Courier:  493
+Courier:  494
+Courier:  495
+Courier:  496
+Courier:  497
+Courier:  498
+Courier:  499
+Courier:  500
+Courier:  501
+Courier:  502
+Courier:  503
+Courier:  504
+Courier:  505
+Courier:  506
+Courier:  507
+Courier:  508
+Courier:  509
+Courier:  510
+Courier:  511
+Courier:  512
+Courier:  513
+Courier:  514
+Courier:  515
+Courier:  516
+Courier:  517
+Courier:  518
+Courier:  519
+Courier:  520
+Courier:  521
+Courier:  522
+Courier:  523
+Courier:  524
+Courier:  525
+Courier:  526
+Courier:  527
+Courier:  528
+Courier:  529
+Courier:  530
+Courier:  531
+Courier:  532
+Courier:  533
+Courier:  534
+Courier:  535
+Courier:  536
+Courier:  537
+Courier:  538
+Courier:  539
+Courier:  540
+Courier:  541
+Courier:  542
+Courier:  543
+Courier:  544
+Courier:  545
+Courier:  546
+Courier:  547
+Courier:  548
+Courier:  549
+Courier:  550
+Courier:  551
+Courier:  552
+Courier:  553
+Courier:  554
+Courier:  555
+Courier:  556
+Courier:  557
+Courier:  558
+Courier:  559
+Courier:  560
+Courier:  561
+Courier:  562
+Courier:  563
+Courier:  564
+Courier:  565
+Courier:  566
+Courier:  567
+Courier:  568
+Courier:  569
+Courier:  570
+Courier:  571
+Courier:  572
+Courier:  573
+Courier:  574
+Courier:  575
+Courier:  576
+Courier:  577
+Courier:  578
+Courier:  579
+Courier:  580
+Courier:  581
+Courier:  582
+Courier:  583
+Courier:  584
+Courier:  585
+Courier:  586
+Courier:  587
+Courier:  588
+Courier:  589
+Courier:  590
+Courier:  591
+Courier:  592
+Courier:  593
+Courier:  594
+Courier:  595
+Courier:  596
+Courier:  597
+Courier:  598
+Courier:  599
+>> 600 Couriers successfully generated
+Restaurant:  0
+Restaurant:  1
+Restaurant:  2
+Restaurant:  3
+Restaurant:  4
+Restaurant:  5
+Restaurant:  6
+Restaurant:  7
+Restaurant:  8
+Restaurant:  9
+Restaurant:  10
+Restaurant:  11
+Restaurant:  12
+Restaurant:  13
+Restaurant:  14
+Restaurant:  15
+Restaurant:  16
+Restaurant:  17
+Restaurant:  18
+Restaurant:  19
+Restaurant:  20
+Restaurant:  21
+Restaurant:  22
+Restaurant:  23
+Restaurant:  24
+Restaurant:  25
+Restaurant:  26
+Restaurant:  27
+Restaurant:  28
+Restaurant:  29
+Restaurant:  30
+Restaurant:  31
+Restaurant:  32
+Restaurant:  33
+Restaurant:  34
+Restaurant:  35
+Restaurant:  36
+Restaurant:  37
+Restaurant:  38
+Restaurant:  39
+Restaurant:  40
+Restaurant:  41
+Restaurant:  42
+Restaurant:  43
+Restaurant:  44
+Restaurant:  45
+Restaurant:  46
+Restaurant:  47
+Restaurant:  48
+Restaurant:  49
+Restaurant:  50
+Restaurant:  51
+Restaurant:  52
+Restaurant:  53
+Restaurant:  54
+Restaurant:  55
+Restaurant:  56
+Restaurant:  57
+Restaurant:  58
+Restaurant:  59
+Restaurant:  60
+Restaurant:  61
+Restaurant:  62
+Restaurant:  63
+Restaurant:  64
+Restaurant:  65
+Restaurant:  66
+Restaurant:  67
+Restaurant:  68
+Restaurant:  69
+Restaurant:  70
+Restaurant:  71
+Restaurant:  72
+Restaurant:  73
+Restaurant:  74
+Restaurant:  75
+Restaurant:  76
+Restaurant:  77
+Restaurant:  78
+Restaurant:  79
+>> 80 Restaurants successfully generated
+Meal:  0
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  1
+Product:  0
+Product:  1
+Meal:  2
+Product:  0
+Product:  1
+Meal:  3
+Product:  0
+Product:  1
+Meal:  4
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  5
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  6
+Product:  0
+Product:  1
+Product:  2
+Meal:  7
+Product:  0
+Meal:  8
+Product:  0
+Product:  1
+Meal:  9
+Product:  0
+Meal:  10
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  11
+Product:  0
+Product:  1
+Meal:  12
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  13
+Product:  0
+Meal:  14
+Product:  0
+Meal:  15
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  16
+Product:  0
+Product:  1
+Meal:  17
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  18
+Product:  0
+Product:  1
+Product:  2
+Meal:  19
+Product:  0
+Product:  1
+Product:  2
+Meal:  20
+Product:  0
+Product:  1
+Meal:  21
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  22
+Product:  0
+Meal:  23
+Product:  0
+Product:  1
+Meal:  24
+Product:  0
+Product:  1
+Meal:  25
+Product:  0
+Product:  1
+Meal:  26
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  27
+Product:  0
+Meal:  28
+Product:  0
+Meal:  29
+Product:  0
+Product:  1
+Product:  2
+Meal:  30
+Product:  0
+Product:  1
+Product:  2
+Meal:  31
+Product:  0
+Product:  1
+Meal:  32
+Product:  0
+Product:  1
+Product:  2
+Meal:  33
+Product:  0
+Meal:  34
+Product:  0
+Meal:  35
+Product:  0
+Meal:  36
+Product:  0
+Meal:  37
+Product:  0
+Meal:  38
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  39
+Product:  0
+Meal:  40
+Product:  0
+Meal:  41
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  42
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  43
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  44
+Product:  0
+Meal:  45
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  46
+Product:  0
+Meal:  47
+Product:  0
+Product:  1
+Product:  2
+Meal:  48
+Product:  0
+Meal:  49
+Product:  0
+Meal:  50
+Product:  0
+Product:  1
+Product:  2
+Meal:  51
+Product:  0
+Product:  1
+Product:  2
+Meal:  52
+Product:  0
+Product:  1
+Meal:  53
+Product:  0
+Meal:  54
+Product:  0
+Meal:  55
+Product:  0
+Product:  1
+Product:  2
+Meal:  56
+Product:  0
+Product:  1
+Meal:  57
+Product:  0
+Product:  1
+Meal:  58
+Product:  0
+Product:  1
+Product:  2
+Meal:  59
+Product:  0
+Meal:  60
+Product:  0
+Product:  1
+Product:  2
+Meal:  61
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  62
+Product:  0
+Product:  1
+Meal:  63
+Product:  0
+Product:  1
+Product:  2
+Meal:  64
+Product:  0
+Product:  1
+Product:  2
+Meal:  65
+Product:  0
+Product:  1
+Product:  2
+Meal:  66
+Product:  0
+Product:  1
+Product:  2
+Meal:  67
+Product:  0
+Product:  1
+Product:  2
+Meal:  68
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  69
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  70
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  71
+Product:  0
+Product:  1
+Product:  2
+Meal:  72
+Product:  0
+Product:  1
+Product:  2
+Meal:  73
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  74
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  75
+Product:  0
+Meal:  76
+Product:  0
+Meal:  77
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  78
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  79
+Product:  0
+Product:  1
+Product:  2
+Meal:  80
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  81
+Product:  0
+Meal:  82
+Product:  0
+Product:  1
+Meal:  83
+Product:  0
+Meal:  84
+Product:  0
+Meal:  85
+Product:  0
+Product:  1
+Product:  2
+Meal:  86
+Product:  0
+Product:  1
+Meal:  87
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  88
+Product:  0
+Product:  1
+Product:  2
+Meal:  89
+Product:  0
+Meal:  90
+Product:  0
+Product:  1
+Product:  2
+Meal:  91
+Product:  0
+Meal:  92
+Product:  0
+Product:  1
+Product:  2
+Meal:  93
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  94
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  95
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  96
+Product:  0
+Product:  1
+Meal:  97
+Product:  0
+Product:  1
+Meal:  98
+Product:  0
+Product:  1
+Product:  2
+Meal:  99
+Product:  0
+Meal:  100
+Product:  0
+Meal:  101
+Product:  0
+Product:  1
+Meal:  102
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  103
+Product:  0
+Product:  1
+Meal:  104
+Product:  0
+Meal:  105
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  106
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  107
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  108
+Product:  0
+Product:  1
+Meal:  109
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  110
+Product:  0
+Product:  1
+Product:  2
+Meal:  111
+Product:  0
+Meal:  112
+Product:  0
+Product:  1
+Meal:  113
+Product:  0
+Meal:  114
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  115
+Product:  0
+Product:  1
+Product:  2
+Meal:  116
+Product:  0
+Product:  1
+Product:  2
+Meal:  117
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  118
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  119
+Product:  0
+Product:  1
+Product:  2
+Meal:  120
+Product:  0
+Meal:  121
+Product:  0
+Meal:  122
+Product:  0
+Meal:  123
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  124
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  125
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  126
+Product:  0
+Meal:  127
+Product:  0
+Product:  1
+Meal:  128
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  129
+Product:  0
+Product:  1
+Meal:  130
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  131
+Product:  0
+Product:  1
+Product:  2
+Meal:  132
+Product:  0
+Meal:  133
+Product:  0
+Product:  1
+Meal:  134
+Product:  0
+Meal:  135
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  136
+Product:  0
+Meal:  137
+Product:  0
+Product:  1
+Meal:  138
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  139
+Product:  0
+Product:  1
+Meal:  140
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  141
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  142
+Product:  0
+Product:  1
+Product:  2
+Meal:  143
+Product:  0
+Product:  1
+Meal:  144
+Product:  0
+Product:  1
+Meal:  145
+Product:  0
+Meal:  146
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  147
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  148
+Product:  0
+Product:  1
+Meal:  149
+Product:  0
+Product:  1
+Product:  2
+Meal:  150
+Product:  0
+Meal:  151
+Product:  0
+Product:  1
+Meal:  152
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  153
+Product:  0
+Meal:  154
+Product:  0
+Product:  1
+Product:  2
+Meal:  155
+Product:  0
+Product:  1
+Product:  2
+Meal:  156
+Product:  0
+Product:  1
+Product:  2
+Meal:  157
+Product:  0
+Meal:  158
+Product:  0
+Product:  1
+Meal:  159
+Product:  0
+Product:  1
+Meal:  160
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  161
+Product:  0
+Product:  1
+Meal:  162
+Product:  0
+Product:  1
+Product:  2
+Meal:  163
+Product:  0
+Meal:  164
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  165
+Product:  0
+Meal:  166
+Product:  0
+Meal:  167
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  168
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  169
+Product:  0
+Meal:  170
+Product:  0
+Product:  1
+Meal:  171
+Product:  0
+Meal:  172
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  173
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  174
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  175
+Product:  0
+Product:  1
+Meal:  176
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  177
+Product:  0
+Product:  1
+Product:  2
+Meal:  178
+Product:  0
+Product:  1
+Meal:  179
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  180
+Product:  0
+Product:  1
+Meal:  181
+Product:  0
+Meal:  182
+Product:  0
+Product:  1
+Meal:  183
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  184
+Product:  0
+Product:  1
+Meal:  185
+Product:  0
+Product:  1
+Product:  2
+Meal:  186
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  187
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  188
+Product:  0
+Product:  1
+Meal:  189
+Product:  0
+Meal:  190
+Product:  0
+Meal:  191
+Product:  0
+Product:  1
+Meal:  192
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  193
+Product:  0
+Product:  1
+Product:  2
+Meal:  194
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  195
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  196
+Product:  0
+Meal:  197
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  198
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  199
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  200
+Product:  0
+Meal:  201
+Product:  0
+Product:  1
+Meal:  202
+Product:  0
+Product:  1
+Meal:  203
+Product:  0
+Meal:  204
+Product:  0
+Product:  1
+Product:  2
+Meal:  205
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  206
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  207
+Product:  0
+Product:  1
+Product:  2
+Meal:  208
+Product:  0
+Product:  1
+Meal:  209
+Product:  0
+Product:  1
+Product:  2
+Meal:  210
+Product:  0
+Product:  1
+Meal:  211
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  212
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  213
+Product:  0
+Product:  1
+Meal:  214
+Product:  0
+Product:  1
+Meal:  215
+Product:  0
+Product:  1
+Meal:  216
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  217
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  218
+Product:  0
+Product:  1
+Meal:  219
+Product:  0
+Meal:  220
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  221
+Product:  0
+Product:  1
+Product:  2
+Meal:  222
+Product:  0
+Product:  1
+Product:  2
+Meal:  223
+Product:  0
+Meal:  224
+Product:  0
+Product:  1
+Product:  2
+Meal:  225
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  226
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  227
+Product:  0
+Meal:  228
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  229
+Product:  0
+Meal:  230
+Product:  0
+Product:  1
+Meal:  231
+Product:  0
+Product:  1
+Meal:  232
+Product:  0
+Product:  1
+Meal:  233
+Product:  0
+Product:  1
+Meal:  234
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  235
+Product:  0
+Product:  1
+Meal:  236
+Product:  0
+Meal:  237
+Product:  0
+Product:  1
+Product:  2
+Meal:  238
+Product:  0
+Meal:  239
+Product:  0
+Product:  1
+Meal:  240
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  241
+Product:  0
+Meal:  242
+Product:  0
+Meal:  243
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  244
+Product:  0
+Product:  1
+Meal:  245
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  246
+Product:  0
+Meal:  247
+Product:  0
+Meal:  248
+Product:  0
+Product:  1
+Product:  2
+Meal:  249
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  250
+Product:  0
+Meal:  251
+Product:  0
+Product:  1
+Product:  2
+Meal:  252
+Product:  0
+Product:  1
+Meal:  253
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  254
+Product:  0
+Product:  1
+Product:  2
+Meal:  255
+Product:  0
+Product:  1
+Meal:  256
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  257
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  258
+Product:  0
+Product:  1
+Meal:  259
+Product:  0
+Meal:  260
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  261
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  262
+Product:  0
+Product:  1
+Meal:  263
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  264
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  265
+Product:  0
+Meal:  266
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  267
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  268
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  269
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  270
+Product:  0
+Product:  1
+Meal:  271
+Product:  0
+Product:  1
+Meal:  272
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  273
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  274
+Product:  0
+Product:  1
+Product:  2
+Meal:  275
+Product:  0
+Meal:  276
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  277
+Product:  0
+Product:  1
+Product:  2
+Meal:  278
+Product:  0
+Meal:  279
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  280
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  281
+Product:  0
+Product:  1
+Product:  2
+Meal:  282
+Product:  0
+Product:  1
+Meal:  283
+Product:  0
+Product:  1
+Product:  2
+Meal:  284
+Product:  0
+Meal:  285
+Product:  0
+Product:  1
+Meal:  286
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  287
+Product:  0
+Product:  1
+Meal:  288
+Product:  0
+Meal:  289
+Product:  0
+Product:  1
+Meal:  290
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  291
+Product:  0
+Product:  1
+Product:  2
+Meal:  292
+Product:  0
+Meal:  293
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  294
+Product:  0
+Product:  1
+Meal:  295
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  296
+Product:  0
+Product:  1
+Product:  2
+Meal:  297
+Product:  0
+Product:  1
+Product:  2
+Meal:  298
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  299
+Product:  0
+Product:  1
+Product:  2
+Meal:  300
+Product:  0
+Product:  1
+Meal:  301
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  302
+Product:  0
+Meal:  303
+Product:  0
+Meal:  304
+Product:  0
+Meal:  305
+Product:  0
+Product:  1
+Product:  2
+Meal:  306
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  307
+Product:  0
+Product:  1
+Meal:  308
+Product:  0
+Meal:  309
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Product:  4
+Meal:  310
+Product:  0
+Meal:  311
+Product:  0
+Product:  1
+Product:  2
+Meal:  312
+Product:  0
+Product:  1
+Meal:  313
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  314
+Product:  0
+Meal:  315
+Product:  0
+Product:  1
+Meal:  316
+Product:  0
+Product:  1
+Meal:  317
+Product:  0
+Product:  1
+Product:  2
+Product:  3
+Meal:  318
+Product:  0
+Product:  1
+Meal:  319
+Product:  0
+Product:  1
+Product:  2
+>> 320 Meals successfully generated
+Restaurant_id:  1
+Meal_id:  1
+Meal_id:  2
+Meal_id:  3
+Meal_id:  4
+>> 80 Restaurants connected with 4 meals successfully generated
+Restaurant_id:  2
+Meal_id:  5
+Meal_id:  6
+Meal_id:  7
+Meal_id:  8
+>> 80 Restaurants connected with 8 meals successfully generated
+Restaurant_id:  3
+Meal_id:  9
+Meal_id:  10
+Meal_id:  11
+Meal_id:  12
+>> 80 Restaurants connected with 12 meals successfully generated
+Restaurant_id:  4
+Meal_id:  13
+Meal_id:  14
+Meal_id:  15
+Meal_id:  16
+>> 80 Restaurants connected with 16 meals successfully generated
+Restaurant_id:  5
+Meal_id:  17
+Meal_id:  18
+Meal_id:  19
+Meal_id:  20
+>> 80 Restaurants connected with 20 meals successfully generated
+Restaurant_id:  6
+Meal_id:  21
+Meal_id:  22
+Meal_id:  23
+Meal_id:  24
+>> 80 Restaurants connected with 24 meals successfully generated
+Restaurant_id:  7
+Meal_id:  25
+Meal_id:  26
+Meal_id:  27
+Meal_id:  28
+>> 80 Restaurants connected with 28 meals successfully generated
+Restaurant_id:  8
+Meal_id:  29
+Meal_id:  30
+Meal_id:  31
+Meal_id:  32
+>> 80 Restaurants connected with 32 meals successfully generated
+Restaurant_id:  9
+Meal_id:  33
+Meal_id:  34
+Meal_id:  35
+Meal_id:  36
+>> 80 Restaurants connected with 36 meals successfully generated
+Restaurant_id:  10
+Meal_id:  37
+Meal_id:  38
+Meal_id:  39
+Meal_id:  40
+>> 80 Restaurants connected with 40 meals successfully generated
+Restaurant_id:  11
+Meal_id:  41
+Meal_id:  42
+Meal_id:  43
+Meal_id:  44
+>> 80 Restaurants connected with 44 meals successfully generated
+Restaurant_id:  12
+Meal_id:  45
+Meal_id:  46
+Meal_id:  47
+Meal_id:  48
+>> 80 Restaurants connected with 48 meals successfully generated
+Restaurant_id:  13
+Meal_id:  49
+Meal_id:  50
+Meal_id:  51
+Meal_id:  52
+>> 80 Restaurants connected with 52 meals successfully generated
+Restaurant_id:  14
+Meal_id:  53
+Meal_id:  54
+Meal_id:  55
+Meal_id:  56
+>> 80 Restaurants connected with 56 meals successfully generated
+Restaurant_id:  15
+Meal_id:  57
+Meal_id:  58
+Meal_id:  59
+Meal_id:  60
+>> 80 Restaurants connected with 60 meals successfully generated
+Restaurant_id:  16
+Meal_id:  61
+Meal_id:  62
+Meal_id:  63
+Meal_id:  64
+>> 80 Restaurants connected with 64 meals successfully generated
+Restaurant_id:  17
+Meal_id:  65
+Meal_id:  66
+Meal_id:  67
+Meal_id:  68
+>> 80 Restaurants connected with 68 meals successfully generated
+Restaurant_id:  18
+Meal_id:  69
+Meal_id:  70
+Meal_id:  71
+Meal_id:  72
+>> 80 Restaurants connected with 72 meals successfully generated
+Restaurant_id:  19
+Meal_id:  73
+Meal_id:  74
+Meal_id:  75
+Meal_id:  76
+>> 80 Restaurants connected with 76 meals successfully generated
+Restaurant_id:  20
+Meal_id:  77
+Meal_id:  78
+Meal_id:  79
+Meal_id:  80
+>> 80 Restaurants connected with 80 meals successfully generated
+Restaurant_id:  21
+Meal_id:  81
+Meal_id:  82
+Meal_id:  83
+Meal_id:  84
+>> 80 Restaurants connected with 84 meals successfully generated
+Restaurant_id:  22
+Meal_id:  85
+Meal_id:  86
+Meal_id:  87
+Meal_id:  88
+>> 80 Restaurants connected with 88 meals successfully generated
+Restaurant_id:  23
+Meal_id:  89
+Meal_id:  90
+Meal_id:  91
+Meal_id:  92
+>> 80 Restaurants connected with 92 meals successfully generated
+Restaurant_id:  24
+Meal_id:  93
+Meal_id:  94
+Meal_id:  95
+Meal_id:  96
+>> 80 Restaurants connected with 96 meals successfully generated
+Restaurant_id:  25
+Meal_id:  97
+Meal_id:  98
+Meal_id:  99
+Meal_id:  100
+>> 80 Restaurants connected with 100 meals successfully generated
+Restaurant_id:  26
+Meal_id:  101
+Meal_id:  102
+Meal_id:  103
+Meal_id:  104
+>> 80 Restaurants connected with 104 meals successfully generated
+Restaurant_id:  27
+Meal_id:  105
+Meal_id:  106
+Meal_id:  107
+Meal_id:  108
+>> 80 Restaurants connected with 108 meals successfully generated
+Restaurant_id:  28
+Meal_id:  109
+Meal_id:  110
+Meal_id:  111
+Meal_id:  112
+>> 80 Restaurants connected with 112 meals successfully generated
+Restaurant_id:  29
+Meal_id:  113
+Meal_id:  114
+Meal_id:  115
+Meal_id:  116
+>> 80 Restaurants connected with 116 meals successfully generated
+Restaurant_id:  30
+Meal_id:  117
+Meal_id:  118
+Meal_id:  119
+Meal_id:  120
+>> 80 Restaurants connected with 120 meals successfully generated
+Restaurant_id:  31
+Meal_id:  121
+Meal_id:  122
+Meal_id:  123
+Meal_id:  124
+>> 80 Restaurants connected with 124 meals successfully generated
+Restaurant_id:  32
+Meal_id:  125
+Meal_id:  126
+Meal_id:  127
+Meal_id:  128
+>> 80 Restaurants connected with 128 meals successfully generated
+Restaurant_id:  33
+Meal_id:  129
+Meal_id:  130
+Meal_id:  131
+Meal_id:  132
+>> 80 Restaurants connected with 132 meals successfully generated
+Restaurant_id:  34
+Meal_id:  133
+Meal_id:  134
+Meal_id:  135
+Meal_id:  136
+>> 80 Restaurants connected with 136 meals successfully generated
+Restaurant_id:  35
+Meal_id:  137
+Meal_id:  138
+Meal_id:  139
+Meal_id:  140
+>> 80 Restaurants connected with 140 meals successfully generated
+Restaurant_id:  36
+Meal_id:  141
+Meal_id:  142
+Meal_id:  143
+Meal_id:  144
+>> 80 Restaurants connected with 144 meals successfully generated
+Restaurant_id:  37
+Meal_id:  145
+Meal_id:  146
+Meal_id:  147
+Meal_id:  148
+>> 80 Restaurants connected with 148 meals successfully generated
+Restaurant_id:  38
+Meal_id:  149
+Meal_id:  150
+Meal_id:  151
+Meal_id:  152
+>> 80 Restaurants connected with 152 meals successfully generated
+Restaurant_id:  39
+Meal_id:  153
+Meal_id:  154
+Meal_id:  155
+Meal_id:  156
+>> 80 Restaurants connected with 156 meals successfully generated
+Restaurant_id:  40
+Meal_id:  157
+Meal_id:  158
+Meal_id:  159
+Meal_id:  160
+>> 80 Restaurants connected with 160 meals successfully generated
+Restaurant_id:  41
+Meal_id:  161
+Meal_id:  162
+Meal_id:  163
+Meal_id:  164
+>> 80 Restaurants connected with 164 meals successfully generated
+Restaurant_id:  42
+Meal_id:  165
+Meal_id:  166
+Meal_id:  167
+Meal_id:  168
+>> 80 Restaurants connected with 168 meals successfully generated
+Restaurant_id:  43
+Meal_id:  169
+Meal_id:  170
+Meal_id:  171
+Meal_id:  172
+>> 80 Restaurants connected with 172 meals successfully generated
+Restaurant_id:  44
+Meal_id:  173
+Meal_id:  174
+Meal_id:  175
+Meal_id:  176
+>> 80 Restaurants connected with 176 meals successfully generated
+Restaurant_id:  45
+Meal_id:  177
+Meal_id:  178
+Meal_id:  179
+Meal_id:  180
+>> 80 Restaurants connected with 180 meals successfully generated
+Restaurant_id:  46
+Meal_id:  181
+Meal_id:  182
+Meal_id:  183
+Meal_id:  184
+>> 80 Restaurants connected with 184 meals successfully generated
+Restaurant_id:  47
+Meal_id:  185
+Meal_id:  186
+Meal_id:  187
+Meal_id:  188
+>> 80 Restaurants connected with 188 meals successfully generated
+Restaurant_id:  48
+Meal_id:  189
+Meal_id:  190
+Meal_id:  191
+Meal_id:  192
+>> 80 Restaurants connected with 192 meals successfully generated
+Restaurant_id:  49
+Meal_id:  193
+Meal_id:  194
+Meal_id:  195
+Meal_id:  196
+>> 80 Restaurants connected with 196 meals successfully generated
+Restaurant_id:  50
+Meal_id:  197
+Meal_id:  198
+Meal_id:  199
+Meal_id:  200
+>> 80 Restaurants connected with 200 meals successfully generated
+Restaurant_id:  51
+Meal_id:  201
+Meal_id:  202
+Meal_id:  203
+Meal_id:  204
+>> 80 Restaurants connected with 204 meals successfully generated
+Restaurant_id:  52
+Meal_id:  205
+Meal_id:  206
+Meal_id:  207
+Meal_id:  208
+>> 80 Restaurants connected with 208 meals successfully generated
+Restaurant_id:  53
+Meal_id:  209
+Meal_id:  210
+Meal_id:  211
+Meal_id:  212
+>> 80 Restaurants connected with 212 meals successfully generated
+Restaurant_id:  54
+Meal_id:  213
+Meal_id:  214
+Meal_id:  215
+Meal_id:  216
+>> 80 Restaurants connected with 216 meals successfully generated
+Restaurant_id:  55
+Meal_id:  217
+Meal_id:  218
+Meal_id:  219
+Meal_id:  220
+>> 80 Restaurants connected with 220 meals successfully generated
+Restaurant_id:  56
+Meal_id:  221
+Meal_id:  222
+Meal_id:  223
+Meal_id:  224
+>> 80 Restaurants connected with 224 meals successfully generated
+Restaurant_id:  57
+Meal_id:  225
+Meal_id:  226
+Meal_id:  227
+Meal_id:  228
+>> 80 Restaurants connected with 228 meals successfully generated
+Restaurant_id:  58
+Meal_id:  229
+Meal_id:  230
+Meal_id:  231
+Meal_id:  232
+>> 80 Restaurants connected with 232 meals successfully generated
+Restaurant_id:  59
+Meal_id:  233
+Meal_id:  234
+Meal_id:  235
+Meal_id:  236
+>> 80 Restaurants connected with 236 meals successfully generated
+Restaurant_id:  60
+Meal_id:  237
+Meal_id:  238
+Meal_id:  239
+Meal_id:  240
+>> 80 Restaurants connected with 240 meals successfully generated
+Restaurant_id:  61
+Meal_id:  241
+Meal_id:  242
+Meal_id:  243
+Meal_id:  244
+>> 80 Restaurants connected with 244 meals successfully generated
+Restaurant_id:  62
+Meal_id:  245
+Meal_id:  246
+Meal_id:  247
+Meal_id:  248
+>> 80 Restaurants connected with 248 meals successfully generated
+Restaurant_id:  63
+Meal_id:  249
+Meal_id:  250
+Meal_id:  251
+Meal_id:  252
+>> 80 Restaurants connected with 252 meals successfully generated
+Restaurant_id:  64
+Meal_id:  253
+Meal_id:  254
+Meal_id:  255
+Meal_id:  256
+>> 80 Restaurants connected with 256 meals successfully generated
+Restaurant_id:  65
+Meal_id:  257
+Meal_id:  258
+Meal_id:  259
+Meal_id:  260
+>> 80 Restaurants connected with 260 meals successfully generated
+Restaurant_id:  66
+Meal_id:  261
+Meal_id:  262
+Meal_id:  263
+Meal_id:  264
+>> 80 Restaurants connected with 264 meals successfully generated
+Restaurant_id:  67
+Meal_id:  265
+Meal_id:  266
+Meal_id:  267
+Meal_id:  268
+>> 80 Restaurants connected with 268 meals successfully generated
+Restaurant_id:  68
+Meal_id:  269
+Meal_id:  270
+Meal_id:  271
+Meal_id:  272
+>> 80 Restaurants connected with 272 meals successfully generated
+Restaurant_id:  69
+Meal_id:  273
+Meal_id:  274
+Meal_id:  275
+Meal_id:  276
+>> 80 Restaurants connected with 276 meals successfully generated
+Restaurant_id:  70
+Meal_id:  277
+Meal_id:  278
+Meal_id:  279
+Meal_id:  280
+>> 80 Restaurants connected with 280 meals successfully generated
+Restaurant_id:  71
+Meal_id:  281
+Meal_id:  282
+Meal_id:  283
+Meal_id:  284
+>> 80 Restaurants connected with 284 meals successfully generated
+Restaurant_id:  72
+Meal_id:  285
+Meal_id:  286
+Meal_id:  287
+Meal_id:  288
+>> 80 Restaurants connected with 288 meals successfully generated
+Restaurant_id:  73
+Meal_id:  289
+Meal_id:  290
+Meal_id:  291
+Meal_id:  292
+>> 80 Restaurants connected with 292 meals successfully generated
+Restaurant_id:  74
+Meal_id:  293
+Meal_id:  294
+Meal_id:  295
+Meal_id:  296
+>> 80 Restaurants connected with 296 meals successfully generated
+Restaurant_id:  75
+Meal_id:  297
+Meal_id:  298
+Meal_id:  299
+Meal_id:  300
+>> 80 Restaurants connected with 300 meals successfully generated
+Restaurant_id:  76
+Meal_id:  301
+Meal_id:  302
+Meal_id:  303
+Meal_id:  304
+>> 80 Restaurants connected with 304 meals successfully generated
+Restaurant_id:  77
+Meal_id:  305
+Meal_id:  306
+Meal_id:  307
+Meal_id:  308
+>> 80 Restaurants connected with 308 meals successfully generated
+Restaurant_id:  78
+Meal_id:  309
+Meal_id:  310
+Meal_id:  311
+Meal_id:  312
+>> 80 Restaurants connected with 312 meals successfully generated
+Restaurant_id:  79
+Meal_id:  313
+Meal_id:  314
+Meal_id:  315
+Meal_id:  316
+>> 80 Restaurants connected with 316 meals successfully generated
+Restaurant_id:  80
+Meal_id:  317
+Meal_id:  318
+Meal_id:  319
+Meal_id:  320
+>> 80 Restaurants connected with 320 meals successfully generated
+Courier_id:  1 1
+Courier_id:  2 2
+Courier_id:  3 2
+Courier_id:  4 2
+Courier_id:  5 0
+Courier_id:  6 1
+Courier_id:  7 2
+Courier_id:  8 0
+Courier_id:  9 1
+Courier_id:  10 1
+Courier_id:  11 2
+Courier_id:  12 1
+Courier_id:  13 1
+Courier_id:  14 2
+Courier_id:  15 2
+Courier_id:  16 1
+Courier_id:  17 2
+Courier_id:  18 0
+Courier_id:  19 1
+Courier_id:  20 0
+Courier_id:  21 1
+Courier_id:  22 0
+Courier_id:  23 2
+Courier_id:  24 0
+Courier_id:  25 2
+Courier_id:  26 0
+Courier_id:  27 2
+Courier_id:  28 0
+Courier_id:  29 2
+Courier_id:  30 1
+Courier_id:  31 1
+Courier_id:  32 2
+Courier_id:  33 2
+Courier_id:  34 0
+Courier_id:  35 1
+Courier_id:  36 2
+Courier_id:  37 2
+Courier_id:  38 0
+Courier_id:  39 2
+Courier_id:  40 2
+Courier_id:  41 2
+Courier_id:  42 0
+Courier_id:  43 2
+Courier_id:  44 0
+Courier_id:  45 0
+Courier_id:  46 1
+Courier_id:  47 2
+Courier_id:  48 2
+Courier_id:  49 0
+Courier_id:  50 2
+Courier_id:  51 1
+Courier_id:  52 0
+Courier_id:  53 0
+Courier_id:  54 2
+Courier_id:  55 0
+Courier_id:  56 1
+Courier_id:  57 1
+Courier_id:  58 0
+Courier_id:  59 0
+Courier_id:  60 1
+Courier_id:  61 0
+Courier_id:  62 2
+Courier_id:  63 1
+Courier_id:  64 1
+Courier_id:  65 0
+Courier_id:  66 0
+Courier_id:  67 1
+Courier_id:  68 2
+Courier_id:  69 2
+Courier_id:  70 0
+Courier_id:  71 1
+Courier_id:  72 1
+Courier_id:  73 0
+Courier_id:  74 0
+Courier_id:  75 0
+Courier_id:  76 0
+Courier_id:  77 2
+Courier_id:  78 1
+Courier_id:  79 2
+Courier_id:  80 0
+Courier_id:  81 0
+Courier_id:  82 2
+Courier_id:  83 0
+Courier_id:  84 0
+Courier_id:  85 0
+Courier_id:  86 1
+Courier_id:  87 0
+Courier_id:  88 0
+Courier_id:  89 0
+Courier_id:  90 1
+Courier_id:  91 1
+Courier_id:  92 1
+Courier_id:  93 0
+Courier_id:  94 1
+Courier_id:  95 1
+Courier_id:  96 1
+Courier_id:  97 0
+Courier_id:  98 0
+Courier_id:  99 0
+Courier_id:  100 2
+Courier_id:  101 1
+Courier_id:  102 0
+Courier_id:  103 1
+Courier_id:  104 0
+Courier_id:  105 1
+Courier_id:  106 0
+Courier_id:  107 2
+Courier_id:  108 2
+Courier_id:  109 2
+Courier_id:  110 1
+Courier_id:  111 1
+Courier_id:  112 0
+Courier_id:  113 1
+Courier_id:  114 0
+Courier_id:  115 0
+Courier_id:  116 1
+Courier_id:  117 2
+Courier_id:  118 1
+Courier_id:  119 2
+Courier_id:  120 0
+Courier_id:  121 2
+Courier_id:  122 2
+Courier_id:  123 2
+Courier_id:  124 2
+Courier_id:  125 0
+Courier_id:  126 2
+Courier_id:  127 0
+Courier_id:  128 2
+Courier_id:  129 1
+Courier_id:  130 1
+Courier_id:  131 1
+Courier_id:  132 2
+Courier_id:  133 1
+Courier_id:  134 2
+Courier_id:  135 0
+Courier_id:  136 1
+Courier_id:  137 1
+Courier_id:  138 2
+Courier_id:  139 1
+Courier_id:  140 2
+Courier_id:  141 1
+Courier_id:  142 2
+Courier_id:  143 1
+Courier_id:  144 1
+Courier_id:  145 0
+Courier_id:  146 2
+Courier_id:  147 1
+Courier_id:  148 2
+Courier_id:  149 2
+Courier_id:  150 1
+Courier_id:  151 1
+Courier_id:  152 1
+Courier_id:  153 0
+Courier_id:  154 2
+Courier_id:  155 1
+Courier_id:  156 0
+Courier_id:  157 0
+Courier_id:  158 1
+Courier_id:  159 2
+Courier_id:  160 1
+Courier_id:  161 2
+Courier_id:  162 1
+Courier_id:  163 0
+Courier_id:  164 1
+Courier_id:  165 1
+Courier_id:  166 0
+Courier_id:  167 0
+Courier_id:  168 2
+Courier_id:  169 2
+Courier_id:  170 2
+Courier_id:  171 1
+Courier_id:  172 2
+Courier_id:  173 2
+Courier_id:  174 1
+Courier_id:  175 0
+Courier_id:  176 1
+Courier_id:  177 1
+Courier_id:  178 2
+Courier_id:  179 1
+Courier_id:  180 0
+Courier_id:  181 0
+Courier_id:  182 1
+Courier_id:  183 2
+Courier_id:  184 2
+Courier_id:  185 1
+Courier_id:  186 1
+Courier_id:  187 0
+Courier_id:  188 2
+Courier_id:  189 1
+Courier_id:  190 1
+Courier_id:  191 2
+Courier_id:  192 0
+Courier_id:  193 2
+Courier_id:  194 1
+Courier_id:  195 0
+Courier_id:  196 2
+Courier_id:  197 2
+Courier_id:  198 0
+Courier_id:  199 1
+Courier_id:  200 2
+Courier_id:  201 1
+Courier_id:  202 1
+Courier_id:  203 1
+Courier_id:  204 2
+Courier_id:  205 2
+Courier_id:  206 1
+Courier_id:  207 0
+Courier_id:  208 2
+Courier_id:  209 0
+Courier_id:  210 0
+Courier_id:  211 1
+Courier_id:  212 1
+Courier_id:  213 1
+Courier_id:  214 1
+Courier_id:  215 2
+Courier_id:  216 2
+Courier_id:  217 1
+Courier_id:  218 1
+Courier_id:  219 1
+Courier_id:  220 1
+Courier_id:  221 0
+Courier_id:  222 0
+Courier_id:  223 0
+Courier_id:  224 0
+Courier_id:  225 2
+Courier_id:  226 1
+Courier_id:  227 1
+Courier_id:  228 1
+Courier_id:  229 1
+Courier_id:  230 0
+Courier_id:  231 0
+Courier_id:  232 2
+Courier_id:  233 0
+Courier_id:  234 2
+Courier_id:  235 1
+Courier_id:  236 0
+Courier_id:  237 2
+Courier_id:  238 0
+Courier_id:  239 2
+Courier_id:  240 1
+Courier_id:  241 2
+Courier_id:  242 2
+Courier_id:  243 2
+Courier_id:  244 2
+Courier_id:  245 1
+Courier_id:  246 0
+Courier_id:  247 1
+Courier_id:  248 0
+Courier_id:  249 0
+Courier_id:  250 2
+Courier_id:  251 2
+Courier_id:  252 0
+Courier_id:  253 0
+Courier_id:  254 2
+Courier_id:  255 2
+Courier_id:  256 2
+Courier_id:  257 1
+Courier_id:  258 0
+Courier_id:  259 1
+Courier_id:  260 2
+Courier_id:  261 1
+Courier_id:  262 1
+Courier_id:  263 2
+Courier_id:  264 0
+Courier_id:  265 1
+Courier_id:  266 1
+Courier_id:  267 0
+Courier_id:  268 2
+Courier_id:  269 1
+Courier_id:  270 1
+Courier_id:  271 0
+Courier_id:  272 0
+Courier_id:  273 1
+Courier_id:  274 0
+Courier_id:  275 0
+Courier_id:  276 1
+Courier_id:  277 1
+Courier_id:  278 0
+Courier_id:  279 0
+Courier_id:  280 0
+Courier_id:  281 2
+Courier_id:  282 1
+Courier_id:  283 2
+Courier_id:  284 2
+Courier_id:  285 2
+Courier_id:  286 2
+Courier_id:  287 2
+Courier_id:  288 1
+Courier_id:  289 1
+Courier_id:  290 2
+Courier_id:  291 0
+Courier_id:  292 0
+Courier_id:  293 2
+Courier_id:  294 0
+Courier_id:  295 1
+Courier_id:  296 0
+Courier_id:  297 1
+Courier_id:  298 1
+Courier_id:  299 0
+Courier_id:  300 2
+Courier_id:  301 2
+Courier_id:  302 1
+Courier_id:  303 1
+Courier_id:  304 0
+Courier_id:  305 2
+Courier_id:  306 0
+Courier_id:  307 0
+Courier_id:  308 2
+Courier_id:  309 2
+Courier_id:  310 0
+Courier_id:  311 2
+Courier_id:  312 1
+Courier_id:  313 1
+Courier_id:  314 1
+Courier_id:  315 2
+Courier_id:  316 0
+Courier_id:  317 0
+Courier_id:  318 0
+Courier_id:  319 2
+Courier_id:  320 1
+Courier_id:  321 1
+Courier_id:  322 1
+Courier_id:  323 1
+Courier_id:  324 0
+Courier_id:  325 0
+Courier_id:  326 2
+Courier_id:  327 2
+Courier_id:  328 1
+Courier_id:  329 1
+Courier_id:  330 0
+Courier_id:  331 0
+Courier_id:  332 1
+Courier_id:  333 0
+Courier_id:  334 2
+Courier_id:  335 0
+Courier_id:  336 2
+Courier_id:  337 2
+Courier_id:  338 1
+Courier_id:  339 2
+Courier_id:  340 2
+Courier_id:  341 0
+Courier_id:  342 2
+Courier_id:  343 2
+Courier_id:  344 2
+Courier_id:  345 0
+Courier_id:  346 0
+Courier_id:  347 0
+Courier_id:  348 1
+Courier_id:  349 0
+Courier_id:  350 2
+Courier_id:  351 2
+Courier_id:  352 2
+Courier_id:  353 2
+Courier_id:  354 2
+Courier_id:  355 0
+Courier_id:  356 1
+Courier_id:  357 0
+Courier_id:  358 0
+Courier_id:  359 0
+Courier_id:  360 0
+Courier_id:  361 1
+Courier_id:  362 0
+Courier_id:  363 2
+Courier_id:  364 0
+Courier_id:  365 0
+Courier_id:  366 1
+Courier_id:  367 2
+Courier_id:  368 1
+Courier_id:  369 0
+Courier_id:  370 2
+Courier_id:  371 2
+Courier_id:  372 1
+Courier_id:  373 2
+Courier_id:  374 1
+Courier_id:  375 0
+Courier_id:  376 1
+Courier_id:  377 0
+Courier_id:  378 2
+Courier_id:  379 2
+Courier_id:  380 1
+Courier_id:  381 2
+Courier_id:  382 2
+Courier_id:  383 0
+Courier_id:  384 0
+Courier_id:  385 0
+Courier_id:  386 2
+Courier_id:  387 2
+Courier_id:  388 1
+Courier_id:  389 0
+Courier_id:  390 2
+Courier_id:  391 0
+Courier_id:  392 0
+Courier_id:  393 0
+Courier_id:  394 2
+Courier_id:  395 0
+Courier_id:  396 0
+Courier_id:  397 1
+Courier_id:  398 1
+Courier_id:  399 2
+Courier_id:  400 2
+Courier_id:  401 0
+Courier_id:  402 1
+Courier_id:  403 2
+Courier_id:  404 2
+Courier_id:  405 1
+Courier_id:  406 2
+Courier_id:  407 1
+Courier_id:  408 0
+Courier_id:  409 2
+Courier_id:  410 1
+Courier_id:  411 2
+Courier_id:  412 0
+Courier_id:  413 0
+Courier_id:  414 1
+Courier_id:  415 0
+Courier_id:  416 1
+Courier_id:  417 0
+Courier_id:  418 2
+Courier_id:  419 2
+Courier_id:  420 1
+Courier_id:  421 1
+Courier_id:  422 2
+Courier_id:  423 1
+Courier_id:  424 2
+Courier_id:  425 1
+Courier_id:  426 2
+Courier_id:  427 2
+Courier_id:  428 2
+Courier_id:  429 2
+Courier_id:  430 1
+Courier_id:  431 1
+Courier_id:  432 1
+Courier_id:  433 0
+Courier_id:  434 2
+Courier_id:  435 1
+Courier_id:  436 1
+Courier_id:  437 2
+Courier_id:  438 2
+Courier_id:  439 2
+Courier_id:  440 1
+Courier_id:  441 0
+Courier_id:  442 0
+Courier_id:  443 0
+Courier_id:  444 0
+Courier_id:  445 2
+Courier_id:  446 1
+Courier_id:  447 1
+Courier_id:  448 1
+Courier_id:  449 2
+Courier_id:  450 2
+Courier_id:  451 0
+Courier_id:  452 2
+Courier_id:  453 2
+Courier_id:  454 0
+Courier_id:  455 1
+Courier_id:  456 0
+Courier_id:  457 0
+Courier_id:  458 2
+Courier_id:  459 2
+Courier_id:  460 1
+Courier_id:  461 0
+Courier_id:  462 0
+Courier_id:  463 1
+Courier_id:  464 0
+Courier_id:  465 0
+Courier_id:  466 1
+Courier_id:  467 2
+Courier_id:  468 1
+Courier_id:  469 1
+Courier_id:  470 1
+Courier_id:  471 0
+Courier_id:  472 2
+Courier_id:  473 0
+Courier_id:  474 1
+Courier_id:  475 1
+Courier_id:  476 1
+Courier_id:  477 1
+Courier_id:  478 1
+Courier_id:  479 0
+Courier_id:  480 1
+Courier_id:  481 1
+Courier_id:  482 1
+Courier_id:  483 2
+Courier_id:  484 1
+Courier_id:  485 0
+Courier_id:  486 0
+Courier_id:  487 1
+Courier_id:  488 2
+Courier_id:  489 1
+Courier_id:  490 2
+Courier_id:  491 2
+Courier_id:  492 1
+Courier_id:  493 2
+Courier_id:  494 1
+Courier_id:  495 0
+Courier_id:  496 0
+Courier_id:  497 1
+Courier_id:  498 1
+Courier_id:  499 2
+Courier_id:  500 0
+Courier_id:  501 0
+Courier_id:  502 2
+Courier_id:  503 0
+Courier_id:  504 2
+Courier_id:  505 0
+Courier_id:  506 0
+Courier_id:  507 1
+Courier_id:  508 1
+Courier_id:  509 0
+Courier_id:  510 0
+Courier_id:  511 2
+Courier_id:  512 1
+Courier_id:  513 1
+Courier_id:  514 0
+Courier_id:  515 2
+Courier_id:  516 0
+Courier_id:  517 1
+Courier_id:  518 2
+Courier_id:  519 2
+Courier_id:  520 2
+Courier_id:  521 1
+Courier_id:  522 0
+Courier_id:  523 1
+Courier_id:  524 1
+Courier_id:  525 2
+Courier_id:  526 2
+Courier_id:  527 0
+Courier_id:  528 0
+Courier_id:  529 1
+Courier_id:  530 1
+Courier_id:  531 0
+Courier_id:  532 1
+Courier_id:  533 0
+Courier_id:  534 0
+Courier_id:  535 0
+Courier_id:  536 0
+Courier_id:  537 2
+Courier_id:  538 0
+Courier_id:  539 0
+Courier_id:  540 1
+Courier_id:  541 1
+Courier_id:  542 2
+Courier_id:  543 0
+Courier_id:  544 0
+Courier_id:  545 1
+Courier_id:  546 0
+Courier_id:  547 2
+Courier_id:  548 0
+Courier_id:  549 1
+Courier_id:  550 1
+Courier_id:  551 2
+Courier_id:  552 1
+Courier_id:  553 1
+Courier_id:  554 0
+Courier_id:  555 2
+Courier_id:  556 0
+Courier_id:  557 1
+Courier_id:  558 2
+Courier_id:  559 2
+Courier_id:  560 2
+Courier_id:  561 2
+Courier_id:  562 1
+Courier_id:  563 2
+Courier_id:  564 2
+Courier_id:  565 0
+Courier_id:  566 2
+Courier_id:  567 2
+Courier_id:  568 1
+Courier_id:  569 1
+Courier_id:  570 2
+Courier_id:  571 0
+Courier_id:  572 1
+Courier_id:  573 1
+Courier_id:  574 0
+Courier_id:  575 2
+Courier_id:  576 1
+Courier_id:  577 0
+Courier_id:  578 0
+Courier_id:  579 0
+Courier_id:  580 0
+Courier_id:  581 2
+Courier_id:  582 2
+Courier_id:  583 0
+Courier_id:  584 2
+Courier_id:  585 1
+Courier_id:  586 0
+Courier_id:  587 1
+Courier_id:  588 1
+Courier_id:  589 1
+Courier_id:  590 0
+Courier_id:  591 0
+Courier_id:  592 1
+Courier_id:  593 2
+Courier_id:  594 1
+Courier_id:  595 0
+Courier_id:  596 0
+Courier_id:  597 1
+Courier_id:  598 0
+Courier_id:  599 2
+Courier_id:  600 1
+>> 600 Couriers statuses successfully generated
+Restaurant_id:  1 True
+Restaurant_id:  2 False
+Restaurant_id:  3 True
+Restaurant_id:  4 True
+Restaurant_id:  5 True
+Restaurant_id:  6 True
+Restaurant_id:  7 False
+Restaurant_id:  8 False
+Restaurant_id:  9 True
+Restaurant_id:  10 False
+Restaurant_id:  11 False
+Restaurant_id:  12 False
+Restaurant_id:  13 True
+Restaurant_id:  14 True
+Restaurant_id:  15 True
+Restaurant_id:  16 False
+Restaurant_id:  17 False
+Restaurant_id:  18 True
+Restaurant_id:  19 False
+Restaurant_id:  20 True
+Restaurant_id:  21 False
+Restaurant_id:  22 True
+Restaurant_id:  23 False
+Restaurant_id:  24 False
+Restaurant_id:  25 True
+Restaurant_id:  26 True
+Restaurant_id:  27 True
+Restaurant_id:  28 False
+Restaurant_id:  29 False
+Restaurant_id:  30 False
+Restaurant_id:  31 True
+Restaurant_id:  32 True
+Restaurant_id:  33 True
+Restaurant_id:  34 True
+Restaurant_id:  35 False
+Restaurant_id:  36 True
+Restaurant_id:  37 False
+Restaurant_id:  38 False
+Restaurant_id:  39 False
+Restaurant_id:  40 True
+Restaurant_id:  41 False
+Restaurant_id:  42 True
+Restaurant_id:  43 True
+Restaurant_id:  44 True
+Restaurant_id:  45 False
+Restaurant_id:  46 False
+Restaurant_id:  47 True
+Restaurant_id:  48 True
+Restaurant_id:  49 True
+Restaurant_id:  50 True
+Restaurant_id:  51 True
+Restaurant_id:  52 True
+Restaurant_id:  53 True
+Restaurant_id:  54 True
+Restaurant_id:  55 False
+Restaurant_id:  56 False
+Restaurant_id:  57 True
+Restaurant_id:  58 True
+Restaurant_id:  59 False
+Restaurant_id:  60 True
+Restaurant_id:  61 True
+Restaurant_id:  62 True
+Restaurant_id:  63 False
+Restaurant_id:  64 False
+Restaurant_id:  65 False
+Restaurant_id:  66 False
+Restaurant_id:  67 False
+Restaurant_id:  68 False
+Restaurant_id:  69 True
+Restaurant_id:  70 True
+Restaurant_id:  71 False
+Restaurant_id:  72 False
+Restaurant_id:  73 True
+Restaurant_id:  74 True
+Restaurant_id:  75 True
+Restaurant_id:  76 True
+Restaurant_id:  77 False
+Restaurant_id:  78 True
+Restaurant_id:  79 True
+Restaurant_id:  80 False
+>> 80 Restaurant statuses successfully generated
+Customer_id: 1
+--- NEXT ---
+Customer_id: 2
+Courier_id: 275
+Restaurant_id: 52
+Payment_id: 1
+Order_id: 1
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+--- NEXT ---
+Customer_id: 3
+--- NEXT ---
+Customer_id: 4
+--- NEXT ---
+Customer_id: 5
+--- NEXT ---
+Customer_id: 6
+--- NEXT ---
+Customer_id: 7
+--- NEXT ---
+Customer_id: 8
+--- NEXT ---
+Customer_id: 9
+Courier_id: 318
+Restaurant_id: 69
+Payment_id: 2
+Order_id: 2
+Payment_status: pending
+--- NEXT ---
+Customer_id: 10
+--- NEXT ---
+Customer_id: 11
+--- NEXT ---
+Customer_id: 12
+--- NEXT ---
+Customer_id: 13
+--- NEXT ---
+Customer_id: 14
+--- NEXT ---
+Customer_id: 15
+--- NEXT ---
+Customer_id: 16
+--- NEXT ---
+Customer_id: 17
+--- NEXT ---
+Customer_id: 18
+--- NEXT ---
+Customer_id: 19
+Courier_id: 112
+Restaurant_id: 51
+Payment_id: 3
+Order_id: 3
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 20
+Courier_id: 571
+Restaurant_id: 13
+Payment_id: 4
+Order_id: 4
+Payment_status: success
+--- NEXT ---
+Customer_id: 21
+--- NEXT ---
+Customer_id: 22
+--- NEXT ---
+Customer_id: 23
+--- NEXT ---
+Customer_id: 24
+--- NEXT ---
+Customer_id: 25
+--- NEXT ---
+Customer_id: 26
+Courier_id: 44
+Restaurant_id: 52
+Payment_id: 5
+Order_id: 5
+Payment_status: success
+--- NEXT ---
+Customer_id: 27
+Courier_id: 355
+Restaurant_id: 1
+Payment_id: 6
+Order_id: 6
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 28
+--- NEXT ---
+Customer_id: 29
+Courier_id: 544
+Restaurant_id: 44
+Payment_id: 7
+Order_id: 7
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 30
+Courier_id: 238
+Restaurant_id: 44
+Payment_id: 8
+Order_id: 8
+Payment_status: declined
+--- NEXT ---
+Customer_id: 31
+--- NEXT ---
+Customer_id: 32
+Courier_id: 120
+Restaurant_id: 69
+Payment_id: 9
+Order_id: 9
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+--- NEXT ---
+Customer_id: 33
+--- NEXT ---
+Customer_id: 34
+--- NEXT ---
+Customer_id: 35
+--- NEXT ---
+Customer_id: 36
+--- NEXT ---
+Customer_id: 37
+Courier_id: 495
+Restaurant_id: 43
+Payment_id: 10
+Order_id: 10
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 38
+--- NEXT ---
+Customer_id: 39
+Courier_id: 236
+Restaurant_id: 48
+Payment_id: 11
+Order_id: 11
+Payment_status: pending
+--- NEXT ---
+Customer_id: 40
+--- NEXT ---
+Customer_id: 41
+--- NEXT ---
+Customer_id: 42
+--- NEXT ---
+Customer_id: 43
+--- NEXT ---
+Customer_id: 44
+--- NEXT ---
+Customer_id: 45
+Courier_id: 531
+Restaurant_id: 5
+Payment_id: 12
+Order_id: 12
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 46
+--- NEXT ---
+Customer_id: 47
+Courier_id: 316
+Restaurant_id: 73
+Payment_id: 13
+Order_id: 13
+Payment_status: pending
+--- NEXT ---
+Customer_id: 48
+--- NEXT ---
+Customer_id: 49
+--- NEXT ---
+Customer_id: 50
+--- NEXT ---
+Customer_id: 51
+--- NEXT ---
+Customer_id: 52
+--- NEXT ---
+Customer_id: 53
+--- NEXT ---
+Customer_id: 54
+--- NEXT ---
+Customer_id: 55
+--- NEXT ---
+Customer_id: 56
+--- NEXT ---
+Customer_id: 57
+Courier_id: 198
+Restaurant_id: 52
+Payment_id: 14
+Order_id: 14
+Payment_status: success
+--- NEXT ---
+Customer_id: 58
+--- NEXT ---
+Customer_id: 59
+--- NEXT ---
+Customer_id: 60
+Courier_id: 536
+Restaurant_id: 5
+Payment_id: 15
+Order_id: 15
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+--- NEXT ---
+Customer_id: 61
+--- NEXT ---
+Customer_id: 62
+Courier_id: 546
+Restaurant_id: 58
+Payment_id: 16
+Order_id: 16
+Payment_status: success
+--- NEXT ---
+Customer_id: 63
+--- NEXT ---
+Customer_id: 64
+Courier_id: 317
+Restaurant_id: 33
+Payment_id: 17
+Order_id: 17
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 65
+--- NEXT ---
+Customer_id: 66
+--- NEXT ---
+Customer_id: 67
+Courier_id: 61
+Restaurant_id: 27
+Payment_id: 18
+Order_id: 18
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 68
+--- NEXT ---
+Customer_id: 69
+--- NEXT ---
+Customer_id: 70
+--- NEXT ---
+Customer_id: 71
+--- NEXT ---
+Customer_id: 72
+--- NEXT ---
+Customer_id: 73
+--- NEXT ---
+Customer_id: 74
+Courier_id: 222
+Restaurant_id: 49
+Payment_id: 19
+Order_id: 19
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 75
+--- NEXT ---
+Customer_id: 76
+--- NEXT ---
+Customer_id: 77
+Courier_id: 264
+Restaurant_id: 48
+Payment_id: 20
+Order_id: 20
+Payment_status: pending
+--- NEXT ---
+Customer_id: 78
+--- NEXT ---
+Customer_id: 79
+--- NEXT ---
+Customer_id: 80
+Courier_id: 279
+Restaurant_id: 51
+Payment_id: 21
+Order_id: 21
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 81
+--- NEXT ---
+Customer_id: 82
+--- NEXT ---
+Customer_id: 83
+Courier_id: 392
+Restaurant_id: 73
+Payment_id: 22
+Order_id: 22
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 84
+Courier_id: 61
+Restaurant_id: 61
+Payment_id: 23
+Order_id: 23
+Payment_status: declined
+--- NEXT ---
+Customer_id: 85
+Courier_id: 272
+Restaurant_id: 76
+Payment_id: 24
+Order_id: 24
+Payment_status: success
+--- NEXT ---
+Customer_id: 86
+--- NEXT ---
+Customer_id: 87
+--- NEXT ---
+Customer_id: 88
+--- NEXT ---
+Customer_id: 89
+Courier_id: 112
+Restaurant_id: 60
+Payment_id: 25
+Order_id: 25
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 90
+--- NEXT ---
+Customer_id: 91
+--- NEXT ---
+Customer_id: 92
+--- NEXT ---
+Customer_id: 93
+--- NEXT ---
+Customer_id: 94
+--- NEXT ---
+Customer_id: 95
+--- NEXT ---
+Customer_id: 96
+Courier_id: 577
+Restaurant_id: 47
+Payment_id: 26
+Order_id: 26
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 97
+--- NEXT ---
+Customer_id: 98
+--- NEXT ---
+Customer_id: 99
+Courier_id: 180
+Restaurant_id: 49
+Payment_id: 27
+Order_id: 27
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 100
+--- NEXT ---
+Customer_id: 101
+--- NEXT ---
+Customer_id: 102
+--- NEXT ---
+Customer_id: 103
+Courier_id: 157
+Restaurant_id: 9
+Payment_id: 28
+Order_id: 28
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 104
+--- NEXT ---
+Customer_id: 105
+Courier_id: 246
+Restaurant_id: 20
+Payment_id: 29
+Order_id: 29
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 106
+--- NEXT ---
+Customer_id: 107
+Courier_id: 192
+Restaurant_id: 6
+Payment_id: 30
+Order_id: 30
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 108
+--- NEXT ---
+Customer_id: 109
+--- NEXT ---
+Customer_id: 110
+Courier_id: 42
+Restaurant_id: 75
+Payment_id: 31
+Order_id: 31
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 111
+--- NEXT ---
+Customer_id: 112
+--- NEXT ---
+Customer_id: 113
+--- NEXT ---
+Customer_id: 114
+Courier_id: 441
+Restaurant_id: 52
+Payment_id: 32
+Order_id: 32
+Payment_status: pending
+--- NEXT ---
+Customer_id: 115
+--- NEXT ---
+Customer_id: 116
+--- NEXT ---
+Customer_id: 117
+--- NEXT ---
+Customer_id: 118
+Courier_id: 359
+Restaurant_id: 70
+Payment_id: 33
+Order_id: 33
+Payment_status: success
+--- NEXT ---
+Customer_id: 119
+Courier_id: 510
+Restaurant_id: 44
+Payment_id: 34
+Order_id: 34
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 120
+Courier_id: 5
+Restaurant_id: 31
+Payment_id: 35
+Order_id: 35
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 121
+--- NEXT ---
+Customer_id: 122
+--- NEXT ---
+Customer_id: 123
+--- NEXT ---
+Customer_id: 124
+--- NEXT ---
+Customer_id: 125
+--- NEXT ---
+Customer_id: 126
+Courier_id: 548
+Restaurant_id: 52
+Payment_id: 36
+Order_id: 36
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+--- NEXT ---
+Customer_id: 127
+--- NEXT ---
+Customer_id: 128
+--- NEXT ---
+Customer_id: 129
+--- NEXT ---
+Customer_id: 130
+Courier_id: 248
+Restaurant_id: 20
+Payment_id: 37
+Order_id: 37
+Payment_status: pending
+--- NEXT ---
+Customer_id: 131
+--- NEXT ---
+Customer_id: 132
+--- NEXT ---
+Customer_id: 133
+--- NEXT ---
+Customer_id: 134
+--- NEXT ---
+Customer_id: 135
+Courier_id: 296
+Restaurant_id: 52
+Payment_id: 38
+Order_id: 38
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 136
+--- NEXT ---
+Customer_id: 137
+--- NEXT ---
+Customer_id: 138
+Courier_id: 180
+Restaurant_id: 32
+Payment_id: 39
+Order_id: 39
+Payment_status: declined
+--- NEXT ---
+Customer_id: 139
+--- NEXT ---
+Customer_id: 140
+Courier_id: 310
+Restaurant_id: 3
+Payment_id: 40
+Order_id: 40
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 141
+--- NEXT ---
+Customer_id: 142
+--- NEXT ---
+Customer_id: 143
+Courier_id: 364
+Restaurant_id: 5
+Payment_id: 41
+Order_id: 41
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 144
+--- NEXT ---
+Customer_id: 145
+Courier_id: 412
+Restaurant_id: 4
+Payment_id: 42
+Order_id: 42
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 146
+--- NEXT ---
+Customer_id: 147
+Courier_id: 506
+Restaurant_id: 57
+Payment_id: 43
+Order_id: 43
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 148
+--- NEXT ---
+Customer_id: 149
+Courier_id: 166
+Restaurant_id: 34
+Payment_id: 44
+Order_id: 44
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 150
+--- NEXT ---
+Customer_id: 151
+--- NEXT ---
+Customer_id: 152
+--- NEXT ---
+Customer_id: 153
+--- NEXT ---
+Customer_id: 154
+--- NEXT ---
+Customer_id: 155
+--- NEXT ---
+Customer_id: 156
+--- NEXT ---
+Customer_id: 157
+--- NEXT ---
+Customer_id: 158
+Courier_id: 579
+Restaurant_id: 50
+Payment_id: 45
+Order_id: 45
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 159
+Courier_id: 514
+Restaurant_id: 40
+Payment_id: 46
+Order_id: 46
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 160
+--- NEXT ---
+Customer_id: 161
+--- NEXT ---
+Customer_id: 162
+--- NEXT ---
+Customer_id: 163
+--- NEXT ---
+Customer_id: 164
+--- NEXT ---
+Customer_id: 165
+--- NEXT ---
+Customer_id: 166
+--- NEXT ---
+Customer_id: 167
+--- NEXT ---
+Customer_id: 168
+--- NEXT ---
+Customer_id: 169
+--- NEXT ---
+Customer_id: 170
+--- NEXT ---
+Customer_id: 171
+--- NEXT ---
+Customer_id: 172
+--- NEXT ---
+Customer_id: 173
+--- NEXT ---
+Customer_id: 174
+--- NEXT ---
+Customer_id: 175
+--- NEXT ---
+Customer_id: 176
+Courier_id: 74
+Restaurant_id: 4
+Payment_id: 47
+Order_id: 47
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 177
+--- NEXT ---
+Customer_id: 178
+--- NEXT ---
+Customer_id: 179
+Courier_id: 223
+Restaurant_id: 33
+Payment_id: 48
+Order_id: 48
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 180
+--- NEXT ---
+Customer_id: 181
+Courier_id: 543
+Restaurant_id: 22
+Payment_id: 49
+Order_id: 49
+Payment_status: success
+--- NEXT ---
+Customer_id: 182
+--- NEXT ---
+Customer_id: 183
+--- NEXT ---
+Customer_id: 184
+--- NEXT ---
+Customer_id: 185
+--- NEXT ---
+Customer_id: 186
+--- NEXT ---
+Customer_id: 187
+--- NEXT ---
+Customer_id: 188
+Courier_id: 486
+Restaurant_id: 52
+Payment_id: 50
+Order_id: 50
+Payment_status: declined
+--- NEXT ---
+Customer_id: 189
+--- NEXT ---
+Customer_id: 190
+Courier_id: 34
+Restaurant_id: 49
+Payment_id: 51
+Order_id: 51
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 191
+--- NEXT ---
+Customer_id: 192
+--- NEXT ---
+Customer_id: 193
+--- NEXT ---
+Customer_id: 194
+--- NEXT ---
+Customer_id: 195
+Courier_id: 65
+Restaurant_id: 4
+Payment_id: 52
+Order_id: 52
+Payment_status: pending
+--- NEXT ---
+Customer_id: 196
+--- NEXT ---
+Customer_id: 197
+Courier_id: 346
+Restaurant_id: 20
+Payment_id: 53
+Order_id: 53
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 198
+Courier_id: 544
+Restaurant_id: 27
+Payment_id: 54
+Order_id: 54
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 199
+--- NEXT ---
+Customer_id: 200
+--- NEXT ---
+Customer_id: 201
+Courier_id: 346
+Restaurant_id: 61
+Payment_id: 55
+Order_id: 55
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 202
+--- NEXT ---
+Customer_id: 203
+--- NEXT ---
+Customer_id: 204
+Courier_id: 97
+Restaurant_id: 22
+Payment_id: 56
+Order_id: 56
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 205
+--- NEXT ---
+Customer_id: 206
+--- NEXT ---
+Customer_id: 207
+--- NEXT ---
+Customer_id: 208
+--- NEXT ---
+Customer_id: 209
+--- NEXT ---
+Customer_id: 210
+Courier_id: 87
+Restaurant_id: 73
+Payment_id: 57
+Order_id: 57
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 211
+--- NEXT ---
+Customer_id: 212
+Courier_id: 510
+Restaurant_id: 49
+Payment_id: 58
+Order_id: 58
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 213
+Courier_id: 70
+Restaurant_id: 47
+Payment_id: 59
+Order_id: 59
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 214
+--- NEXT ---
+Customer_id: 215
+--- NEXT ---
+Customer_id: 216
+--- NEXT ---
+Customer_id: 217
+--- NEXT ---
+Customer_id: 218
+--- NEXT ---
+Customer_id: 219
+--- NEXT ---
+Customer_id: 220
+--- NEXT ---
+Customer_id: 221
+--- NEXT ---
+Customer_id: 222
+--- NEXT ---
+Customer_id: 223
+Courier_id: 324
+Restaurant_id: 42
+Payment_id: 60
+Order_id: 60
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 224
+--- NEXT ---
+Customer_id: 225
+--- NEXT ---
+Customer_id: 226
+Courier_id: 8
+Restaurant_id: 47
+Payment_id: 61
+Order_id: 61
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 227
+--- NEXT ---
+Customer_id: 228
+--- NEXT ---
+Customer_id: 229
+Courier_id: 384
+Restaurant_id: 74
+Payment_id: 62
+Order_id: 62
+Payment_status: declined
+--- NEXT ---
+Customer_id: 230
+--- NEXT ---
+Customer_id: 231
+Courier_id: 84
+Restaurant_id: 48
+Payment_id: 63
+Order_id: 63
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 232
+--- NEXT ---
+Customer_id: 233
+--- NEXT ---
+Customer_id: 234
+--- NEXT ---
+Customer_id: 235
+--- NEXT ---
+Customer_id: 236
+--- NEXT ---
+Customer_id: 237
+Courier_id: 514
+Restaurant_id: 69
+Payment_id: 64
+Order_id: 64
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 238
+Courier_id: 274
+Restaurant_id: 6
+Payment_id: 65
+Order_id: 65
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 239
+--- NEXT ---
+Customer_id: 240
+--- NEXT ---
+Customer_id: 241
+--- NEXT ---
+Customer_id: 242
+Courier_id: 299
+Restaurant_id: 51
+Payment_id: 66
+Order_id: 66
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 243
+--- NEXT ---
+Customer_id: 244
+--- NEXT ---
+Customer_id: 245
+--- NEXT ---
+Customer_id: 246
+--- NEXT ---
+Customer_id: 247
+--- NEXT ---
+Customer_id: 248
+--- NEXT ---
+Customer_id: 249
+--- NEXT ---
+Customer_id: 250
+Courier_id: 375
+Restaurant_id: 6
+Payment_id: 67
+Order_id: 67
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 251
+--- NEXT ---
+Customer_id: 252
+Courier_id: 181
+Restaurant_id: 58
+Payment_id: 68
+Order_id: 68
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 253
+--- NEXT ---
+Customer_id: 254
+--- NEXT ---
+Customer_id: 255
+Courier_id: 528
+Restaurant_id: 32
+Payment_id: 69
+Order_id: 69
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 256
+Courier_id: 310
+Restaurant_id: 3
+Payment_id: 70
+Order_id: 70
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 257
+--- NEXT ---
+Customer_id: 258
+--- NEXT ---
+Customer_id: 259
+--- NEXT ---
+Customer_id: 260
+--- NEXT ---
+Customer_id: 261
+--- NEXT ---
+Customer_id: 262
+--- NEXT ---
+Customer_id: 263
+Courier_id: 330
+Restaurant_id: 60
+Payment_id: 71
+Order_id: 71
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 264
+--- NEXT ---
+Customer_id: 265
+--- NEXT ---
+Customer_id: 266
+--- NEXT ---
+Customer_id: 267
+Courier_id: 391
+Restaurant_id: 70
+Payment_id: 72
+Order_id: 72
+Payment_status: pending
+--- NEXT ---
+Customer_id: 268
+--- NEXT ---
+Customer_id: 269
+--- NEXT ---
+Customer_id: 270
+Courier_id: 81
+Restaurant_id: 73
+Payment_id: 73
+Order_id: 73
+Payment_status: declined
+--- NEXT ---
+Customer_id: 271
+--- NEXT ---
+Customer_id: 272
+--- NEXT ---
+Customer_id: 273
+--- NEXT ---
+Customer_id: 274
+--- NEXT ---
+Customer_id: 275
+Courier_id: 280
+Restaurant_id: 61
+Payment_id: 74
+Order_id: 74
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 276
+--- NEXT ---
+Customer_id: 277
+--- NEXT ---
+Customer_id: 278
+--- NEXT ---
+Customer_id: 279
+--- NEXT ---
+Customer_id: 280
+--- NEXT ---
+Customer_id: 281
+--- NEXT ---
+Customer_id: 282
+--- NEXT ---
+Customer_id: 283
+Courier_id: 496
+Restaurant_id: 49
+Payment_id: 75
+Order_id: 75
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+--- NEXT ---
+Customer_id: 284
+Courier_id: 223
+Restaurant_id: 26
+Payment_id: 76
+Order_id: 76
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 285
+--- NEXT ---
+Customer_id: 286
+--- NEXT ---
+Customer_id: 287
+--- NEXT ---
+Customer_id: 288
+--- NEXT ---
+Customer_id: 289
+--- NEXT ---
+Customer_id: 290
+--- NEXT ---
+Customer_id: 291
+Courier_id: 505
+Restaurant_id: 14
+Payment_id: 77
+Order_id: 77
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 292
+--- NEXT ---
+Customer_id: 293
+--- NEXT ---
+Customer_id: 294
+--- NEXT ---
+Customer_id: 295
+--- NEXT ---
+Customer_id: 296
+--- NEXT ---
+Customer_id: 297
+--- NEXT ---
+Customer_id: 298
+--- NEXT ---
+Customer_id: 299
+--- NEXT ---
+Customer_id: 300
+--- NEXT ---
+Customer_id: 301
+--- NEXT ---
+Customer_id: 302
+Courier_id: 330
+Restaurant_id: 31
+Payment_id: 78
+Order_id: 78
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 303
+Courier_id: 433
+Restaurant_id: 69
+Payment_id: 79
+Order_id: 79
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 304
+--- NEXT ---
+Customer_id: 305
+--- NEXT ---
+Customer_id: 306
+Courier_id: 66
+Restaurant_id: 3
+Payment_id: 80
+Order_id: 80
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 307
+--- NEXT ---
+Customer_id: 308
+Courier_id: 221
+Restaurant_id: 13
+Payment_id: 81
+Order_id: 81
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 309
+Courier_id: 233
+Restaurant_id: 43
+Payment_id: 82
+Order_id: 82
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 310
+--- NEXT ---
+Customer_id: 311
+Courier_id: 325
+Restaurant_id: 4
+Payment_id: 83
+Order_id: 83
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 312
+--- NEXT ---
+Customer_id: 313
+Courier_id: 294
+Restaurant_id: 15
+Payment_id: 84
+Order_id: 84
+Payment_status: pending
+--- NEXT ---
+Customer_id: 314
+--- NEXT ---
+Customer_id: 315
+--- NEXT ---
+Customer_id: 316
+--- NEXT ---
+Customer_id: 317
+Courier_id: 310
+Restaurant_id: 42
+Payment_id: 85
+Order_id: 85
+Payment_status: success
+--- NEXT ---
+Customer_id: 318
+--- NEXT ---
+Customer_id: 319
+--- NEXT ---
+Customer_id: 320
+--- NEXT ---
+Customer_id: 321
+Courier_id: 5
+Restaurant_id: 73
+Payment_id: 86
+Order_id: 86
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 322
+--- NEXT ---
+Customer_id: 323
+--- NEXT ---
+Customer_id: 324
+Courier_id: 192
+Restaurant_id: 48
+Payment_id: 87
+Order_id: 87
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 325
+--- NEXT ---
+Customer_id: 326
+Courier_id: 377
+Restaurant_id: 31
+Payment_id: 88
+Order_id: 88
+Payment_status: declined
+--- NEXT ---
+Customer_id: 327
+--- NEXT ---
+Customer_id: 328
+--- NEXT ---
+Customer_id: 329
+--- NEXT ---
+Customer_id: 330
+--- NEXT ---
+Customer_id: 331
+Courier_id: 307
+Restaurant_id: 49
+Payment_id: 89
+Order_id: 89
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 332
+Courier_id: 415
+Restaurant_id: 51
+Payment_id: 90
+Order_id: 90
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 333
+--- NEXT ---
+Customer_id: 334
+--- NEXT ---
+Customer_id: 335
+--- NEXT ---
+Customer_id: 336
+Courier_id: 114
+Restaurant_id: 48
+Payment_id: 91
+Order_id: 91
+Payment_status: pending
+--- NEXT ---
+Customer_id: 337
+--- NEXT ---
+Customer_id: 338
+--- NEXT ---
+Customer_id: 339
+--- NEXT ---
+Customer_id: 340
+Courier_id: 335
+Restaurant_id: 22
+Payment_id: 92
+Order_id: 92
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 341
+--- NEXT ---
+Customer_id: 342
+--- NEXT ---
+Customer_id: 343
+--- NEXT ---
+Customer_id: 344
+--- NEXT ---
+Customer_id: 345
+--- NEXT ---
+Customer_id: 346
+Courier_id: 505
+Restaurant_id: 62
+Payment_id: 93
+Order_id: 93
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 347
+--- NEXT ---
+Customer_id: 348
+--- NEXT ---
+Customer_id: 349
+--- NEXT ---
+Customer_id: 350
+--- NEXT ---
+Customer_id: 351
+--- NEXT ---
+Customer_id: 352
+--- NEXT ---
+Customer_id: 353
+--- NEXT ---
+Customer_id: 354
+--- NEXT ---
+Customer_id: 355
+--- NEXT ---
+Customer_id: 356
+--- NEXT ---
+Customer_id: 357
+--- NEXT ---
+Customer_id: 358
+--- NEXT ---
+Customer_id: 359
+Courier_id: 401
+Restaurant_id: 58
+Payment_id: 94
+Order_id: 94
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 360
+--- NEXT ---
+Customer_id: 361
+Courier_id: 473
+Restaurant_id: 33
+Payment_id: 95
+Order_id: 95
+Payment_status: declined
+--- NEXT ---
+Customer_id: 362
+--- NEXT ---
+Customer_id: 363
+--- NEXT ---
+Customer_id: 364
+--- NEXT ---
+Customer_id: 365
+--- NEXT ---
+Customer_id: 366
+--- NEXT ---
+Customer_id: 367
+--- NEXT ---
+Customer_id: 368
+--- NEXT ---
+Customer_id: 369
+--- NEXT ---
+Customer_id: 370
+--- NEXT ---
+Customer_id: 371
+--- NEXT ---
+Customer_id: 372
+Courier_id: 330
+Restaurant_id: 60
+Payment_id: 96
+Order_id: 96
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 373
+Courier_id: 396
+Restaurant_id: 9
+Payment_id: 97
+Order_id: 97
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 374
+--- NEXT ---
+Customer_id: 375
+--- NEXT ---
+Customer_id: 376
+--- NEXT ---
+Customer_id: 377
+Courier_id: 516
+Restaurant_id: 79
+Payment_id: 98
+Order_id: 98
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 378
+Courier_id: 574
+Restaurant_id: 42
+Payment_id: 99
+Order_id: 99
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 379
+--- NEXT ---
+Customer_id: 380
+--- NEXT ---
+Customer_id: 381
+--- NEXT ---
+Customer_id: 382
+--- NEXT ---
+Customer_id: 383
+--- NEXT ---
+Customer_id: 384
+Courier_id: 83
+Restaurant_id: 36
+Payment_id: 100
+Order_id: 100
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 385
+--- NEXT ---
+Customer_id: 386
+--- NEXT ---
+Customer_id: 387
+--- NEXT ---
+Customer_id: 388
+--- NEXT ---
+Customer_id: 389
+--- NEXT ---
+Customer_id: 390
+--- NEXT ---
+Customer_id: 391
+--- NEXT ---
+Customer_id: 392
+--- NEXT ---
+Customer_id: 393
+--- NEXT ---
+Customer_id: 394
+Courier_id: 75
+Restaurant_id: 57
+Payment_id: 101
+Order_id: 101
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 395
+Courier_id: 506
+Restaurant_id: 79
+Payment_id: 102
+Order_id: 102
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 396
+--- NEXT ---
+Customer_id: 397
+Courier_id: 70
+Restaurant_id: 54
+Payment_id: 103
+Order_id: 103
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 398
+--- NEXT ---
+Customer_id: 399
+--- NEXT ---
+Customer_id: 400
+Courier_id: 299
+Restaurant_id: 76
+Payment_id: 104
+Order_id: 104
+Payment_status: pending
+--- NEXT ---
+Customer_id: 401
+--- NEXT ---
+Customer_id: 402
+--- NEXT ---
+Customer_id: 403
+Courier_id: 583
+Restaurant_id: 34
+Payment_id: 105
+Order_id: 105
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 404
+Courier_id: 596
+Restaurant_id: 9
+Payment_id: 106
+Order_id: 106
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 405
+--- NEXT ---
+Customer_id: 406
+--- NEXT ---
+Customer_id: 407
+Courier_id: 231
+Restaurant_id: 33
+Payment_id: 107
+Order_id: 107
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 408
+Courier_id: 224
+Restaurant_id: 20
+Payment_id: 108
+Order_id: 108
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 409
+--- NEXT ---
+Customer_id: 410
+--- NEXT ---
+Customer_id: 411
+--- NEXT ---
+Customer_id: 412
+--- NEXT ---
+Customer_id: 413
+--- NEXT ---
+Customer_id: 414
+--- NEXT ---
+Customer_id: 415
+--- NEXT ---
+Customer_id: 416
+Courier_id: 34
+Restaurant_id: 22
+Payment_id: 109
+Order_id: 109
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 417
+--- NEXT ---
+Customer_id: 418
+--- NEXT ---
+Customer_id: 419
+--- NEXT ---
+Customer_id: 420
+--- NEXT ---
+Customer_id: 421
+--- NEXT ---
+Customer_id: 422
+Courier_id: 495
+Restaurant_id: 36
+Payment_id: 110
+Order_id: 110
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 423
+Courier_id: 210
+Restaurant_id: 69
+Payment_id: 111
+Order_id: 111
+Payment_status: pending
+--- NEXT ---
+Customer_id: 424
+--- NEXT ---
+Customer_id: 425
+--- NEXT ---
+Customer_id: 426
+--- NEXT ---
+Customer_id: 427
+--- NEXT ---
+Customer_id: 428
+--- NEXT ---
+Customer_id: 429
+Courier_id: 539
+Restaurant_id: 27
+Payment_id: 112
+Order_id: 112
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 430
+--- NEXT ---
+Customer_id: 431
+--- NEXT ---
+Customer_id: 432
+Courier_id: 590
+Restaurant_id: 50
+Payment_id: 113
+Order_id: 113
+Payment_status: declined
+--- NEXT ---
+Customer_id: 433
+Courier_id: 325
+Restaurant_id: 70
+Payment_id: 114
+Order_id: 114
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 434
+--- NEXT ---
+Customer_id: 435
+--- NEXT ---
+Customer_id: 436
+Courier_id: 75
+Restaurant_id: 76
+Payment_id: 115
+Order_id: 115
+Payment_status: pending
+--- NEXT ---
+Customer_id: 437
+--- NEXT ---
+Customer_id: 438
+--- NEXT ---
+Customer_id: 439
+--- NEXT ---
+Customer_id: 440
+Courier_id: 456
+Restaurant_id: 32
+Payment_id: 116
+Order_id: 116
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 441
+--- NEXT ---
+Customer_id: 442
+--- NEXT ---
+Customer_id: 443
+--- NEXT ---
+Customer_id: 444
+--- NEXT ---
+Customer_id: 445
+--- NEXT ---
+Customer_id: 446
+--- NEXT ---
+Customer_id: 447
+Courier_id: 596
+Restaurant_id: 61
+Payment_id: 117
+Order_id: 117
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Customer_id: 448
+--- NEXT ---
+Customer_id: 449
+--- NEXT ---
+Customer_id: 450
+Courier_id: 22
+Restaurant_id: 49
+Payment_id: 118
+Order_id: 118
+Payment_status: success
+Courier_status: delivering
+Order_status: delivering
+Courier_status: waiting
+Courier_status: delivered
+--- NEXT ---
+Done
+
+Process finished with exit code 0
