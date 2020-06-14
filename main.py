@@ -1,3 +1,5 @@
+import addict
+
 import database
 from pymongo import MongoClient
 import config
@@ -19,23 +21,33 @@ if __name__ == '__main__':
 
     print('Started')
 
+    entities_amount = addict.Dict({
+        'customers': 450,
+        'couriers': 600,
+        'restaurants': 80,
+        'meals': 320
+    })
+
     # Generating customers
-    functions.generate_customers(db=db, n=450)
+    functions.generate_customers(db=db, n=entities_amount.customers)
 
     # Generating couriers
-    functions.generate_couriers(db=db, n=600)
+    functions.generate_couriers(db=db, n=entities_amount.couriers)
 
     # Generating restaurants
-    functions.generate_restaurants(db=db, n=80)
+    functions.generate_restaurants(db=db, n=entities_amount.restaurants)
 
     # Generating meals and products
-    functions.generate_meals_and_products(db=db, n=320)
+    functions.generate_meals_and_products(db=db, n=entities_amount.meals)
 
     # Add meals to restaurant
-    functions.connect_meals_and_restaurants(db=db, restaurants_n=80)
+    functions.connect_meals_and_restaurants(db=db, restaurants_n=entities_amount.restaurants)
 
     # Set random states for couriers
-    functions.set_random_statuses_for_couriers(db=db, n=600)
+    functions.set_random_statuses_for_couriers(db=db, n=entities_amount.couriers)
+
+    # Set random states for couriers
+    functions.set_random_statuses_for_restaurants(db=db, n=entities_amount.restaurants)
 
     # Generating orders
 
@@ -50,14 +62,14 @@ if __name__ == '__main__':
                         position_id=db.get_customer_position_id(customer_id=customer_id).position_id
                     )
                 )
-                restaurant_id = random.randint(1, db.restaurants_amount()+1)
+                restaurant_id = random.choice(db.get_open_restaurants())['_id']
 
                 print('Courier_id:', courier_id)
                 print('Restaurant_id:', restaurant_id)
 
                 # Check for meals availability new_order
                 payment_id = db.new_payment(
-                                method=random.choice(list(content.payment_methods.keys())),
+                                method=content.payment_methods[random.choice(list(content.payment_methods.keys()))],
                                 amount=random.randint(5, 10)*100
                             )
                 print('Payment_id:', payment_id)
@@ -118,10 +130,7 @@ if __name__ == '__main__':
         except Exception:
             print('>> Exception')
 
-    # Creating indexes
-    functions.set_indexes(db=db)
-
-    # Checking query execution time after adding indexes
+    # Checking query execution time before adding indexes
     customer_id = 5
     print(content.execution_time_test_text.format(
         customer_id=customer_id,
@@ -129,6 +138,23 @@ if __name__ == '__main__':
         phone_number=db.get_customer_phone_number(customer_id=customer_id),
         position_id=db.get_customer_position_id(customer_id=customer_id)
     ))
+
+    print('>> Before adding indexes')
+
+    start_time = time.time()
+    courier_id = db.get_nearest_free_courier(
+        customer_position_info=db.get_position_info(
+            position_id=db.get_customer_position_id(customer_id=5).position_id
+        )
+    )
+    print('Query execution time: {speed} s'.format(speed=time.time()-start_time))
+
+    # Creating indexes
+    functions.set_indexes(db=db)
+
+    # Checking query execution time after adding indexes
+
+    print('>> After adding indexes')
 
     start_time = time.time()
     courier_id = db.get_nearest_free_courier(

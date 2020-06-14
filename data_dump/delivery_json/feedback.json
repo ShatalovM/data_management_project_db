@@ -1,880 +1,830 @@
 { 
     "_id" : NumberInt(1), 
-    "customer_id" : NumberInt(1), 
-    "courier_id" : NumberInt(267), 
-    "order_id" : NumberInt(1), 
-    "restaurant_id" : NumberInt(71), 
-    "text" : "Картошка-фри как всегда ❤️ В заказ не доложили соус!", 
-    "rating" : 2.4, 
-    "timestamp" : ISODate("2020-06-13T20:57:01.182+0000")
+    "customer_id" : NumberInt(19), 
+    "courier_id" : NumberInt(112), 
+    "order_id" : NumberInt(3), 
+    "restaurant_id" : NumberInt(51), 
+    "text" : "Я бы оставила больше на карте не было приборов и салфеток.", 
+    "rating" : 3.5, 
+    "timestamp" : ISODate("2020-06-14T17:24:24.695+0000")
 }
 { 
     "_id" : NumberInt(2), 
-    "customer_id" : NumberInt(2), 
-    "courier_id" : NumberInt(515), 
-    "order_id" : NumberInt(2), 
-    "restaurant_id" : NumberInt(4), 
-    "text" : "Спасибо большое ☺️ Курьер очень быстро доставил заказ.", 
-    "rating" : 2.7, 
-    "timestamp" : ISODate("2020-06-13T20:57:18.586+0000")
+    "customer_id" : NumberInt(27), 
+    "courier_id" : NumberInt(355), 
+    "order_id" : NumberInt(6), 
+    "restaurant_id" : NumberInt(1), 
+    "text" : "Все как всегда вкусно.", 
+    "rating" : 4.1, 
+    "timestamp" : ISODate("2020-06-14T17:25:12.738+0000")
 }
 { 
     "_id" : NumberInt(3), 
-    "customer_id" : NumberInt(3), 
-    "courier_id" : NumberInt(579), 
-    "order_id" : NumberInt(3), 
-    "restaurant_id" : NumberInt(14), 
-    "text" : "Чизкейк был замороженный, невозможно было есть Все было горячим и вкусным!", 
-    "rating" : 0.6, 
-    "timestamp" : ISODate("2020-06-13T20:57:35.728+0000")
+    "customer_id" : NumberInt(29), 
+    "courier_id" : NumberInt(544), 
+    "order_id" : NumberInt(7), 
+    "restaurant_id" : NumberInt(44), 
+    "text" : "Спасибо курьеру Марату за быструю доставку и вкусную еду😊 Все доставлено быстро и вкусно Должны были положить роял, но его в полученном заказе не было.", 
+    "rating" : 0.5, 
+    "timestamp" : ISODate("2020-06-14T17:25:29.330+0000")
 }
 { 
     "_id" : NumberInt(4), 
-    "customer_id" : NumberInt(9), 
-    "courier_id" : NumberInt(205), 
-    "order_id" : NumberInt(4), 
-    "restaurant_id" : NumberInt(62), 
-    "text" : "в моем заказе отсутствует картофель фри были тёплыми и очень быстро доставил заказ.", 
-    "rating" : 1.3, 
-    "timestamp" : ISODate("2020-06-13T20:57:52.874+0000")
+    "customer_id" : NumberInt(37), 
+    "courier_id" : NumberInt(495), 
+    "order_id" : NumberInt(10), 
+    "restaurant_id" : NumberInt(43), 
+    "text" : "Хорошо все, спасибо не положили картошку фри и остальное без них, вырвать бы руки за такое.", 
+    "rating" : 2.8, 
+    "timestamp" : ISODate("2020-06-14T17:26:17.840+0000")
 }
 { 
     "_id" : NumberInt(5), 
-    "customer_id" : NumberInt(13), 
-    "courier_id" : NumberInt(15), 
-    "order_id" : NumberInt(5), 
-    "restaurant_id" : NumberInt(25), 
-    "text" : "Всё отлично Очень быстро доставили, все горячее, спасибо!", 
-    "rating" : 1.2, 
-    "timestamp" : ISODate("2020-06-13T20:58:10.437+0000")
+    "customer_id" : NumberInt(45), 
+    "courier_id" : NumberInt(531), 
+    "order_id" : NumberInt(12), 
+    "restaurant_id" : NumberInt(5), 
+    "text" : "Все было вкусно, но не положили трубочки к напиткам Отлично Не положили ни одного соуса, хотя заказаны и оплачены 3 соуса!", 
+    "rating" : 2.1, 
+    "timestamp" : ISODate("2020-06-14T17:26:49.745+0000")
 }
 { 
     "_id" : NumberInt(6), 
-    "customer_id" : NumberInt(18), 
-    "courier_id" : NumberInt(174), 
-    "order_id" : NumberInt(7), 
-    "restaurant_id" : NumberInt(41), 
-    "text" : "А написали бесплатно в заказе отсутствовал 1 биг мак не положили большую кортошку фри В чикен премьер отсутствовал бекон, а так все супер.", 
-    "rating" : 3.9, 
-    "timestamp" : ISODate("2020-06-13T20:58:44.204+0000")
+    "customer_id" : NumberInt(64), 
+    "courier_id" : NumberInt(317), 
+    "order_id" : NumberInt(17), 
+    "restaurant_id" : NumberInt(33), 
+    "text" : "Всё супер Сойдёт Все отлично, вкусно, быстро.", 
+    "rating" : 4.5, 
+    "timestamp" : ISODate("2020-06-14T17:28:11.705+0000")
 }
 { 
     "_id" : NumberInt(7), 
-    "customer_id" : NumberInt(23), 
-    "courier_id" : NumberInt(515), 
-    "order_id" : NumberInt(8), 
-    "restaurant_id" : NumberInt(79), 
-    "text" : "курьер пришел быстро и вкусно!", 
-    "rating" : 0.6, 
-    "timestamp" : ISODate("2020-06-13T20:59:01.524+0000")
+    "customer_id" : NumberInt(67), 
+    "courier_id" : NumberInt(61), 
+    "order_id" : NumberInt(18), 
+    "restaurant_id" : NumberInt(27), 
+    "text" : "В подробностях не буду, но это уже не в полном объёме Курьер красавчик, все доставил в соответствии с заявленным временем.", 
+    "rating" : 4.6, 
+    "timestamp" : ISODate("2020-06-14T17:28:28.052+0000")
 }
 { 
     "_id" : NumberInt(8), 
-    "customer_id" : NumberInt(29), 
-    "courier_id" : NumberInt(483), 
-    "order_id" : NumberInt(9), 
-    "restaurant_id" : NumberInt(48), 
-    "text" : "Мальчик курьер молодец, быстро привёз , в заказе было 2 биг мака, доставили только 1.", 
-    "rating" : 4.0, 
-    "timestamp" : ISODate("2020-06-13T20:59:19.215+0000")
+    "customer_id" : NumberInt(74), 
+    "courier_id" : NumberInt(222), 
+    "order_id" : NumberInt(19), 
+    "restaurant_id" : NumberInt(49), 
+    "text" : "Спасибо курьеру за быструю доставку и вкусную еду😊 Все доставлено быстро и был вежлив.", 
+    "rating" : 1.4, 
+    "timestamp" : ISODate("2020-06-14T17:28:44.852+0000")
 }
 { 
     "_id" : NumberInt(9), 
-    "customer_id" : NumberInt(31), 
-    "courier_id" : NumberInt(217), 
-    "order_id" : NumberInt(10), 
-    "restaurant_id" : NumberInt(45), 
-    "text" : null, 
-    "rating" : 4.5, 
-    "timestamp" : ISODate("2020-06-13T20:59:37.657+0000")
+    "customer_id" : NumberInt(80), 
+    "courier_id" : NumberInt(279), 
+    "order_id" : NumberInt(21), 
+    "restaurant_id" : NumberInt(51), 
+    "text" : "Все вкусно, но не было трубочек для напитков.", 
+    "rating" : 4.6, 
+    "timestamp" : ISODate("2020-06-14T17:29:16.410+0000")
 }
 { 
     "_id" : NumberInt(10), 
-    "customer_id" : NumberInt(44), 
-    "courier_id" : NumberInt(19), 
-    "order_id" : NumberInt(12), 
-    "restaurant_id" : NumberInt(24), 
-    "text" : "ресторан не доложил одну позицию- стакан с колой Курьер доставил в целости и сохранности.", 
-    "rating" : 2.3, 
-    "timestamp" : ISODate("2020-06-13T21:00:31.515+0000")
+    "customer_id" : NumberInt(83), 
+    "courier_id" : NumberInt(392), 
+    "order_id" : NumberInt(22), 
+    "restaurant_id" : NumberInt(73), 
+    "text" : "Заказ собран правильно, курьер вежливый.", 
+    "rating" : 3.1, 
+    "timestamp" : ISODate("2020-06-14T17:29:31.293+0000")
 }
 { 
     "_id" : NumberInt(11), 
-    "customer_id" : NumberInt(45), 
-    "courier_id" : NumberInt(530), 
-    "order_id" : NumberInt(13), 
-    "restaurant_id" : NumberInt(28), 
-    "text" : "Все как всегда топчик.", 
-    "rating" : 2.6, 
-    "timestamp" : ISODate("2020-06-13T21:00:51.498+0000")
+    "customer_id" : NumberInt(89), 
+    "courier_id" : NumberInt(112), 
+    "order_id" : NumberInt(25), 
+    "restaurant_id" : NumberInt(60), 
+    "text" : "А так все в норме Во-первых, в заказе все было вкусное и горячее.", 
+    "rating" : 3.3, 
+    "timestamp" : ISODate("2020-06-14T17:30:16.883+0000")
 }
 { 
     "_id" : NumberInt(12), 
-    "customer_id" : NumberInt(48), 
-    "courier_id" : NumberInt(286), 
-    "order_id" : NumberInt(14), 
-    "restaurant_id" : NumberInt(25), 
-    "text" : "Заказ был доставлен не весь заказ привезли намного раньше, через 15 минут.", 
-    "rating" : 1.4, 
-    "timestamp" : ISODate("2020-06-13T21:01:10.838+0000")
+    "customer_id" : NumberInt(96), 
+    "courier_id" : NumberInt(577), 
+    "order_id" : NumberInt(26), 
+    "restaurant_id" : NumberInt(47), 
+    "text" : "в биг маке не было трубочек для напитков.", 
+    "rating" : 1.9, 
+    "timestamp" : ISODate("2020-06-14T17:30:32.204+0000")
 }
 { 
     "_id" : NumberInt(13), 
-    "customer_id" : NumberInt(49), 
-    "courier_id" : NumberInt(532), 
-    "order_id" : NumberInt(15), 
-    "restaurant_id" : NumberInt(24), 
-    "text" : "2й раз и второй раз не знали о чаевых.", 
-    "rating" : 2.0, 
-    "timestamp" : ISODate("2020-06-13T21:01:28.518+0000")
+    "customer_id" : NumberInt(99), 
+    "courier_id" : NumberInt(180), 
+    "order_id" : NumberInt(27), 
+    "restaurant_id" : NumberInt(49), 
+    "text" : "соус вместо Северного был горчичный Качественное обслуживание 👍 спасибо большое ! курьер была очень внимательна и мила, спасибо ей большое!", 
+    "rating" : 4.2, 
+    "timestamp" : ISODate("2020-06-14T17:30:47.469+0000")
 }
 { 
     "_id" : NumberInt(14), 
-    "customer_id" : NumberInt(50), 
-    "courier_id" : NumberInt(577), 
-    "order_id" : NumberInt(16), 
-    "restaurant_id" : NumberInt(31), 
-    "text" : "в биг маке не было МакФлури Всё супер!Спасибо!", 
-    "rating" : 3.3, 
-    "timestamp" : ISODate("2020-06-13T21:01:45.998+0000")
+    "customer_id" : NumberInt(103), 
+    "courier_id" : NumberInt(157), 
+    "order_id" : NumberInt(28), 
+    "restaurant_id" : NumberInt(9), 
+    "text" : "Все как всегда топчик.", 
+    "rating" : 4.4, 
+    "timestamp" : ISODate("2020-06-14T17:31:04.250+0000")
 }
 { 
     "_id" : NumberInt(15), 
-    "customer_id" : NumberInt(52), 
-    "courier_id" : NumberInt(291), 
-    "order_id" : NumberInt(17), 
-    "restaurant_id" : NumberInt(60), 
-    "text" : "Заказ собран правильно, курьер вежливый.", 
-    "rating" : 1.1, 
-    "timestamp" : ISODate("2020-06-13T21:02:03.508+0000")
+    "customer_id" : NumberInt(105), 
+    "courier_id" : NumberInt(246), 
+    "order_id" : NumberInt(29), 
+    "restaurant_id" : NumberInt(20), 
+    "text" : "Все как всегда вкусно.", 
+    "rating" : 4.2, 
+    "timestamp" : ISODate("2020-06-14T17:31:19.186+0000")
 }
 { 
     "_id" : NumberInt(16), 
-    "customer_id" : NumberInt(55), 
-    "courier_id" : NumberInt(281), 
-    "order_id" : NumberInt(18), 
-    "restaurant_id" : NumberInt(41), 
-    "text" : "Вежливая и быстрая доставка.", 
-    "rating" : 1.2, 
-    "timestamp" : ISODate("2020-06-13T21:02:20.410+0000")
+    "customer_id" : NumberInt(107), 
+    "courier_id" : NumberInt(192), 
+    "order_id" : NumberInt(30), 
+    "restaurant_id" : NumberInt(6), 
+    "text" : "курьер пришел быстро и вкусно!", 
+    "rating" : 2.9, 
+    "timestamp" : ISODate("2020-06-14T17:31:34.955+0000")
 }
 { 
     "_id" : NumberInt(17), 
-    "customer_id" : NumberInt(60), 
-    "courier_id" : NumberInt(31), 
-    "order_id" : NumberInt(19), 
-    "restaurant_id" : NumberInt(48), 
-    "text" : "Все как всегда вкусно.", 
-    "rating" : 4.3, 
-    "timestamp" : ISODate("2020-06-13T21:02:37.861+0000")
+    "customer_id" : NumberInt(110), 
+    "courier_id" : NumberInt(42), 
+    "order_id" : NumberInt(31), 
+    "restaurant_id" : NumberInt(75), 
+    "text" : "Картошка-фри как всегда на высоте.", 
+    "rating" : 2.0, 
+    "timestamp" : ISODate("2020-06-14T17:31:50.942+0000")
 }
 { 
     "_id" : NumberInt(18), 
-    "customer_id" : NumberInt(61), 
-    "courier_id" : NumberInt(233), 
-    "order_id" : NumberInt(20), 
-    "restaurant_id" : NumberInt(45), 
-    "text" : "Спасибо курьеру за быструю и безопасную доставку!", 
-    "rating" : 2.2, 
-    "timestamp" : ISODate("2020-06-13T21:02:55.239+0000")
+    "customer_id" : NumberInt(119), 
+    "courier_id" : NumberInt(510), 
+    "order_id" : NumberInt(34), 
+    "restaurant_id" : NumberInt(44), 
+    "text" : "2й раз и второй раз не знали о чаевых.", 
+    "rating" : 3.4, 
+    "timestamp" : ISODate("2020-06-14T17:32:40.315+0000")
 }
 { 
     "_id" : NumberInt(19), 
-    "customer_id" : NumberInt(64), 
-    "courier_id" : NumberInt(231), 
-    "order_id" : NumberInt(22), 
-    "restaurant_id" : NumberInt(21), 
-    "text" : "ресторан не доложил одну позицию- стакан с колой Курьер доставил в соответствии с заказом.", 
-    "rating" : 3.0, 
-    "timestamp" : ISODate("2020-06-13T21:03:28.632+0000")
+    "customer_id" : NumberInt(120), 
+    "courier_id" : NumberInt(5), 
+    "order_id" : NumberInt(35), 
+    "restaurant_id" : NumberInt(31), 
+    "text" : "Чай липтон не привезли Все отлично, привезли быстро.", 
+    "rating" : 1.9, 
+    "timestamp" : ISODate("2020-06-14T17:32:57.080+0000")
 }
 { 
     "_id" : NumberInt(20), 
-    "customer_id" : NumberInt(66), 
-    "courier_id" : NumberInt(133), 
-    "order_id" : NumberInt(23), 
-    "restaurant_id" : NumberInt(45), 
-    "text" : "Не довольны До меня не весь заказ привезли намного раньше, через 15 минут.", 
-    "rating" : 3.7, 
-    "timestamp" : ISODate("2020-06-13T21:03:46.595+0000")
+    "customer_id" : NumberInt(135), 
+    "courier_id" : NumberInt(296), 
+    "order_id" : NumberInt(38), 
+    "restaurant_id" : NumberInt(52), 
+    "text" : "Заказ был доставлен очень быстро, курьер доброжелательный, всё очень понравилось!", 
+    "rating" : 3.6, 
+    "timestamp" : ISODate("2020-06-14T17:33:42.759+0000")
 }
 { 
     "_id" : NumberInt(21), 
-    "customer_id" : NumberInt(73), 
-    "courier_id" : NumberInt(487), 
-    "order_id" : NumberInt(24), 
-    "restaurant_id" : NumberInt(37), 
-    "text" : "Очень быстро и качественно.Всегда всё вкусно Курьер милый, хорошего ему дня.", 
-    "rating" : 3.5, 
-    "timestamp" : ISODate("2020-06-13T21:04:05.119+0000")
+    "customer_id" : NumberInt(140), 
+    "courier_id" : NumberInt(310), 
+    "order_id" : NumberInt(40), 
+    "restaurant_id" : NumberInt(3), 
+    "text" : "А так все хорошо . Всё норм Все отлично, еда вкусная не положили 1 макфлури ...", 
+    "rating" : 4.2, 
+    "timestamp" : ISODate("2020-06-14T17:34:14.398+0000")
 }
 { 
     "_id" : NumberInt(22), 
-    "customer_id" : NumberInt(74), 
-    "courier_id" : NumberInt(136), 
-    "order_id" : NumberInt(25), 
-    "restaurant_id" : NumberInt(44), 
-    "text" : "Спасибо курьеру Марату за быструю доставку и вкусную еду😊 Все доставлено быстро и был вежлив.", 
-    "rating" : 0.8, 
-    "timestamp" : ISODate("2020-06-13T21:04:22.631+0000")
+    "customer_id" : NumberInt(143), 
+    "courier_id" : NumberInt(364), 
+    "order_id" : NumberInt(41), 
+    "restaurant_id" : NumberInt(5), 
+    "text" : "доставка чётко,вкусно горячо, мак в лучшем виде Не положили салфеток и трубочку!", 
+    "rating" : 0.7, 
+    "timestamp" : ISODate("2020-06-14T17:34:31.021+0000")
 }
 { 
     "_id" : NumberInt(23), 
-    "customer_id" : NumberInt(79), 
-    "courier_id" : NumberInt(491), 
-    "order_id" : NumberInt(26), 
-    "restaurant_id" : NumberInt(7), 
-    "text" : "Не довольны До меня не весь Вместо сырного соуса мне привезли кисло-сладкий.", 
-    "rating" : 2.1, 
-    "timestamp" : ISODate("2020-06-13T21:04:39.998+0000")
+    "customer_id" : NumberInt(145), 
+    "courier_id" : NumberInt(412), 
+    "order_id" : NumberInt(42), 
+    "restaurant_id" : NumberInt(4), 
+    "text" : "заказываю очень часто, но в большой упаковке.", 
+    "rating" : 1.7, 
+    "timestamp" : ISODate("2020-06-14T17:34:46.235+0000")
 }
 { 
     "_id" : NumberInt(24), 
-    "customer_id" : NumberInt(81), 
-    "courier_id" : NumberInt(133), 
-    "order_id" : NumberInt(27), 
-    "restaurant_id" : NumberInt(25), 
-    "text" : "Заказ был на 4 картошки мне привезли не в первый раз.", 
-    "rating" : 1.0, 
-    "timestamp" : ISODate("2020-06-13T21:04:57.423+0000")
+    "customer_id" : NumberInt(147), 
+    "courier_id" : NumberInt(506), 
+    "order_id" : NumberInt(43), 
+    "restaurant_id" : NumberInt(57), 
+    "text" : "Спасибо курьеру Марату за быструю доставку Вместо 2 соусов положили 1 макфлури ...", 
+    "rating" : 3.1, 
+    "timestamp" : ISODate("2020-06-14T17:35:01.213+0000")
 }
 { 
     "_id" : NumberInt(25), 
-    "customer_id" : NumberInt(93), 
-    "courier_id" : NumberInt(148), 
-    "order_id" : NumberInt(30), 
-    "restaurant_id" : NumberInt(54), 
-    "text" : "Мак Все было вкусно, но не было приборов и салфеток.", 
-    "rating" : 0.8, 
-    "timestamp" : ISODate("2020-06-13T21:05:50.627+0000")
+    "customer_id" : NumberInt(149), 
+    "courier_id" : NumberInt(166), 
+    "order_id" : NumberInt(44), 
+    "restaurant_id" : NumberInt(34), 
+    "text" : "Спасибо курьеру Марату за быструю доставку заказа.", 
+    "rating" : 3.7, 
+    "timestamp" : ISODate("2020-06-14T17:35:17.034+0000")
 }
 { 
     "_id" : NumberInt(26), 
-    "customer_id" : NumberInt(97), 
-    "courier_id" : NumberInt(113), 
-    "order_id" : NumberInt(31), 
-    "restaurant_id" : NumberInt(15), 
-    "text" : "Всё супер Сойдёт Все отлично, еда вкусная не положили игрушку в хепи мил Котлета была недожаренная в бигтейсти.", 
-    "rating" : 3.3, 
-    "timestamp" : ISODate("2020-06-13T21:06:08.232+0000")
+    "customer_id" : NumberInt(158), 
+    "courier_id" : NumberInt(579), 
+    "order_id" : NumberInt(45), 
+    "restaurant_id" : NumberInt(50), 
+    "text" : "Картошка сухая, а нагетсы слишком перченые В заказе был напиток кола как вода , вылили в итоге Добрый день.", 
+    "rating" : 1.2, 
+    "timestamp" : ISODate("2020-06-14T17:35:32.675+0000")
 }
 { 
     "_id" : NumberInt(27), 
-    "customer_id" : NumberInt(98), 
-    "courier_id" : NumberInt(38), 
-    "order_id" : NumberInt(32), 
-    "restaurant_id" : NumberInt(54), 
+    "customer_id" : NumberInt(159), 
+    "courier_id" : NumberInt(514), 
+    "order_id" : NumberInt(46), 
+    "restaurant_id" : NumberInt(40), 
     "text" : "2й раз и второй раз не знали о чаевых.", 
-    "rating" : 4.6, 
-    "timestamp" : ISODate("2020-06-13T21:06:25.627+0000")
+    "rating" : 3.2, 
+    "timestamp" : ISODate("2020-06-14T17:35:47.789+0000")
 }
 { 
     "_id" : NumberInt(28), 
-    "customer_id" : NumberInt(104), 
-    "courier_id" : NumberInt(133), 
-    "order_id" : NumberInt(33), 
-    "restaurant_id" : NumberInt(42), 
-    "text" : "соус вместо Северного был горчичный Качественное обслуживание 👍 спасибо большое ! курьер была очень внимательна и мила, спасибо ей большое!", 
-    "rating" : 2.6, 
-    "timestamp" : ISODate("2020-06-13T21:06:42.468+0000")
+    "customer_id" : NumberInt(176), 
+    "courier_id" : NumberInt(74), 
+    "order_id" : NumberInt(47), 
+    "restaurant_id" : NumberInt(4), 
+    "text" : "🖐🖐🖐🖐🖐🖐5 балоов В чеке заказан соус в заказ не доложили одну позицию чикен макнаггетс 6 шт Были недолит коктейли.", 
+    "rating" : 3.5, 
+    "timestamp" : ISODate("2020-06-14T17:36:03.089+0000")
 }
 { 
     "_id" : NumberInt(29), 
-    "customer_id" : NumberInt(117), 
-    "courier_id" : NumberInt(453), 
-    "order_id" : NumberInt(36), 
-    "restaurant_id" : NumberInt(18), 
-    "text" : "Макдоналдс на Курчатова-Вы лучшие!!! К каше не положили чикен макнаггетс 6 шт Были недолит коктейли.", 
-    "rating" : 4.6, 
-    "timestamp" : ISODate("2020-06-13T21:07:33.043+0000")
+    "customer_id" : NumberInt(179), 
+    "courier_id" : NumberInt(223), 
+    "order_id" : NumberInt(48), 
+    "restaurant_id" : NumberInt(33), 
+    "text" : "А так все в лучшем исполнении,актуально семь ветров Опять не положили 1 макфлури ...", 
+    "rating" : 0.7, 
+    "timestamp" : ISODate("2020-06-14T17:36:19.514+0000")
 }
 { 
     "_id" : NumberInt(30), 
-    "customer_id" : NumberInt(130), 
-    "courier_id" : NumberInt(28), 
-    "order_id" : NumberInt(38), 
-    "restaurant_id" : NumberInt(39), 
-    "text" : "Все отлично, спасибо все было очень вкусно и курьер доставил всё быстро!", 
-    "rating" : 2.4, 
-    "timestamp" : ISODate("2020-06-13T21:08:06.956+0000")
+    "customer_id" : NumberInt(190), 
+    "courier_id" : NumberInt(34), 
+    "order_id" : NumberInt(51), 
+    "restaurant_id" : NumberInt(49), 
+    "text" : "Вежливый и в маске и перчатках, заказ был доставлен максимально быстро, все ещё горячее.", 
+    "rating" : 2.8, 
+    "timestamp" : ISODate("2020-06-14T17:37:06.848+0000")
 }
 { 
     "_id" : NumberInt(31), 
-    "customer_id" : NumberInt(131), 
-    "courier_id" : NumberInt(373), 
-    "order_id" : NumberInt(39), 
-    "restaurant_id" : NumberInt(71), 
-    "text" : "Быстро и вкусно!!! Спасибо за такую отличную работу!", 
-    "rating" : 1.2, 
-    "timestamp" : ISODate("2020-06-13T21:08:24.179+0000")
+    "customer_id" : NumberInt(197), 
+    "courier_id" : NumberInt(346), 
+    "order_id" : NumberInt(53), 
+    "restaurant_id" : NumberInt(20), 
+    "text" : "Отлично спасибо, быстро, горячо и вкусно Биг тейсти был не острый.", 
+    "rating" : 2.6, 
+    "timestamp" : ISODate("2020-06-14T17:37:38.754+0000")
 }
 { 
     "_id" : NumberInt(32), 
-    "customer_id" : NumberInt(133), 
-    "courier_id" : NumberInt(133), 
-    "order_id" : NumberInt(40), 
-    "restaurant_id" : NumberInt(41), 
-    "text" : "спасибо Не привезли трубочку.", 
-    "rating" : 4.0, 
-    "timestamp" : ISODate("2020-06-13T21:08:41.346+0000")
+    "customer_id" : NumberInt(198), 
+    "courier_id" : NumberInt(544), 
+    "order_id" : NumberInt(54), 
+    "restaurant_id" : NumberInt(27), 
+    "text" : "Бургеры и картофель фри Курьер примчался за 25мин, все в норме Во-первых, в заказе их не было Вкусно и быстро.", 
+    "rating" : 0.8, 
+    "timestamp" : ISODate("2020-06-14T17:37:56.163+0000")
 }
 { 
     "_id" : NumberInt(33), 
-    "customer_id" : NumberInt(142), 
-    "courier_id" : NumberInt(553), 
-    "order_id" : NumberInt(42), 
-    "restaurant_id" : NumberInt(47), 
-    "text" : "Так же не было практически ничего....", 
-    "rating" : 3.4, 
-    "timestamp" : ISODate("2020-06-13T21:09:13.939+0000")
+    "customer_id" : NumberInt(201), 
+    "courier_id" : NumberInt(346), 
+    "order_id" : NumberInt(55), 
+    "restaurant_id" : NumberInt(61), 
+    "text" : "Все вкусно, но не положили соусы...", 
+    "rating" : 4.5, 
+    "timestamp" : ISODate("2020-06-14T17:38:12.016+0000")
 }
 { 
     "_id" : NumberInt(34), 
-    "customer_id" : NumberInt(147), 
-    "courier_id" : NumberInt(225), 
-    "order_id" : NumberInt(44), 
-    "restaurant_id" : NumberInt(67), 
-    "text" : "2й раз и второй раз не знали о чаевых.", 
-    "rating" : 2.2, 
-    "timestamp" : ISODate("2020-06-13T21:09:46.795+0000")
+    "customer_id" : NumberInt(204), 
+    "courier_id" : NumberInt(97), 
+    "order_id" : NumberInt(56), 
+    "restaurant_id" : NumberInt(22), 
+    "text" : "Все как всегда вкусно.", 
+    "rating" : 2.5, 
+    "timestamp" : ISODate("2020-06-14T17:38:27.783+0000")
 }
 { 
     "_id" : NumberInt(35), 
-    "customer_id" : NumberInt(171), 
-    "courier_id" : NumberInt(510), 
-    "order_id" : NumberInt(47), 
-    "restaurant_id" : NumberInt(43), 
-    "text" : "Чай липтон не привезли Все отлично, спасибо все быстро и вкусно 🤤 Забыли чизбургер по акции.", 
-    "rating" : 2.7, 
-    "timestamp" : ISODate("2020-06-13T21:10:36.476+0000")
+    "customer_id" : NumberInt(210), 
+    "courier_id" : NumberInt(87), 
+    "order_id" : NumberInt(57), 
+    "restaurant_id" : NumberInt(73), 
+    "text" : "Заказ был доставлен максимально быстро, все горячее и вкусное.", 
+    "rating" : 0.9, 
+    "timestamp" : ISODate("2020-06-14T17:38:43.713+0000")
 }
 { 
     "_id" : NumberInt(36), 
-    "customer_id" : NumberInt(186), 
-    "courier_id" : NumberInt(483), 
-    "order_id" : NumberInt(48), 
-    "restaurant_id" : NumberInt(4), 
-    "text" : "Все было очень вкусно и быстро доставлено.Спасибо вам.И всем здоровья.", 
-    "rating" : 1.2, 
-    "timestamp" : ISODate("2020-06-13T21:10:52.804+0000")
+    "customer_id" : NumberInt(212), 
+    "courier_id" : NumberInt(510), 
+    "order_id" : NumberInt(58), 
+    "restaurant_id" : NumberInt(49), 
+    "text" : "Спасибо за быструю доставку Вместо 2 соусов положили 1 макфлури ...", 
+    "rating" : 1.0, 
+    "timestamp" : ISODate("2020-06-14T17:39:00.396+0000")
 }
 { 
     "_id" : NumberInt(37), 
-    "customer_id" : NumberInt(188), 
-    "courier_id" : NumberInt(430), 
-    "order_id" : NumberInt(49), 
-    "restaurant_id" : NumberInt(48), 
-    "text" : "Не подвёл на изоляции Не положили трубочку для напитка не все доставили!", 
-    "rating" : 4.2, 
-    "timestamp" : ISODate("2020-06-13T21:11:09.982+0000")
+    "customer_id" : NumberInt(213), 
+    "courier_id" : NumberInt(70), 
+    "order_id" : NumberInt(59), 
+    "restaurant_id" : NumberInt(47), 
+    "text" : "Заказ не полный - не положили трубочки к Коле Обслуживание на высоте!", 
+    "rating" : 1.6, 
+    "timestamp" : ISODate("2020-06-14T17:39:16.079+0000")
 }
 { 
     "_id" : NumberInt(38), 
-    "customer_id" : NumberInt(189), 
-    "courier_id" : NumberInt(195), 
-    "order_id" : NumberInt(50), 
-    "restaurant_id" : NumberInt(80), 
-    "text" : "Быстро и вкусно!!! Спасибо за такую отличную работу!", 
-    "rating" : 2.2, 
-    "timestamp" : ISODate("2020-06-13T21:11:26.356+0000")
+    "customer_id" : NumberInt(223), 
+    "courier_id" : NumberInt(324), 
+    "order_id" : NumberInt(60), 
+    "restaurant_id" : NumberInt(42), 
+    "text" : "Хочу поблагодарить курьера, заказ был доставлен очень быстро, всё вкусно и курьер доставил всё быстро!", 
+    "rating" : 3.2, 
+    "timestamp" : ISODate("2020-06-14T17:39:32.868+0000")
 }
 { 
     "_id" : NumberInt(39), 
-    "customer_id" : NumberInt(193), 
-    "courier_id" : NumberInt(233), 
-    "order_id" : NumberInt(51), 
-    "restaurant_id" : NumberInt(23), 
-    "text" : "Спасибо большое курьеру, заказ принёс очень быстро, все горячее и вкусное.", 
-    "rating" : 1.3, 
-    "timestamp" : ISODate("2020-06-13T21:11:42.842+0000")
+    "customer_id" : NumberInt(226), 
+    "courier_id" : NumberInt(8), 
+    "order_id" : NumberInt(61), 
+    "restaurant_id" : NumberInt(47), 
+    "text" : "Не было бекона вместо 2х роялом в заказе их не было Вкусно и быстро.", 
+    "rating" : 2.0, 
+    "timestamp" : ISODate("2020-06-14T17:39:48.798+0000")
 }
 { 
     "_id" : NumberInt(40), 
-    "customer_id" : NumberInt(196), 
-    "courier_id" : NumberInt(338), 
-    "order_id" : NumberInt(52), 
-    "restaurant_id" : NumberInt(47), 
-    "text" : "Всё отлично, и как всегда ❤️ В заказ не положили картошку фри салфеток и трубочку!", 
-    "rating" : 1.4, 
-    "timestamp" : ISODate("2020-06-13T21:11:59.343+0000")
+    "customer_id" : NumberInt(231), 
+    "courier_id" : NumberInt(84), 
+    "order_id" : NumberInt(63), 
+    "restaurant_id" : NumberInt(48), 
+    "text" : "Все было вкусно, но не положили картошку!", 
+    "rating" : 2.3, 
+    "timestamp" : ISODate("2020-06-14T17:40:21.298+0000")
 }
 { 
     "_id" : NumberInt(41), 
-    "customer_id" : NumberInt(212), 
-    "courier_id" : NumberInt(233), 
-    "order_id" : NumberInt(54), 
-    "restaurant_id" : NumberInt(80), 
-    "text" : "Хорошо все, спасибо не положили в острый бигтейсти.", 
-    "rating" : 3.9, 
-    "timestamp" : ISODate("2020-06-13T21:12:31.687+0000")
+    "customer_id" : NumberInt(237), 
+    "courier_id" : NumberInt(514), 
+    "order_id" : NumberInt(64), 
+    "restaurant_id" : NumberInt(69), 
+    "text" : "Спасибо 💐 спасибо все было вкусное и горячее.", 
+    "rating" : 1.5, 
+    "timestamp" : ISODate("2020-06-14T17:40:36.407+0000")
 }
 { 
     "_id" : NumberInt(42), 
-    "customer_id" : NumberInt(215), 
-    "courier_id" : NumberInt(483), 
-    "order_id" : NumberInt(55), 
-    "restaurant_id" : NumberInt(9), 
-    "text" : "Быстро и вкусно!!! Спасибо за такую отличную работу!", 
-    "rating" : 4.4, 
-    "timestamp" : ISODate("2020-06-13T21:12:47.800+0000")
+    "customer_id" : NumberInt(238), 
+    "courier_id" : NumberInt(274), 
+    "order_id" : NumberInt(65), 
+    "restaurant_id" : NumberInt(6), 
+    "text" : "Курьер молодец, а вот в заказ Как всегда вкусненько!", 
+    "rating" : 3.8, 
+    "timestamp" : ISODate("2020-06-14T17:40:51.895+0000")
 }
 { 
     "_id" : NumberInt(43), 
-    "customer_id" : NumberInt(219), 
-    "courier_id" : NumberInt(366), 
-    "order_id" : NumberInt(56), 
-    "restaurant_id" : NumberInt(63), 
-    "text" : "Все было вкусно, но не положили колу, очень жаль..", 
-    "rating" : 1.0, 
-    "timestamp" : ISODate("2020-06-13T21:13:04.144+0000")
+    "customer_id" : NumberInt(242), 
+    "courier_id" : NumberInt(299), 
+    "order_id" : NumberInt(66), 
+    "restaurant_id" : NumberInt(51), 
+    "text" : "курьер пришел быстро и качественно.", 
+    "rating" : 3.8, 
+    "timestamp" : ISODate("2020-06-14T17:41:07.250+0000")
 }
 { 
     "_id" : NumberInt(44), 
-    "customer_id" : NumberInt(226), 
-    "courier_id" : NumberInt(26), 
-    "order_id" : NumberInt(59), 
-    "restaurant_id" : NumberInt(13), 
-    "text" : "Все вкусно, но не положили дв.", 
-    "rating" : 2.9, 
-    "timestamp" : ISODate("2020-06-13T21:13:51.367+0000")
+    "customer_id" : NumberInt(250), 
+    "courier_id" : NumberInt(375), 
+    "order_id" : NumberInt(67), 
+    "restaurant_id" : NumberInt(6), 
+    "text" : "Курьер все доставил в соответствии с заказом.", 
+    "rating" : 1.3, 
+    "timestamp" : ISODate("2020-06-14T17:41:23.959+0000")
 }
 { 
     "_id" : NumberInt(45), 
-    "customer_id" : NumberInt(229), 
-    "courier_id" : NumberInt(509), 
-    "order_id" : NumberInt(60), 
-    "restaurant_id" : NumberInt(21), 
-    "text" : "Мальчик курьер молодец, быстро привёз , в заказе отсутствовал обещанный, судя по акции, подарок, поэтому оценку немного снизили.", 
-    "rating" : 3.0, 
-    "timestamp" : ISODate("2020-06-13T21:14:07.436+0000")
+    "customer_id" : NumberInt(252), 
+    "courier_id" : NumberInt(181), 
+    "order_id" : NumberInt(68), 
+    "restaurant_id" : NumberInt(58), 
+    "text" : "Отлично спасибо, быстро, горячо и вкусно Биг тейсти был не острый.", 
+    "rating" : 3.8, 
+    "timestamp" : ISODate("2020-06-14T17:41:41.185+0000")
 }
 { 
     "_id" : NumberInt(46), 
-    "customer_id" : NumberInt(239), 
-    "courier_id" : NumberInt(483), 
-    "order_id" : NumberInt(62), 
-    "restaurant_id" : NumberInt(57), 
-    "text" : "Спасибо большое курьеру, заказ принёс очень быстро, курьер доброжелательный, всё очень понравилось!", 
-    "rating" : 3.8, 
-    "timestamp" : ISODate("2020-06-13T21:14:39.200+0000")
+    "customer_id" : NumberInt(255), 
+    "courier_id" : NumberInt(528), 
+    "order_id" : NumberInt(69), 
+    "restaurant_id" : NumberInt(32), 
+    "text" : "Спасибо курьеру Марату за быструю доставку и вкусную еду😊 Все доставлено быстро и вкусно 🤤 Забыли чизбургер по акции.", 
+    "rating" : 5.0, 
+    "timestamp" : ISODate("2020-06-14T17:41:57.489+0000")
 }
 { 
     "_id" : NumberInt(47), 
-    "customer_id" : NumberInt(241), 
-    "courier_id" : NumberInt(324), 
-    "order_id" : NumberInt(63), 
-    "restaurant_id" : NumberInt(10), 
-    "text" : "всё было вкусно Заказ был доставлен максимально быстро, все горячее и вкусное.", 
-    "rating" : 2.5, 
-    "timestamp" : ISODate("2020-06-13T21:14:55.611+0000")
+    "customer_id" : NumberInt(256), 
+    "courier_id" : NumberInt(310), 
+    "order_id" : NumberInt(70), 
+    "restaurant_id" : NumberInt(3), 
+    "text" : "Курьеру спасибо Заказ пришел без игрушки, в чеке верная информация 🤷 Заместо клубничного мороженого положили шоколадное Классс не положили трубочку.", 
+    "rating" : 3.3, 
+    "timestamp" : ISODate("2020-06-14T17:42:13.523+0000")
 }
 { 
     "_id" : NumberInt(48), 
-    "customer_id" : NumberInt(243), 
-    "courier_id" : NumberInt(241), 
-    "order_id" : NumberInt(64), 
-    "restaurant_id" : NumberInt(72), 
-    "text" : "Я бы оставила больше на карте не было Вкусно и быстро.", 
-    "rating" : 4.4, 
-    "timestamp" : ISODate("2020-06-13T21:15:11.730+0000")
+    "customer_id" : NumberInt(263), 
+    "courier_id" : NumberInt(330), 
+    "order_id" : NumberInt(71), 
+    "restaurant_id" : NumberInt(60), 
+    "text" : "Не довольны До меня не весь заказ привезли намного раньше, через 15 минут.", 
+    "rating" : 1.0, 
+    "timestamp" : ISODate("2020-06-14T17:42:29.756+0000")
 }
 { 
     "_id" : NumberInt(49), 
-    "customer_id" : NumberInt(252), 
-    "courier_id" : NumberInt(417), 
-    "order_id" : NumberInt(66), 
-    "restaurant_id" : NumberInt(40), 
-    "text" : "не положили 3 шт!!!!!! В заказе не было приборов и салфеток.", 
-    "rating" : 4.8, 
-    "timestamp" : ISODate("2020-06-13T21:15:45.189+0000")
+    "customer_id" : NumberInt(275), 
+    "courier_id" : NumberInt(280), 
+    "order_id" : NumberInt(74), 
+    "restaurant_id" : NumberInt(61), 
+    "text" : "ресторан не доложил одну позицию- стакан с колой Курьер доставил в целости и сохранности.", 
+    "rating" : 5.0, 
+    "timestamp" : ISODate("2020-06-14T17:43:17.360+0000")
 }
 { 
     "_id" : NumberInt(50), 
-    "customer_id" : NumberInt(262), 
-    "courier_id" : NumberInt(1), 
-    "order_id" : NumberInt(67), 
-    "restaurant_id" : NumberInt(48), 
-    "text" : "Холодная картошка в этот раз картошка не такая, как была раньше Супер!", 
-    "rating" : 2.9, 
-    "timestamp" : ISODate("2020-06-13T21:16:01.908+0000")
+    "customer_id" : NumberInt(284), 
+    "courier_id" : NumberInt(223), 
+    "order_id" : NumberInt(76), 
+    "restaurant_id" : NumberInt(26), 
+    "text" : "Все вкусно, но не было практически ничего....", 
+    "rating" : 3.5, 
+    "timestamp" : ISODate("2020-06-14T17:43:48.205+0000")
 }
 { 
     "_id" : NumberInt(51), 
-    "customer_id" : NumberInt(263), 
-    "courier_id" : NumberInt(19), 
-    "order_id" : NumberInt(68), 
-    "restaurant_id" : NumberInt(33), 
-    "text" : "Не довольны До меня не весь заказ привезли намного раньше, через 15 минут.", 
-    "rating" : 3.3, 
-    "timestamp" : ISODate("2020-06-13T21:16:18.452+0000")
+    "customer_id" : NumberInt(291), 
+    "courier_id" : NumberInt(505), 
+    "order_id" : NumberInt(77), 
+    "restaurant_id" : NumberInt(14), 
+    "text" : "Не подвёл на изоляции Не положили колу🤷🏼‍♀️ перец халапенью не положили картошку фри салфеток и трубочку!", 
+    "rating" : 3.1, 
+    "timestamp" : ISODate("2020-06-14T17:44:03.641+0000")
 }
 { 
     "_id" : NumberInt(52), 
-    "customer_id" : NumberInt(279), 
-    "courier_id" : NumberInt(425), 
-    "order_id" : NumberInt(71), 
-    "restaurant_id" : NumberInt(72), 
-    "text" : "Хорошо все, спасибо не положили один двойной, один обычный.", 
-    "rating" : 2.6, 
-    "timestamp" : ISODate("2020-06-13T21:17:05.752+0000")
+    "customer_id" : NumberInt(302), 
+    "courier_id" : NumberInt(330), 
+    "order_id" : NumberInt(78), 
+    "restaurant_id" : NumberInt(31), 
+    "text" : "Курьер был в маске и перчатках, заказ был доставлен без подарочного чизбургера вместо двух двойных чизбургеров положили один двойной, один обычный.", 
+    "rating" : 2.4, 
+    "timestamp" : ISODate("2020-06-14T17:44:19.622+0000")
 }
 { 
     "_id" : NumberInt(53), 
-    "customer_id" : NumberInt(282), 
-    "courier_id" : NumberInt(382), 
-    "order_id" : NumberInt(72), 
-    "restaurant_id" : NumberInt(38), 
-    "text" : "🖐🖐🖐🖐🖐🖐5 балоов В чеке заказан соус в заказ Как всегда вкусненько!", 
-    "rating" : 4.8, 
-    "timestamp" : ISODate("2020-06-13T21:17:21.998+0000")
+    "customer_id" : NumberInt(303), 
+    "courier_id" : NumberInt(433), 
+    "order_id" : NumberInt(79), 
+    "restaurant_id" : NumberInt(69), 
+    "text" : "🖐🖐🖐🖐🖐🖐5 балоов В чеке указано два соуса, в заказе 2 нагетсов Соусы не положили колу, очень жаль..", 
+    "rating" : 2.1, 
+    "timestamp" : ISODate("2020-06-14T17:44:37.397+0000")
 }
 { 
     "_id" : NumberInt(54), 
-    "customer_id" : NumberInt(284), 
-    "courier_id" : NumberInt(74), 
-    "order_id" : NumberInt(73), 
-    "restaurant_id" : NumberInt(7), 
-    "text" : "заказываю очень часто, но в большой упаковке.", 
-    "rating" : 4.6, 
-    "timestamp" : ISODate("2020-06-13T21:17:38.074+0000")
+    "customer_id" : NumberInt(306), 
+    "courier_id" : NumberInt(66), 
+    "order_id" : NumberInt(80), 
+    "restaurant_id" : NumberInt(3), 
+    "text" : "Кофе был пролит Курьер заказ принёс очень быстро, вкусно, свежо Курьер отличный не было приборов и салфеток.", 
+    "rating" : 2.2, 
+    "timestamp" : ISODate("2020-06-14T17:44:54.515+0000")
 }
 { 
     "_id" : NumberInt(55), 
-    "customer_id" : NumberInt(287), 
-    "courier_id" : NumberInt(149), 
-    "order_id" : NumberInt(74), 
-    "restaurant_id" : NumberInt(14), 
-    "text" : "🖐🖐🖐🖐🖐🖐5 балоов В чеке указано два соуса, в заказе 2 нагетсов Соусы не положили соусы!", 
-    "rating" : 3.9, 
-    "timestamp" : ISODate("2020-06-13T21:17:53.591+0000")
+    "customer_id" : NumberInt(308), 
+    "courier_id" : NumberInt(221), 
+    "order_id" : NumberInt(81), 
+    "restaurant_id" : NumberInt(13), 
+    "text" : "Все быстро и был вежлив.", 
+    "rating" : 2.2, 
+    "timestamp" : ISODate("2020-06-14T17:45:10.576+0000")
 }
 { 
     "_id" : NumberInt(56), 
-    "customer_id" : NumberInt(288), 
-    "courier_id" : NumberInt(1), 
-    "order_id" : NumberInt(75), 
-    "restaurant_id" : NumberInt(3), 
-    "text" : "Не положили трубочки к напиткам Отлично Не положили ни одного соуса, хотя заказаны и оплачены 3 соуса!", 
-    "rating" : 0.8, 
-    "timestamp" : ISODate("2020-06-13T21:18:10.264+0000")
+    "customer_id" : NumberInt(309), 
+    "courier_id" : NumberInt(233), 
+    "order_id" : NumberInt(82), 
+    "restaurant_id" : NumberInt(43), 
+    "text" : "Я бы оставила больше на карте не было приборов и салфеток.", 
+    "rating" : 2.6, 
+    "timestamp" : ISODate("2020-06-14T17:45:25.931+0000")
 }
 { 
     "_id" : NumberInt(57), 
-    "customer_id" : NumberInt(295), 
-    "courier_id" : NumberInt(120), 
-    "order_id" : NumberInt(76), 
-    "restaurant_id" : NumberInt(44), 
-    "text" : "Все как всегда топчик.", 
-    "rating" : 2.0, 
-    "timestamp" : ISODate("2020-06-13T21:18:26.773+0000")
+    "customer_id" : NumberInt(311), 
+    "courier_id" : NumberInt(325), 
+    "order_id" : NumberInt(83), 
+    "restaurant_id" : NumberInt(4), 
+    "text" : "Так же не было практически ничего....", 
+    "rating" : 4.1, 
+    "timestamp" : ISODate("2020-06-14T17:45:42.017+0000")
 }
 { 
     "_id" : NumberInt(58), 
-    "customer_id" : NumberInt(303), 
-    "courier_id" : NumberInt(404), 
-    "order_id" : NumberInt(79), 
-    "restaurant_id" : NumberInt(15), 
-    "text" : "Все как всегда топчик.", 
-    "rating" : 3.9, 
-    "timestamp" : ISODate("2020-06-13T21:19:14.610+0000")
+    "customer_id" : NumberInt(321), 
+    "courier_id" : NumberInt(5), 
+    "order_id" : NumberInt(86), 
+    "restaurant_id" : NumberInt(73), 
+    "text" : "Спасибо большое курьеру, заказ принёс очень быстро, вкусно, свежо Курьер отличный не было Вкусно и быстро.", 
+    "rating" : 2.7, 
+    "timestamp" : ISODate("2020-06-14T17:46:28.726+0000")
 }
 { 
     "_id" : NumberInt(59), 
-    "customer_id" : NumberInt(304), 
-    "courier_id" : NumberInt(538), 
-    "order_id" : NumberInt(80), 
-    "restaurant_id" : NumberInt(79), 
-    "text" : "1соус 29 руб, в заказе все было вкусное и горячее.", 
-    "rating" : 5.0, 
-    "timestamp" : ISODate("2020-06-13T21:19:31.398+0000")
+    "customer_id" : NumberInt(324), 
+    "courier_id" : NumberInt(192), 
+    "order_id" : NumberInt(87), 
+    "restaurant_id" : NumberInt(48), 
+    "text" : "Мальчик курьер молодец, быстро привёз , в заказе было 2 биг мака, доставили только 1.", 
+    "rating" : 2.9, 
+    "timestamp" : ISODate("2020-06-14T17:46:43.862+0000")
 }
 { 
     "_id" : NumberInt(60), 
-    "customer_id" : NumberInt(306), 
-    "courier_id" : NumberInt(385), 
-    "order_id" : NumberInt(82), 
-    "restaurant_id" : NumberInt(20), 
-    "text" : "А написали бесплатно в заказе было 2.", 
-    "rating" : 3.6, 
-    "timestamp" : ISODate("2020-06-13T21:20:02.561+0000")
+    "customer_id" : NumberInt(331), 
+    "courier_id" : NumberInt(307), 
+    "order_id" : NumberInt(89), 
+    "restaurant_id" : NumberInt(49), 
+    "text" : "Макдональдс супер👍😁😀 Всё было очень вкусно и быстро!", 
+    "rating" : 0.6, 
+    "timestamp" : ISODate("2020-06-14T17:47:15.441+0000")
 }
 { 
     "_id" : NumberInt(61), 
-    "customer_id" : NumberInt(309), 
-    "courier_id" : NumberInt(338), 
-    "order_id" : NumberInt(84), 
-    "restaurant_id" : NumberInt(71), 
-    "text" : "В заказе не было.", 
-    "rating" : 2.4, 
-    "timestamp" : ISODate("2020-06-13T21:20:35.575+0000")
+    "customer_id" : NumberInt(332), 
+    "courier_id" : NumberInt(415), 
+    "order_id" : NumberInt(90), 
+    "restaurant_id" : NumberInt(51), 
+    "text" : "всё было вкусно Заказ был собран неправильно!", 
+    "rating" : 4.9, 
+    "timestamp" : ISODate("2020-06-14T17:47:30.987+0000")
 }
 { 
     "_id" : NumberInt(62), 
-    "customer_id" : NumberInt(310), 
-    "courier_id" : NumberInt(454), 
-    "order_id" : NumberInt(85), 
-    "restaurant_id" : NumberInt(20), 
-    "text" : "Все отлично, еда вкусная не положили 2 соуса 😔. Не доложили два вишневых пирожка!", 
-    "rating" : 3.8, 
-    "timestamp" : ISODate("2020-06-13T21:20:51.122+0000")
+    "customer_id" : NumberInt(340), 
+    "courier_id" : NumberInt(335), 
+    "order_id" : NumberInt(92), 
+    "restaurant_id" : NumberInt(22), 
+    "text" : "Все отлично, еда вкусная не положили в туже коробку Курьер очень быстро Заказ был на 4 картошки мне привезли кисло-сладкий.", 
+    "rating" : 3.3, 
+    "timestamp" : ISODate("2020-06-14T17:48:04.349+0000")
 }
 { 
     "_id" : NumberInt(63), 
-    "customer_id" : NumberInt(316), 
-    "courier_id" : NumberInt(460), 
-    "order_id" : NumberInt(86), 
-    "restaurant_id" : NumberInt(42), 
-    "text" : "Всем спасибо, курьеру добра не положили трубочки к Коле Обслуживание на высоте!", 
-    "rating" : 1.8, 
-    "timestamp" : ISODate("2020-06-13T21:21:06.523+0000")
+    "customer_id" : NumberInt(346), 
+    "courier_id" : NumberInt(505), 
+    "order_id" : NumberInt(93), 
+    "restaurant_id" : NumberInt(62), 
+    "text" : "Заказ собран правильно, курьер вежливый.", 
+    "rating" : 4.5, 
+    "timestamp" : ISODate("2020-06-14T17:48:20.373+0000")
 }
 { 
     "_id" : NumberInt(64), 
-    "customer_id" : NumberInt(317), 
-    "courier_id" : NumberInt(584), 
-    "order_id" : NumberInt(87), 
-    "restaurant_id" : NumberInt(10), 
-    "text" : "Хорошо все, спасибо не положили большую кортошку фри В чикен премьер был не острый.", 
-    "rating" : 3.9, 
-    "timestamp" : ISODate("2020-06-13T21:21:22.560+0000")
+    "customer_id" : NumberInt(359), 
+    "courier_id" : NumberInt(401), 
+    "order_id" : NumberInt(94), 
+    "restaurant_id" : NumberInt(58), 
+    "text" : "А так все хорошо . Всё норм Все отлично, еда вкусная не положили картошку фри салфеток и трубочки для молочных коктейлей.", 
+    "rating" : 4.7, 
+    "timestamp" : ISODate("2020-06-14T17:48:37.027+0000")
 }
 { 
     "_id" : NumberInt(65), 
-    "customer_id" : NumberInt(319), 
-    "courier_id" : NumberInt(61), 
-    "order_id" : NumberInt(88), 
-    "restaurant_id" : NumberInt(54), 
-    "text" : "Всё отлично Очень быстро доставили, все горячее, спасибо!", 
-    "rating" : 1.1, 
-    "timestamp" : ISODate("2020-06-13T21:21:39.844+0000")
+    "customer_id" : NumberInt(372), 
+    "courier_id" : NumberInt(330), 
+    "order_id" : NumberInt(96), 
+    "restaurant_id" : NumberInt(60), 
+    "text" : "В заказе не было.", 
+    "rating" : 1.3, 
+    "timestamp" : ISODate("2020-06-14T17:49:07.088+0000")
 }
 { 
     "_id" : NumberInt(66), 
-    "customer_id" : NumberInt(320), 
-    "courier_id" : NumberInt(157), 
-    "order_id" : NumberInt(89), 
-    "restaurant_id" : NumberInt(19), 
-    "text" : "Не довольны До меня не весь Вместо сырного соуса мне привезли кисло-сладкий.", 
-    "rating" : 1.0, 
-    "timestamp" : ISODate("2020-06-13T21:21:55.203+0000")
+    "customer_id" : NumberInt(373), 
+    "courier_id" : NumberInt(396), 
+    "order_id" : NumberInt(97), 
+    "restaurant_id" : NumberInt(9), 
+    "text" : "Так же не было практически ничего....", 
+    "rating" : 2.3, 
+    "timestamp" : ISODate("2020-06-14T17:49:24.569+0000")
 }
 { 
     "_id" : NumberInt(67), 
-    "customer_id" : NumberInt(325), 
-    "courier_id" : NumberInt(31), 
-    "order_id" : NumberInt(90), 
-    "restaurant_id" : NumberInt(55), 
-    "text" : "Не положили салфеток и трубочки для молочных коктейлей.", 
-    "rating" : 2.5, 
-    "timestamp" : ISODate("2020-06-13T21:22:11.416+0000")
+    "customer_id" : NumberInt(377), 
+    "courier_id" : NumberInt(516), 
+    "order_id" : NumberInt(98), 
+    "restaurant_id" : NumberInt(79), 
+    "text" : "в биг маке не было Вкусно и быстро.", 
+    "rating" : 4.0, 
+    "timestamp" : ISODate("2020-06-14T17:49:40.317+0000")
 }
 { 
     "_id" : NumberInt(68), 
-    "customer_id" : NumberInt(326), 
-    "courier_id" : NumberInt(350), 
-    "order_id" : NumberInt(91), 
-    "restaurant_id" : NumberInt(72), 
-    "text" : "В подробностях не буду, но это уже не в полном объёме Курьер красавчик, все доставил в соответствии с заказом.", 
-    "rating" : 4.5, 
-    "timestamp" : ISODate("2020-06-13T21:22:27.188+0000")
+    "customer_id" : NumberInt(378), 
+    "courier_id" : NumberInt(574), 
+    "order_id" : NumberInt(99), 
+    "restaurant_id" : NumberInt(42), 
+    "text" : "курьер пришел быстро и в маске и перчатках, передал заказ на расстоянии.", 
+    "rating" : 1.2, 
+    "timestamp" : ISODate("2020-06-14T17:49:55.185+0000")
 }
 { 
     "_id" : NumberInt(69), 
-    "customer_id" : NumberInt(337), 
-    "courier_id" : NumberInt(298), 
-    "order_id" : NumberInt(93), 
-    "restaurant_id" : NumberInt(21), 
-    "text" : "Всем спасибо, курьеру добра не положили колу, очень жаль..", 
-    "rating" : 3.4, 
-    "timestamp" : ISODate("2020-06-13T21:22:57.832+0000")
+    "customer_id" : NumberInt(384), 
+    "courier_id" : NumberInt(83), 
+    "order_id" : NumberInt(100), 
+    "restaurant_id" : NumberInt(36), 
+    "text" : "В заказе не было.", 
+    "rating" : 3.0, 
+    "timestamp" : ISODate("2020-06-14T17:50:10.181+0000")
 }
 { 
     "_id" : NumberInt(70), 
-    "customer_id" : NumberInt(342), 
-    "courier_id" : NumberInt(214), 
-    "order_id" : NumberInt(95), 
-    "restaurant_id" : NumberInt(77), 
-    "text" : "Так же не было Вкусно и быстро.", 
-    "rating" : 0.5, 
-    "timestamp" : ISODate("2020-06-13T21:23:28.422+0000")
+    "customer_id" : NumberInt(394), 
+    "courier_id" : NumberInt(75), 
+    "order_id" : NumberInt(101), 
+    "restaurant_id" : NumberInt(57), 
+    "text" : "Хорошо все, спасибо не положили в острый бигтейсти.", 
+    "rating" : 2.7, 
+    "timestamp" : ISODate("2020-06-14T17:50:25.258+0000")
 }
 { 
     "_id" : NumberInt(71), 
-    "customer_id" : NumberInt(345), 
-    "courier_id" : NumberInt(203), 
-    "order_id" : NumberInt(96), 
-    "restaurant_id" : NumberInt(30), 
-    "text" : "Все быстро и вкусно!", 
-    "rating" : 2.8, 
-    "timestamp" : ISODate("2020-06-13T21:23:43.754+0000")
+    "customer_id" : NumberInt(395), 
+    "courier_id" : NumberInt(506), 
+    "order_id" : NumberInt(102), 
+    "restaurant_id" : NumberInt(79), 
+    "text" : "Всем спасибо, курьеру добра не положили большую кортошку фри В чикен премьер был не острый.", 
+    "rating" : 3.0, 
+    "timestamp" : ISODate("2020-06-14T17:50:40.189+0000")
 }
 { 
     "_id" : NumberInt(72), 
-    "customer_id" : NumberInt(350), 
-    "courier_id" : NumberInt(194), 
-    "order_id" : NumberInt(97), 
-    "restaurant_id" : NumberInt(5), 
-    "text" : "Все было очень вкусно и быстро доставлено.Спасибо вам.И всем здоровья.", 
-    "rating" : 2.4, 
-    "timestamp" : ISODate("2020-06-13T21:23:59.136+0000")
+    "customer_id" : NumberInt(397), 
+    "courier_id" : NumberInt(70), 
+    "order_id" : NumberInt(103), 
+    "restaurant_id" : NumberInt(54), 
+    "text" : "Спасибо за быструю доставку заказа.", 
+    "rating" : 1.7, 
+    "timestamp" : ISODate("2020-06-14T17:50:56.502+0000")
 }
 { 
     "_id" : NumberInt(73), 
-    "customer_id" : NumberInt(355), 
-    "courier_id" : NumberInt(577), 
-    "order_id" : NumberInt(98), 
-    "restaurant_id" : NumberInt(75), 
-    "text" : "не положили трубочки для молочного коктейля в пакетах нет Не положили соус чесночный, а он был оплачен.", 
-    "rating" : 1.8, 
-    "timestamp" : ISODate("2020-06-13T21:24:14.219+0000")
+    "customer_id" : NumberInt(403), 
+    "courier_id" : NumberInt(583), 
+    "order_id" : NumberInt(105), 
+    "restaurant_id" : NumberInt(34), 
+    "text" : "Заказ собран правильно, курьер вежливый.", 
+    "rating" : 1.1, 
+    "timestamp" : ISODate("2020-06-14T17:51:27.205+0000")
 }
 { 
     "_id" : NumberInt(74), 
-    "customer_id" : NumberInt(356), 
-    "courier_id" : NumberInt(424), 
-    "order_id" : NumberInt(99), 
-    "restaurant_id" : NumberInt(24), 
-    "text" : "Не подвёл на изоляции Не положили колу🤷🏼‍♀️ перец халапенью не положили колу, очень жаль..", 
-    "rating" : 0.9, 
-    "timestamp" : ISODate("2020-06-13T21:24:29.658+0000")
+    "customer_id" : NumberInt(404), 
+    "courier_id" : NumberInt(596), 
+    "order_id" : NumberInt(106), 
+    "restaurant_id" : NumberInt(9), 
+    "text" : "Бургеры и картофель фри были тёплыми и очень быстро доставил заказ.", 
+    "rating" : 4.6, 
+    "timestamp" : ISODate("2020-06-14T17:51:43.763+0000")
 }
 { 
     "_id" : NumberInt(75), 
-    "customer_id" : NumberInt(364), 
-    "courier_id" : NumberInt(499), 
-    "order_id" : NumberInt(100), 
-    "restaurant_id" : NumberInt(43), 
-    "text" : "Но в заказ Как всегда очень быстро, вкусно, свежо Курьер отличный не было практически ничего....", 
-    "rating" : 4.1, 
-    "timestamp" : ISODate("2020-06-13T21:24:45.084+0000")
+    "customer_id" : NumberInt(407), 
+    "courier_id" : NumberInt(231), 
+    "order_id" : NumberInt(107), 
+    "restaurant_id" : NumberInt(33), 
+    "text" : "Все как всегда вкусно.", 
+    "rating" : 3.0, 
+    "timestamp" : ISODate("2020-06-14T17:51:59.419+0000")
 }
 { 
     "_id" : NumberInt(76), 
-    "customer_id" : NumberInt(373), 
-    "courier_id" : NumberInt(424), 
-    "order_id" : NumberInt(102), 
-    "restaurant_id" : NumberInt(1), 
-    "text" : "Так же не было практически ничего....", 
-    "rating" : 3.8, 
-    "timestamp" : ISODate("2020-06-13T21:25:16.396+0000")
+    "customer_id" : NumberInt(408), 
+    "courier_id" : NumberInt(224), 
+    "order_id" : NumberInt(108), 
+    "restaurant_id" : NumberInt(20), 
+    "text" : "Все вкусно, но не было трубочек для напитков.", 
+    "rating" : 4.6, 
+    "timestamp" : ISODate("2020-06-14T17:52:14.648+0000")
 }
 { 
     "_id" : NumberInt(77), 
-    "customer_id" : NumberInt(389), 
-    "courier_id" : NumberInt(19), 
-    "order_id" : NumberInt(105), 
-    "restaurant_id" : NumberInt(21), 
-    "text" : "Вежливая и быстрая доставка.", 
-    "rating" : 2.7, 
-    "timestamp" : ISODate("2020-06-13T21:26:03.331+0000")
+    "customer_id" : NumberInt(416), 
+    "courier_id" : NumberInt(34), 
+    "order_id" : NumberInt(109), 
+    "restaurant_id" : NumberInt(22), 
+    "text" : "Всё отлично Очень быстро доставили, все горячее, спасибо!", 
+    "rating" : 3.0, 
+    "timestamp" : ISODate("2020-06-14T17:52:30.934+0000")
 }
 { 
     "_id" : NumberInt(78), 
-    "customer_id" : NumberInt(391), 
-    "courier_id" : NumberInt(373), 
-    "order_id" : NumberInt(106), 
-    "restaurant_id" : NumberInt(42), 
-    "text" : "Мак Все было очень вкусно и быстро доставлено.Спасибо вам.И всем здоровья.", 
-    "rating" : 3.8, 
-    "timestamp" : ISODate("2020-06-13T21:26:18.518+0000")
+    "customer_id" : NumberInt(422), 
+    "courier_id" : NumberInt(495), 
+    "order_id" : NumberInt(110), 
+    "restaurant_id" : NumberInt(36), 
+    "text" : "2й раз и второй раз не знали о чаевых.", 
+    "rating" : 1.9, 
+    "timestamp" : ISODate("2020-06-14T17:52:48.627+0000")
 }
 { 
     "_id" : NumberInt(79), 
-    "customer_id" : NumberInt(397), 
-    "courier_id" : NumberInt(201), 
-    "order_id" : NumberInt(107), 
-    "restaurant_id" : NumberInt(54), 
-    "text" : "Быстро и вкусно!!! Спасибо за быструю и безопасную доставку!", 
-    "rating" : 3.5, 
-    "timestamp" : ISODate("2020-06-13T21:26:33.958+0000")
+    "customer_id" : NumberInt(429), 
+    "courier_id" : NumberInt(539), 
+    "order_id" : NumberInt(112), 
+    "restaurant_id" : NumberInt(27), 
+    "text" : "Вежливая и быстрая доставка.", 
+    "rating" : 0.6, 
+    "timestamp" : ISODate("2020-06-14T17:53:18.731+0000")
 }
 { 
     "_id" : NumberInt(80), 
-    "customer_id" : NumberInt(399), 
-    "courier_id" : NumberInt(271), 
-    "order_id" : NumberInt(108), 
-    "restaurant_id" : NumberInt(48), 
-    "text" : "Спасибо курьеру за быструю доставку и вкусную еду😊 Все доставлено быстро и вкусно 🤤 Забыли чизбургер по акции.", 
-    "rating" : 2.7, 
-    "timestamp" : ISODate("2020-06-13T21:27:02.885+0000")
+    "customer_id" : NumberInt(433), 
+    "courier_id" : NumberInt(325), 
+    "order_id" : NumberInt(114), 
+    "restaurant_id" : NumberInt(70), 
+    "text" : "Была насыпана, как маленькая, но в этот раз картошка не такая, как была раньше Супер!", 
+    "rating" : 3.8, 
+    "timestamp" : ISODate("2020-06-14T17:53:47.990+0000")
 }
 { 
     "_id" : NumberInt(81), 
-    "customer_id" : NumberInt(419), 
-    "courier_id" : NumberInt(461), 
-    "order_id" : NumberInt(111), 
-    "restaurant_id" : NumberInt(34), 
-    "text" : "Хорошо все, спасибо не положили в острый бигтейсти.", 
-    "rating" : 0.9, 
-    "timestamp" : ISODate("2020-06-13T21:27:47.391+0000")
+    "customer_id" : NumberInt(440), 
+    "courier_id" : NumberInt(456), 
+    "order_id" : NumberInt(116), 
+    "restaurant_id" : NumberInt(32), 
+    "text" : "Заказ не полный - не положили картошку фри и остальное без них, вырвать бы руки за такое.", 
+    "rating" : 1.2, 
+    "timestamp" : ISODate("2020-06-14T17:54:17.736+0000")
 }
 { 
     "_id" : NumberInt(82), 
-    "customer_id" : NumberInt(427), 
-    "courier_id" : NumberInt(560), 
-    "order_id" : NumberInt(112), 
-    "restaurant_id" : NumberInt(40), 
-    "text" : "ресторан не доложил одну позицию- стакан с колой Курьер доставил в соответствии с заказом.", 
-    "rating" : 1.2, 
-    "timestamp" : ISODate("2020-06-13T21:28:02.130+0000")
+    "customer_id" : NumberInt(447), 
+    "courier_id" : NumberInt(596), 
+    "order_id" : NumberInt(117), 
+    "restaurant_id" : NumberInt(61), 
+    "text" : "Курьер все доставил в соответствии с заказом.", 
+    "rating" : 1.7, 
+    "timestamp" : ISODate("2020-06-14T17:54:33.479+0000")
 }
 { 
     "_id" : NumberInt(83), 
-    "customer_id" : NumberInt(430), 
-    "courier_id" : NumberInt(205), 
-    "order_id" : NumberInt(113), 
-    "restaurant_id" : NumberInt(31), 
-    "text" : "Макдональдс супер👍😁😀 Всё было на 5+, курьер был вежливым.", 
-    "rating" : 4.9, 
-    "timestamp" : ISODate("2020-06-13T21:28:17.805+0000")
-}
-{ 
-    "_id" : NumberInt(84), 
-    "customer_id" : NumberInt(434), 
-    "courier_id" : NumberInt(488), 
-    "order_id" : NumberInt(115), 
-    "restaurant_id" : NumberInt(64), 
-    "text" : "Холодная картошка в этот раз картошка не такая, как была раньше Супер!", 
-    "rating" : 1.8, 
-    "timestamp" : ISODate("2020-06-13T21:28:47.180+0000")
-}
-{ 
-    "_id" : NumberInt(85), 
-    "customer_id" : NumberInt(438), 
-    "courier_id" : NumberInt(505), 
-    "order_id" : NumberInt(117), 
-    "restaurant_id" : NumberInt(17), 
-    "text" : "Все как всегда топчик.", 
-    "rating" : 0.7, 
-    "timestamp" : ISODate("2020-06-13T21:29:16.661+0000")
-}
-{ 
-    "_id" : NumberInt(86), 
-    "customer_id" : NumberInt(439), 
-    "courier_id" : NumberInt(462), 
+    "customer_id" : NumberInt(450), 
+    "courier_id" : NumberInt(22), 
     "order_id" : NumberInt(118), 
-    "restaurant_id" : NumberInt(2), 
-    "text" : "Так же не было трубочек для напитков.", 
-    "rating" : 2.7, 
-    "timestamp" : ISODate("2020-06-13T21:29:31.806+0000")
-}
-{ 
-    "_id" : NumberInt(87), 
-    "customer_id" : NumberInt(446), 
-    "courier_id" : NumberInt(24), 
-    "order_id" : NumberInt(120), 
-    "restaurant_id" : NumberInt(14), 
-    "text" : "Мак Все было очень вкусно и быстро доставлено.Спасибо вам.И всем здоровья.", 
-    "rating" : 4.4, 
-    "timestamp" : ISODate("2020-06-13T21:30:01.516+0000")
-}
-{ 
-    "_id" : NumberInt(88), 
-    "customer_id" : NumberInt(449), 
-    "courier_id" : NumberInt(374), 
-    "order_id" : NumberInt(121), 
-    "restaurant_id" : NumberInt(73), 
-    "text" : "в биг маке не было Вкусно и быстро.", 
-    "rating" : 0.7, 
-    "timestamp" : ISODate("2020-06-13T21:30:16.671+0000")
+    "restaurant_id" : NumberInt(49), 
+    "text" : "Так же не было практически ничего....", 
+    "rating" : 1.9, 
+    "timestamp" : ISODate("2020-06-14T17:54:48.133+0000")
 }

@@ -24,12 +24,12 @@ class MongoStorage:
 
     ############################
 
-    # Product
-    # product_id – int
-    # meal_id – int
-    # product_name – text
-    # product_status – text
-    # product_amount – int
+    # Products
+    # product_id – Int32
+    # name – String
+    # weight_grams – Int32
+    # meal_id – Int32
+    # timestamp – Date
 
     def new_product(self, name, meal_id, weight_grams):
         _id = self.products_amount() + 1
@@ -61,11 +61,13 @@ class MongoStorage:
     ############################
 
     # Meals
-    # meal_id – int
-    # name – str
-    # picture – text
-    # associated_product - id
-    # timestamp
+    # meal_id – Int32
+    # product_ids – Array (blob) with Int32 in it
+    # name – String
+    # picture – String (imgur url)
+    # status – Int32 based on content.meal_statuses
+    # amount – Int32
+    # timestamp – Date
 
     def new_meal(self, name, picture, status=content.meal_statuses.not_available, amount=0, product_ids=[]):
         _id = self.meals_amount() + 1
@@ -178,14 +180,14 @@ class MongoStorage:
     ############################
 
     # Feedback
-    # feedback_id – int
-    # author_id – str
-    # order_id – text
-    # restaurant_id - id
-    # meal_id
-    # text
-    # rating
-    # timestamp
+    # feedback_id – Int32
+    # customer_id – Int32
+    # courier_id – Int32
+    # order_id – Int32
+    # restaurant_id – Int32
+    # text – String
+    # rating – Double
+    # timestamp – Date
 
     def new_feedback(self, customer_id, order_id, courier_id, restaurant_id, text, rating):
         _id = self.feedback_amount() + 1
@@ -265,14 +267,12 @@ class MongoStorage:
 
     ############################
 
-    # Customer
-    # customer_id – int
-    # position_id
-    # order_id
-    # feedback_id
-    # payment_method
-    # customer_name
-    # customer_phone_number
+    # Customers
+    # customer_id – Int32
+    # order_ids – Array with Int32 in it
+    # name – String
+    # position_id – Int32
+    # timestamp – Date
 
     def new_customer(self, name, phone_number, order_ids=[], position_id=None):
         _id = self.customers_amount() + 1
@@ -340,10 +340,11 @@ class MongoStorage:
     ############################
 
     # Positions
-    # position_id
-    # lat
-    # lon
-    # last_edit_timestamp
+    # position_id – Int32
+    # lat – Double
+    # lon – Double
+    # updated_timestamp – Date
+    # timestamp – Date
 
     def new_position(self, lat, lon):
         _id = self.positions_amount() + 1
@@ -400,12 +401,12 @@ class MongoStorage:
     ############################
 
     # Payments
-    # payment_id
-    # payment_method
-    # status
-    # timestamp
-    # amount
-    # currency
+    # payment_id – Int32
+    # method – Int32 based on content.payment_methods
+    # amount – Int32
+    # currency – Int32 based on content.currencies
+    # status – Int32 based on content.payment_statuses
+    # timestamp – Date
 
     def new_payment(self, method, amount, currency=content.currencies.RUB, status=content.payment_statuses.pending):
         _id = self.payments_amount() + 1
@@ -475,15 +476,14 @@ class MongoStorage:
     ############################
 
     # Couriers
-    # courier_id
-    # position_id
-    # order_id
-    # feedback_ids
-    # courier_age
-    # courier_name
-    # courier_phone_number
-    # courier_status
-    # timestamp
+    # courier_id – Int32
+    # position_id – Int32
+    # order_ids – Array with Int32 in it
+    # age – Int32
+    # name – String
+    # phone_number – String
+    # status – Int32 based on content.courier_statuses
+    # timestamp – Date
 
     def new_courier(self, name, phone_number, age, position_id=None, order_ids=[], status=content.courier_statuses.offline, feedback_ids=[]):
         _id = self.couriers_amount() + 1
@@ -634,16 +634,15 @@ class MongoStorage:
     ############################
 
     # Orders
-    # order_id
-    # customer_id
-    # courier_id
-    # restaurant_id
-    # payment_id
-    # meal_id
-    # feedback_id
-    # position_id
-    # status
-    # timestamp
+    # order_id – Int32
+    # customer_id – Int32
+    # courier_id – Int32
+    # restaurant_id – Int32
+    # payment_id – Int32
+    # meal_ids – Array with Int32 in it
+    # feedback_id – Int32
+    # status – Int32 based on content.order_statuses
+    # timestamp – Date
 
     def new_order(self, customer_id, courier_id, restaurant_id, payment_id, meal_ids, feedback_id=None, status=content.order_statuses.preparing):
         if self.check_meals_availability(meal_ids=meal_ids):
@@ -808,10 +807,12 @@ class MongoStorage:
     ############################
 
     # Restaurants
-    # restaurant_id
-    # position_id
-    # phone_number
-    # status
+    # position_id – Int32
+    # phone_number – String
+    # meal_ids – Array with Int32 in it
+    # order_ids – Array with Int32 in it
+    # status – Binary
+    # timestamp – Date
 
     def new_restaurant(self, phone_number, position_id, meal_ids=[], order_ids=[], status=content.restaurant_statuses.closed):
         _id = self.restaurants_amount() + 1
@@ -873,6 +874,9 @@ class MongoStorage:
 
     def get_restaurant_status(self, restaurant_id):
         return addict.Dict(self.db.restaurants.find_one({'_id': restaurant_id}, {'status': True}))
+
+    def get_open_restaurants(self):
+        return list(self.db.restaurants.find({'status': True}))
 
     def set_restaurant_name(self, restaurant_id, name):
         self.db.restaurants.update_one(

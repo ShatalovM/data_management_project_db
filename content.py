@@ -27,8 +27,8 @@ meal_statuses = Dict({
     'available': 1
 })
 restaurant_statuses = Dict({
-    'closed': 0,
-    'open': 1
+    'closed': False,
+    'open': True
 })
 payment_methods = Dict(
     {

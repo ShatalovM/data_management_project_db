@@ -2,7 +2,7 @@ CREATE TABLE `restaurants` (
     `_id` INTEGER NOT NULL,
     `position_id` INTEGER,
     `phone_number` LONGTEXT,
-    `status` INTEGER,
+    `status` BIT,
     `timestamp` DATETIME,
     PRIMARY KEY (`_id`)
 ) CHARSET=utf8mb4;
@@ -38,7 +38,7 @@ ADD CONSTRAINT `s3t_restaurants_order_ids_restaurants_0` FOREIGN KEY (`parent_fk
 -- { _id: 1 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (1, 1051, '19527579127', 0, '2020-06-13 20:33:19.133000');
+        (1, 1051, '18212418978', TRUE, '2020-06-14 17:17:30.223000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -58,17 +58,13 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (0, 1, 0, 94);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (1, 1, 1, 102);
+        (0, 1, 0, 6);
 
 
 -- { _id: 2 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (2, 1052, '17237305792', 0, '2020-06-13 20:33:19.442000');
+        (2, 1052, '17570757021', FALSE, '2020-06-14 17:17:30.531000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -86,15 +82,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (7, 2, 3, 8);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (2, 2, 0, 118);
-
 
 -- { _id: 3 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (3, 1053, '12136556345', 0, '2020-06-13 20:33:19.734000');
+        (3, 1053, '15204850478', TRUE, '2020-06-14 17:17:30.824000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -114,13 +106,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (3, 3, 0, 75);
+        (1, 3, 0, 40);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (2, 3, 1, 70);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (3, 3, 2, 80);
 
 
 -- { _id: 4 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (4, 1054, '17324384365', 0, '2020-06-13 20:33:20.029000');
+        (4, 1054, '18268104348', TRUE, '2020-06-14 17:17:31.131000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -140,21 +140,25 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (4, 4, 0, 2);
+        (4, 4, 0, 42);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (5, 4, 1, 37);
+        (5, 4, 1, 47);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (6, 4, 2, 48);
+        (6, 4, 2, 52);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (7, 4, 3, 83);
 
 
 -- { _id: 5 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (5, 1055, '15536995311', 0, '2020-06-13 20:33:20.313000');
+        (5, 1055, '12324188887', TRUE, '2020-06-14 17:17:31.416000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -174,17 +178,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (7, 5, 0, 11);
+        (8, 5, 0, 12);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (8, 5, 1, 97);
+        (9, 5, 1, 15);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (10, 5, 2, 41);
 
 
 -- { _id: 6 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (6, 1056, '13888296035', 0, '2020-06-13 20:33:20.615000');
+        (6, 1056, '11489182837', TRUE, '2020-06-14 17:17:31.723000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -204,13 +212,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (9, 6, 0, 103);
+        (11, 6, 0, 30);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (12, 6, 1, 65);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (13, 6, 2, 67);
 
 
 -- { _id: 7 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (7, 1057, '18059136082', 0, '2020-06-13 20:33:20.908000');
+        (7, 1057, '14323510553', FALSE, '2020-06-14 17:17:32.004000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -228,19 +244,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (27, 7, 3, 28);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (10, 7, 0, 26);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (11, 7, 1, 73);
-
 
 -- { _id: 8 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (8, 1058, '18544012262', 0, '2020-06-13 20:33:21.203000');
+        (8, 1058, '19815604655', FALSE, '2020-06-14 17:17:32.289000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -258,19 +266,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (31, 8, 3, 32);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (12, 8, 0, 77);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (13, 8, 1, 104);
-
 
 -- { _id: 9 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (9, 1059, '16215348841', 0, '2020-06-13 20:33:21.490000');
+        (9, 1059, '19984724375', TRUE, '2020-06-14 17:17:32.572000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -290,13 +290,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (14, 9, 0, 55);
+        (14, 9, 0, 28);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (15, 9, 1, 97);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (16, 9, 2, 106);
 
 
 -- { _id: 10 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (10, 1060, '14903282880', 0, '2020-06-13 20:33:21.796000');
+        (10, 1060, '15435949372', FALSE, '2020-06-14 17:17:32.867000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -314,19 +322,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (39, 10, 3, 40);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (15, 10, 0, 63);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (16, 10, 1, 87);
-
 
 -- { _id: 11 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (11, 1061, '17316246278', 0, '2020-06-13 20:33:22.086000');
+        (11, 1061, '19597489986', FALSE, '2020-06-14 17:17:33.188000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -344,15 +344,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (43, 11, 3, 44);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (17, 11, 0, 109);
-
 
 -- { _id: 12 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (12, 1062, '14884971691', 0, '2020-06-13 20:33:22.380000');
+        (12, 1062, '11550099813', FALSE, '2020-06-14 17:17:33.474000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -374,7 +370,7 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 -- { _id: 13 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (13, 1063, '12052433534', 0, '2020-06-13 20:33:22.672000');
+        (13, 1063, '18122882598', TRUE, '2020-06-14 17:17:33.765000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -394,13 +390,17 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (18, 13, 0, 59);
+        (17, 13, 0, 4);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (18, 13, 1, 81);
 
 
 -- { _id: 14 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (14, 1064, '14264591222', 0, '2020-06-13 20:33:23.009000');
+        (14, 1064, '14240267799', TRUE, '2020-06-14 17:17:34.180000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -420,21 +420,13 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (19, 14, 0, 3);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (20, 14, 1, 74);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (21, 14, 2, 120);
+        (19, 14, 0, 77);
 
 
 -- { _id: 15 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (15, 1065, '17646652739', 0, '2020-06-13 20:33:23.300000');
+        (15, 1065, '17093569229', TRUE, '2020-06-14 17:17:34.462000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -454,17 +446,13 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (22, 15, 0, 31);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (23, 15, 1, 79);
+        (20, 15, 0, 84);
 
 
 -- { _id: 16 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (16, 1066, '12905475656', 0, '2020-06-13 20:33:23.594000');
+        (16, 1066, '13476766326', FALSE, '2020-06-14 17:17:34.753000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -482,15 +470,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (63, 16, 3, 64);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (24, 16, 0, 53);
-
 
 -- { _id: 17 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (17, 1067, '16255931362', 0, '2020-06-13 20:33:23.991000');
+        (17, 1067, '14660702647', FALSE, '2020-06-14 17:17:35.102000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -508,15 +492,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (67, 17, 3, 68);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (25, 17, 0, 117);
-
 
 -- { _id: 18 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (18, 1068, '19530736156', 0, '2020-06-13 20:33:24.298000');
+        (18, 1068, '13122666129', TRUE, '2020-06-14 17:17:35.392000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -534,15 +514,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (71, 18, 3, 72);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (26, 18, 0, 36);
-
 
 -- { _id: 19 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (19, 1069, '16969990253', 0, '2020-06-13 20:33:24.587000');
+        (19, 1069, '17594241360', FALSE, '2020-06-14 17:17:35.674000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -560,15 +536,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (75, 19, 3, 76);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (27, 19, 0, 89);
-
 
 -- { _id: 20 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (20, 1070, '14793096687', 0, '2020-06-13 20:33:24.919000');
+        (20, 1070, '12865920644', TRUE, '2020-06-14 17:17:35.975000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -588,21 +560,25 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (28, 20, 0, 82);
+        (21, 20, 0, 29);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (29, 20, 1, 85);
+        (22, 20, 1, 37);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (30, 20, 2, 114);
+        (23, 20, 2, 53);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (24, 20, 3, 108);
 
 
 -- { _id: 21 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (21, 1071, '16334629546', 0, '2020-06-13 20:33:25.345000');
+        (21, 1071, '14466108138', FALSE, '2020-06-14 17:17:36.269000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -620,31 +596,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (83, 21, 3, 84);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (31, 21, 0, 22);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (32, 21, 1, 35);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (33, 21, 2, 60);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (34, 21, 3, 93);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (35, 21, 4, 105);
-
 
 -- { _id: 22 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (22, 1072, '19535621014', 0, '2020-06-13 20:33:25.641000');
+        (22, 1072, '14727371945', TRUE, '2020-06-14 17:17:36.555000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -662,11 +618,27 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (87, 22, 3, 88);
 
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (25, 22, 0, 49);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (26, 22, 1, 56);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (27, 22, 2, 92);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (28, 22, 3, 109);
+
 
 -- { _id: 23 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (23, 1073, '11360255046', 0, '2020-06-13 20:33:26.039000');
+        (23, 1073, '15395079921', FALSE, '2020-06-14 17:17:36.843000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -684,15 +656,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (91, 23, 3, 92);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (36, 23, 0, 51);
-
 
 -- { _id: 24 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (24, 1074, '11226628121', 0, '2020-06-13 20:33:26.544000');
+        (24, 1074, '11033972094', FALSE, '2020-06-14 17:17:37.133000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -710,23 +678,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (95, 24, 3, 96);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (37, 24, 0, 12);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (38, 24, 1, 15);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (39, 24, 2, 99);
-
 
 -- { _id: 25 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (25, 1075, '11690585825', 0, '2020-06-13 20:33:26.922000');
+        (25, 1075, '14375081180', TRUE, '2020-06-14 17:17:37.432000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -744,23 +700,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (99, 25, 3, 100);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (40, 25, 0, 5);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (41, 25, 1, 14);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (42, 25, 2, 27);
-
 
 -- { _id: 26 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (26, 1076, '18364140260', 0, '2020-06-13 20:33:27.237000');
+        (26, 1076, '14551900314', TRUE, '2020-06-14 17:17:37.721000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -778,11 +722,15 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (103, 26, 3, 104);
 
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (29, 26, 0, 76);
+
 
 -- { _id: 27 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (27, 1077, '14305491974', 0, '2020-06-13 20:33:27.533000');
+        (27, 1077, '19706015617', TRUE, '2020-06-14 17:17:38.001000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -802,13 +750,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (43, 27, 0, 41);
+        (30, 27, 0, 18);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (31, 27, 1, 54);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (32, 27, 2, 112);
 
 
 -- { _id: 28 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (28, 1078, '12508242847', 0, '2020-06-13 20:33:27.820000');
+        (28, 1078, '13804498876', FALSE, '2020-06-14 17:17:38.303000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -826,19 +782,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (111, 28, 3, 112);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (44, 28, 0, 13);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (45, 28, 1, 29);
-
 
 -- { _id: 29 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (29, 1079, '18556149205', 0, '2020-06-13 20:33:28.129000');
+        (29, 1079, '13543845507', FALSE, '2020-06-14 17:17:38.595000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -860,7 +808,7 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 -- { _id: 30 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (30, 1080, '15140629924', 0, '2020-06-13 20:33:28.411000');
+        (30, 1080, '16094250535', FALSE, '2020-06-14 17:17:38.886000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -878,15 +826,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (119, 30, 3, 120);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (46, 30, 0, 96);
-
 
 -- { _id: 31 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (31, 1081, '19776532283', 0, '2020-06-13 20:33:28.695000');
+        (31, 1081, '13880425585', TRUE, '2020-06-14 17:17:39.189000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -906,17 +850,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (47, 31, 0, 16);
+        (33, 31, 0, 35);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (48, 31, 1, 113);
+        (34, 31, 1, 78);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (35, 31, 2, 88);
 
 
 -- { _id: 32 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (32, 1082, '16680634492', 0, '2020-06-13 20:33:29.015000');
+        (32, 1082, '15907697128', TRUE, '2020-06-14 17:17:39.487000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -934,11 +882,23 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (127, 32, 3, 128);
 
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (36, 32, 0, 39);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (37, 32, 1, 69);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (38, 32, 2, 116);
+
 
 -- { _id: 33 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (33, 1083, '15920471513', 0, '2020-06-13 20:33:29.299000');
+        (33, 1083, '14686169740', TRUE, '2020-06-14 17:17:39.795000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -958,13 +918,25 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (49, 33, 0, 68);
+        (39, 33, 0, 17);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (40, 33, 1, 48);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (41, 33, 2, 95);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (42, 33, 3, 107);
 
 
 -- { _id: 34 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (34, 1084, '12642132280', 0, '2020-06-13 20:33:29.598000');
+        (34, 1084, '11218011151', TRUE, '2020-06-14 17:17:40.138000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -984,17 +956,17 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (50, 34, 0, 58);
+        (43, 34, 0, 44);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (51, 34, 1, 111);
+        (44, 34, 1, 105);
 
 
 -- { _id: 35 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (35, 1085, '15694501823', 0, '2020-06-13 20:33:29.884000');
+        (35, 1085, '11323514686', FALSE, '2020-06-14 17:17:40.428000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1016,7 +988,7 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 -- { _id: 36 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (36, 1086, '13223083995', 0, '2020-06-13 20:33:30.163000');
+        (36, 1086, '17847188380', TRUE, '2020-06-14 17:17:40.735000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1034,11 +1006,19 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (143, 36, 3, 144);
 
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (45, 36, 0, 100);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (46, 36, 1, 110);
+
 
 -- { _id: 37 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (37, 1087, '18006951843', 0, '2020-06-13 20:33:30.447000');
+        (37, 1087, '11985319976', FALSE, '2020-06-14 17:17:41.036000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1056,23 +1036,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (147, 37, 3, 148);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (52, 37, 0, 6);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (53, 37, 1, 24);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (54, 37, 2, 34);
-
 
 -- { _id: 38 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (38, 1088, '12992069008', 0, '2020-06-13 20:33:30.732000');
+        (38, 1088, '19288610328', FALSE, '2020-06-14 17:17:41.331000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1090,15 +1058,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (151, 38, 3, 152);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (55, 38, 0, 72);
-
 
 -- { _id: 39 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (39, 1089, '13695303610', 0, '2020-06-13 20:33:31.015000');
+        (39, 1089, '16511876179', FALSE, '2020-06-14 17:17:41.620000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1116,15 +1080,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (155, 39, 3, 156);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (56, 39, 0, 38);
-
 
 -- { _id: 40 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (40, 1090, '15008454147', 0, '2020-06-13 20:33:31.456000');
+        (40, 1090, '12608651969', TRUE, '2020-06-14 17:17:41.927000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1144,17 +1104,13 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (57, 40, 0, 66);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (58, 40, 1, 112);
+        (47, 40, 0, 46);
 
 
 -- { _id: 41 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (41, 1091, '15332243069', 0, '2020-06-13 20:33:31.741000');
+        (41, 1091, '13978633659', FALSE, '2020-06-14 17:17:42.237000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1172,23 +1128,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (163, 41, 3, 164);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (59, 41, 0, 7);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (60, 41, 1, 18);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (61, 41, 2, 40);
-
 
 -- { _id: 42 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (42, 1092, '19807243207', 0, '2020-06-13 20:33:32.047000');
+        (42, 1092, '11982189774', TRUE, '2020-06-14 17:17:42.975000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1208,21 +1152,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (62, 42, 0, 33);
+        (48, 42, 0, 60);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (63, 42, 1, 86);
+        (49, 42, 1, 85);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (64, 42, 2, 106);
+        (50, 42, 2, 99);
 
 
 -- { _id: 43 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (43, 1093, '12072483646', 0, '2020-06-13 20:33:32.337000');
+        (43, 1093, '15633247564', TRUE, '2020-06-14 17:17:43.566000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1242,17 +1186,17 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (65, 43, 0, 47);
+        (51, 43, 0, 10);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (66, 43, 1, 100);
+        (52, 43, 1, 82);
 
 
 -- { _id: 44 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (44, 1094, '19820997844', 0, '2020-06-13 20:33:32.629000');
+        (44, 1094, '12203586600', TRUE, '2020-06-14 17:17:44.607000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1272,17 +1216,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (67, 44, 0, 25);
+        (53, 44, 0, 7);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (68, 44, 1, 76);
+        (54, 44, 1, 8);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (55, 44, 2, 34);
 
 
 -- { _id: 45 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (45, 1095, '11539465390', 0, '2020-06-13 20:33:32.940000');
+        (45, 1095, '18832431639', FALSE, '2020-06-14 17:17:44.889000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1300,27 +1248,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (179, 45, 3, 180);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (69, 45, 0, 10);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (70, 45, 1, 20);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (71, 45, 2, 23);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (72, 45, 3, 69);
-
 
 -- { _id: 46 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (46, 1096, '12142763645', 0, '2020-06-13 20:33:33.243000');
+        (46, 1096, '12980681041', FALSE, '2020-06-14 17:17:45.234000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1342,7 +1274,7 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 -- { _id: 47 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (47, 1097, '12946018810', 0, '2020-06-13 20:33:33.538000');
+        (47, 1097, '19731054933', TRUE, '2020-06-14 17:17:45.520000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1362,17 +1294,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (73, 47, 0, 42);
+        (56, 47, 0, 26);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (74, 47, 1, 52);
+        (57, 47, 1, 59);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (58, 47, 2, 61);
 
 
 -- { _id: 48 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (48, 1098, '14007118706', 0, '2020-06-13 20:33:33.824000');
+        (48, 1098, '13989702515', TRUE, '2020-06-14 17:17:45.808000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1392,29 +1328,29 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (75, 48, 0, 9);
+        (59, 48, 0, 11);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (76, 48, 1, 19);
+        (60, 48, 1, 20);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (77, 48, 2, 49);
+        (61, 48, 2, 63);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (78, 48, 3, 67);
+        (62, 48, 3, 87);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (79, 48, 4, 108);
+        (63, 48, 4, 91);
 
 
 -- { _id: 49 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (49, 1099, '15941732288', 0, '2020-06-13 20:33:34.143000');
+        (49, 1099, '18532923767', TRUE, '2020-06-14 17:17:46.119000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1432,11 +1368,39 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (195, 49, 3, 196);
 
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (64, 49, 0, 19);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (65, 49, 1, 27);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (66, 49, 2, 51);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (67, 49, 3, 58);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (68, 49, 4, 75);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (69, 49, 5, 89);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (70, 49, 6, 118);
+
 
 -- { _id: 50 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (50, 1100, '18485280370', 0, '2020-06-13 20:33:34.437000');
+        (50, 1100, '12387922356', TRUE, '2020-06-14 17:17:46.401000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1456,17 +1420,17 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (80, 50, 0, 45);
+        (71, 50, 0, 45);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (81, 50, 1, 81);
+        (72, 50, 1, 113);
 
 
 -- { _id: 51 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (51, 1101, '13923564099', 0, '2020-06-13 20:33:34.726000');
+        (51, 1101, '15155902424', TRUE, '2020-06-14 17:17:46.686000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1484,11 +1448,27 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (203, 51, 3, 204);
 
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (73, 51, 0, 3);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (74, 51, 1, 21);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (75, 51, 2, 66);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (76, 51, 3, 90);
+
 
 -- { _id: 52 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (52, 1102, '15346776446', 0, '2020-06-13 20:33:35.099000');
+        (52, 1102, '14855730662', TRUE, '2020-06-14 17:17:46.986000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1508,13 +1488,37 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (82, 52, 0, 21);
+        (77, 52, 0, 1);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (78, 52, 1, 5);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (79, 52, 2, 14);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (80, 52, 3, 32);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (81, 52, 4, 36);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (82, 52, 5, 38);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (83, 52, 6, 50);
 
 
 -- { _id: 53 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (53, 1103, '13022164191', 0, '2020-06-13 20:33:35.399000');
+        (53, 1103, '11310254277', TRUE, '2020-06-14 17:17:47.280000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1532,15 +1536,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (211, 53, 3, 212);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (83, 53, 0, 83);
-
 
 -- { _id: 54 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (54, 1104, '12290300900', 0, '2020-06-13 20:33:35.708000');
+        (54, 1104, '19263913504', TRUE, '2020-06-14 17:17:47.570000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1560,25 +1560,13 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (84, 54, 0, 30);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (85, 54, 1, 32);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (86, 54, 2, 88);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (87, 54, 3, 107);
+        (84, 54, 0, 103);
 
 
 -- { _id: 55 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (55, 1105, '13021779074', 0, '2020-06-13 20:33:36.130000');
+        (55, 1105, '13140399305', FALSE, '2020-06-14 17:17:47.850000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1596,15 +1584,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (219, 55, 3, 220);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (88, 55, 0, 90);
-
 
 -- { _id: 56 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (56, 1106, '12972321388', 0, '2020-06-13 20:33:36.550000');
+        (56, 1106, '16516875087', FALSE, '2020-06-14 17:17:48.138000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1626,7 +1610,7 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 -- { _id: 57 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (57, 1107, '12209704074', 0, '2020-06-13 20:33:36.839000');
+        (57, 1107, '19914896760', TRUE, '2020-06-14 17:17:48.426000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1646,17 +1630,17 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (89, 57, 0, 62);
+        (85, 57, 0, 43);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (90, 57, 1, 65);
+        (86, 57, 1, 101);
 
 
 -- { _id: 58 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (58, 1108, '11605903580', 0, '2020-06-13 20:33:37.238000');
+        (58, 1108, '19805590220', TRUE, '2020-06-14 17:17:48.718000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1674,11 +1658,23 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (231, 58, 3, 232);
 
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (87, 58, 0, 16);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (88, 58, 1, 68);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (89, 58, 2, 94);
+
 
 -- { _id: 59 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (59, 1109, '19044002351', 0, '2020-06-13 20:33:37.686000');
+        (59, 1109, '13159762603', FALSE, '2020-06-14 17:17:49.142000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1700,7 +1696,7 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 -- { _id: 60 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (60, 1110, '17399154703', 0, '2020-06-13 20:33:38.142000');
+        (60, 1110, '15404364481', TRUE, '2020-06-14 17:17:49.442000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1720,13 +1716,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (91, 60, 0, 17);
+        (90, 60, 0, 25);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (91, 60, 1, 71);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (92, 60, 2, 96);
 
 
 -- { _id: 61 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (61, 1111, '16525863870', 0, '2020-06-13 20:33:38.443000');
+        (61, 1111, '11275668983', TRUE, '2020-06-14 17:17:49.732000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1746,13 +1750,25 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (92, 61, 0, 43);
+        (93, 61, 0, 23);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (94, 61, 1, 55);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (95, 61, 2, 74);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (96, 61, 3, 117);
 
 
 -- { _id: 62 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (62, 1112, '12793134811', 0, '2020-06-13 20:33:38.753000');
+        (62, 1112, '13304924760', TRUE, '2020-06-14 17:17:50.164000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1772,13 +1788,13 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (93, 62, 0, 4);
+        (97, 62, 0, 93);
 
 
 -- { _id: 63 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (63, 1113, '18191113259', 0, '2020-06-13 20:33:39.065000');
+        (63, 1113, '11836088723', FALSE, '2020-06-14 17:17:50.449000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1796,15 +1812,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (251, 63, 3, 252);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (94, 63, 0, 56);
-
 
 -- { _id: 64 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (64, 1114, '15899153285', 0, '2020-06-13 20:33:39.378000');
+        (64, 1114, '11666973482', FALSE, '2020-06-14 17:17:50.733000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1822,23 +1834,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (255, 64, 3, 256);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (95, 64, 0, 92);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (96, 64, 1, 101);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (97, 64, 2, 115);
-
 
 -- { _id: 65 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (65, 1115, '12464802116', 0, '2020-06-13 20:33:39.715000');
+        (65, 1115, '18928401682', FALSE, '2020-06-14 17:17:51.103000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1860,7 +1860,7 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 -- { _id: 66 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (66, 1116, '13099846894', 0, '2020-06-13 20:33:40.035000');
+        (66, 1116, '17166923800', FALSE, '2020-06-14 17:17:51.394000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1882,7 +1882,7 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 -- { _id: 67 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (67, 1117, '12342384911', 0, '2020-06-13 20:33:40.341000');
+        (67, 1117, '11075235500', FALSE, '2020-06-14 17:17:51.693000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1900,15 +1900,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (267, 67, 3, 268);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (98, 67, 0, 44);
-
 
 -- { _id: 68 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (68, 1118, '19677255543', 0, '2020-06-13 20:33:40.631000');
+        (68, 1118, '18307989602', FALSE, '2020-06-14 17:17:51.982000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1930,7 +1926,7 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 -- { _id: 69 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (69, 1119, '12756307979', 0, '2020-06-13 20:33:40.964000');
+        (69, 1119, '12789829943', TRUE, '2020-06-14 17:17:52.266000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1948,11 +1944,31 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (275, 69, 3, 276);
 
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (98, 69, 0, 2);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (99, 69, 1, 9);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (100, 69, 2, 64);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (101, 69, 3, 79);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (102, 69, 4, 111);
+
 
 -- { _id: 70 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (70, 1120, '11814630004', 0, '2020-06-13 20:33:41.254000');
+        (70, 1120, '11961659501', TRUE, '2020-06-14 17:17:52.547000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -1972,17 +1988,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (99, 70, 0, 61);
+        (103, 70, 0, 33);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (100, 70, 1, 119);
+        (104, 70, 1, 72);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (105, 70, 2, 114);
 
 
 -- { _id: 71 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (71, 1121, '11827508799', 0, '2020-06-13 20:33:41.559000');
+        (71, 1121, '16035208768', FALSE, '2020-06-14 17:17:52.831000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -2000,31 +2020,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (283, 71, 3, 284);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (101, 71, 0, 1);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (102, 71, 1, 28);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (103, 71, 2, 39);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (104, 71, 3, 78);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (105, 71, 4, 84);
-
 
 -- { _id: 72 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (72, 1122, '11105803072', 0, '2020-06-13 20:33:41.849000');
+        (72, 1122, '12082977273', FALSE, '2020-06-14 17:17:53.125000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -2042,23 +2042,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (287, 72, 3, 288);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (106, 72, 0, 64);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (107, 72, 1, 71);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (108, 72, 2, 91);
-
 
 -- { _id: 73 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (73, 1123, '15651463673', 0, '2020-06-13 20:33:42.136000');
+        (73, 1123, '11688949835', TRUE, '2020-06-14 17:17:53.437000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -2078,13 +2066,29 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (109, 73, 0, 121);
+        (106, 73, 0, 13);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (107, 73, 1, 22);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (108, 73, 2, 57);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (109, 73, 3, 73);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (110, 73, 4, 86);
 
 
 -- { _id: 74 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (74, 1124, '19037662500', 0, '2020-06-13 20:33:42.423000');
+        (74, 1124, '11019479705', TRUE, '2020-06-14 17:17:53.784000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -2104,13 +2108,13 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (110, 74, 0, 116);
+        (111, 74, 0, 62);
 
 
 -- { _id: 75 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (75, 1125, '14353225589', 0, '2020-06-13 20:33:42.722000');
+        (75, 1125, '13862836658', TRUE, '2020-06-14 17:17:54.069000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -2130,13 +2134,13 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (111, 75, 0, 98);
+        (112, 75, 0, 31);
 
 
 -- { _id: 76 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (76, 1126, '13579026898', 0, '2020-06-13 20:33:43.039000');
+        (76, 1126, '18359799728', TRUE, '2020-06-14 17:17:54.371000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -2156,13 +2160,21 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (112, 76, 0, 110);
+        (113, 76, 0, 24);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (114, 76, 1, 104);
+
+INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
+    VALUES
+        (115, 76, 2, 115);
 
 
 -- { _id: 77 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (77, 1127, '14811149154', 0, '2020-06-13 20:33:43.328000');
+        (77, 1127, '13021866043', FALSE, '2020-06-14 17:17:54.672000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -2180,23 +2192,11 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (307, 77, 3, 308);
 
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (113, 77, 0, 46);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (114, 77, 1, 57);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (115, 77, 2, 95);
-
 
 -- { _id: 78 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (78, 1128, '15390358763', 0, '2020-06-13 20:33:43.619000');
+        (78, 1128, '11443946852', TRUE, '2020-06-14 17:17:54.965000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -2218,7 +2218,7 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 -- { _id: 79 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (79, 1129, '15336611059', 0, '2020-06-13 20:33:43.900000');
+        (79, 1129, '15899053345', TRUE, '2020-06-14 17:17:55.305000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -2238,17 +2238,17 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (116, 79, 0, 8);
+        (116, 79, 0, 98);
 
 INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
-        (117, 79, 1, 80);
+        (117, 79, 1, 102);
 
 
 -- { _id: 80 }
 INSERT INTO `restaurants` (`_id`, `position_id`, `phone_number`, `status`, `timestamp`)
     VALUES
-        (80, 1130, '19559378140', 0, '2020-06-13 20:33:44.183000');
+        (80, 1130, '17467969346', FALSE, '2020-06-14 17:17:55.619000');
 
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
@@ -2265,16 +2265,4 @@ INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
 INSERT INTO `restaurants_meal_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
     VALUES
         (319, 80, 3, 320);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (118, 80, 0, 50);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (119, 80, 1, 54);
-
-INSERT INTO `restaurants_order_ids` (`ID`, `parent_fk`, `INDEX`, `Int32`)
-    VALUES
-        (120, 80, 2, 70);
 

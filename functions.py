@@ -39,7 +39,7 @@ def generate_age():
 
 
 def generate_lat_lon():
-    return random.randint(-180, 180)
+    return random.uniform(-180, 180)
 
 
 def generate_customers(db, n):
@@ -139,7 +139,7 @@ def connect_meals_and_restaurants(db, restaurants_n):
         if restaurant_id % 10 == 0:
             # time.sleep(1)
             pass
-        print('>> {rn} Restaurants connected with {mn} meals successfully generated'.format(rn=restaurants_n, mn=meals_n))
+        print('>> {rn} Restaurants connected with {mn} meals successfully generated'.format(rn=restaurant_id, mn=meals_n))
 
 
 def distance_between_two_dots(customer_position_info, courier_position_info):
@@ -158,6 +158,17 @@ def set_random_statuses_for_couriers(db, n):
         )
         print('Courier_id: ', courier_id+1, new_courier_status)
     print('>> {n} Couriers statuses successfully generated'.format(n=n))
+
+
+def set_random_statuses_for_restaurants(db, n):
+    for restaurant_id in range(n):
+        new_restaurant_status = content.restaurant_statuses[random.choice(list(content.restaurant_statuses.keys()))]
+        db.set_restaurant_status(
+            restaurant_id=restaurant_id+1,
+            status=new_restaurant_status
+        )
+        print('Restaurant_id: ', restaurant_id+1, new_restaurant_status)
+    print('>> {n} Restaurant statuses successfully generated'.format(n=n))
 
 
 def get_random_meals_by_restaurant(db, restaurant_id):
