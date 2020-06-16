@@ -181,6 +181,34 @@ def get_nearest_free_courier(self, customer_position_info):
     2. [restaurant_reviews_by_rating](https://github.com/ShatalovM/data_management_project_db/blob/658c35751bd927c76a43c9e519ca8705e37d4a32/database.py#L987) – view top-N restaurants by rating, ascending or descending
     2. [working_couriers_batching_by_age](https://github.com/ShatalovM/data_management_project_db/blob/658c35751bd927c76a43c9e519ca8705e37d4a32/database.py#L1012) – batching couriers to analyze the working number of couriers in the company and predict the outflow of couriers due to age reasons
 
+**Example of the view  function:**
+```python
+def restaurant_reviews_by_rating(self, restaurant_id, ascending_order=True, limit=10):
+    restaurant_reviews = self.db.feedback.aggregate(
+        [
+            {
+                '$match': {
+                    'restaurant_id': restaurant_id
+                }
+            }, {
+            '$sort': {
+                'rating': ascending_order
+            }
+        }, {
+            '$project': {
+                'rating': True,
+                'text': True,
+                'order_id': True,
+                'restaurant_id': True
+            }
+        }, {
+            '$limit': limit
+        }
+        ]
+    )
+    return list(restaurant_reviews)
+```
+
 ## Thanks for your attention!
 P.S. to run this you need to have _config.py_
 
